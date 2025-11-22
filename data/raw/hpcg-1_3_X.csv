@@ -1,0 +1,83 @@
+Component	Percentile Rank	# Compatible Public Results	GFLOP/s (Average)
+2 x Intel Xeon 6980P	100th	13	170 +/- 3
+2 x AMD EPYC 9755 128-Core	98th	8	126
+2 x Intel Xeon Max 9480	97th	13	102 +/- 8
+2 x AMD EPYC 9534 64-Core	95th	3	82 +/- 5
+Intel Xeon 6980P	94th	9	76 +/- 10
+2 x INTEL XEON PLATINUM 8592+	93rd	9	71 +/- 2
+2 x Intel Xeon Platinum 8490H	92nd	9	63 +/- 1
+ARMv8 Neoverse-V2 96-Core	90th	3	62
+2 x Intel Xeon Platinum 8462Y+	88th	4	59
+2 x AMD EPYC 9754 128-Core	87th	6	55 +/- 5
+2 x Intel Xeon Gold 6444Y	85th	4	44
+2 x Intel Xeon Platinum 8380	83rd	4	41
+ARMv8 Neoverse-V2 72-Core	83rd	12	40 +/- 2
+2 x AMD EPYC 7773X 64-Core	81st	9	38
+ARMv8 Neoverse-V1 64-Core	79th	3	35 +/- 2
+AmpereOne 192-Core	78th	13	34 +/- 1
+2 x AMD EPYC 7551 32-Core	77th	11	34 +/- 1
+AMD Ryzen Threadripper PRO 7995WX 96-Cores	76th	3	33 +/- 1
+Mid-Tier	75th		< 32
+ARMv8 Neoverse-V1 32-Core	73rd	3	30
+AMD Ryzen Threadripper PRO 9995WX 96-Cores	70th	5	24
+AMD EPYC 9754 128-Core	70th	5	23 +/- 2
+ARMv8 Neoverse-N1 128-Core	68th	9	21
+ARMv8 Neoverse-N1 64-Core	68th	3	21
+AMD Ryzen Threadripper 7970X 32-Cores	63rd	13	16 +/- 2
+AMD RYZEN AI MAX PRO 390	63rd	3	15
+2 x Intel Xeon E5-2696 v4	61st	5	14 +/- 1
+AMD Ryzen Threadripper PRO 5965WX 24-Cores	60th	5	12
+AMD EPYC 7F32 8-Core	59th	3	11
+Intel Xeon Silver 4216	58th	3	11
+AMD Ryzen Threadripper 3970X 32-Core	57th	4	11
+Intel Core Ultra 9 285K	57th	16	11 +/- 1
+Intel Core i5-14500	53rd	3	10
+Intel Core i9-14900K	53rd	13	10
+Intel Core i9-13900K	51st	6	10
+Median	50th		10
+Intel Core Ultra 5 245K	50th	4	10
+AMD Ryzen Threadripper 3990X 64-Core	50th	3	9 +/- 1
+AMD Ryzen 9 9900X3D 12-Core	50th	7	9
+AMD Ryzen 9 9900X 12-Core	49th	4	9
+AMD Ryzen 9 9950X3D 16-Core	47th	16	9
+AMD Ryzen 9 9950X 16-Core	46th	19	9
+Intel Core i3-14100	43rd	3	8
+Intel Core i5-14600K	41st	8	8
+AMD Ryzen 5 8600G	37th	4	8
+AMD Ryzen 7 9700X 8-Core	37th	5	8
+AMD Ryzen 7 9800X3D 8-Core	37th	3	8
+AMD Ryzen 9 7950X 16-Core	36th	17	8 +/- 1
+AMD Ryzen 9 7900X 12-Core	36th	25	8 +/- 1
+AMD Ryzen 9 7900X3D 12-Core	36th	12	8 +/- 1
+AMD Ryzen 9 7950X3D 16-Core	35th	14	8 +/- 1
+Intel Core i9-10980XE	35th	6	8
+AMD Ryzen 7 7800X3D 8-Core	34th	10	7
+AMD Ryzen 9 7900 12-Core	34th	14	7 +/- 1
+AMD Ryzen 5 9600X 6-Core	34th	3	7
+AMD Ryzen 5 7600 6-Core	28th	5	7
+AMD Ryzen 7 7700 8-Core	27th	11	7
+AMD Ryzen 7 7700X 8-Core	27th	11	7
+Intel Core i5-12600K	26th	4	7
+Low-Tier	25th		< 7
+AMD Ryzen 5 7600X 6-Core	25th	10	7
+Intel Core i7-5960X	24th	3	7
+AMD Ryzen 7 PRO 7840U	21st	6	6
+AMD Ryzen Z1 Extreme	18th	14	6
+Apple M2	18th	7	6
+AMD Ryzen 7 7840U	17th	9	6
+Intel Core i7-1165G7	17th	3	6
+Intel Core i7-1185G7	15th	4	6
+AMD Ryzen 9 5950X 16-Core	14th	5	5
+AMD Ryzen 9 3900XT 12-Core	13th	4	5
+AMD Ryzen 5 5500U	11th	6	5
+AMD Ryzen 7 5800X 8-Core	11th	3	5
+AMD Ryzen 7 5800X3D 8-Core	10th	6	5
+AMD Ryzen 7 PRO 6850U	10th	8	4
+AMD Ryzen 7 3800XT 8-Core	9th	3	4
+AMD Ryzen 5 4500U	8th	4	4
+ARMv8 Cortex-A72 16-Core	8th	3	4
+AMD Ryzen 7 PRO 5850U	7th	8	4
+Intel Xeon E-2336	6th	5	4
+Intel Xeon E-2388G	5th	10	4
+AMD Ryzen 9 5900HX	4th	3	3
+Loongson-3A6000	3rd	5	2

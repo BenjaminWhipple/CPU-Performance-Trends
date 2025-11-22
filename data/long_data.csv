@@ -1,0 +1,1965 @@
+,index,Component,Samples,Test,Units,Score,SD
+0,0,AMD Ryzen 9 9950X 16-Core,11.0,FinanceBench,ms (Average),25684,40
+1,1,AMD RYZEN AI MAX+ 395,5.0,FinanceBench,ms (Average),28695,181
+2,2,Intel Core i9-13900K,16.0,FinanceBench,ms (Average),30855,242
+3,3,AMD Ryzen 7 7700X 8-Core,9.0,FinanceBench,ms (Average),31891,53
+4,4,AMD Ryzen 9 7950X 16-Core,9.0,FinanceBench,ms (Average),31980,608
+5,5,Intel Core i9-14900K,6.0,FinanceBench,ms (Average),32485,625
+6,6,AMD EPYC 4364P 8-Core,3.0,FinanceBench,ms (Average),32763,82
+7,7,AMD Ryzen 9 7900X 12-Core,7.0,FinanceBench,ms (Average),32770,76
+8,8,Intel Core i9-12900K,12.0,FinanceBench,ms (Average),33097,1341
+9,9,AMD EPYC 4564P 16-Core,7.0,FinanceBench,ms (Average),33235,220
+10,10,AMD EPYC 4464P 12-Core,5.0,FinanceBench,ms (Average),33535,23
+11,11,AMD EPYC 4584PX 16-Core,7.0,FinanceBench,ms (Average),33971,76
+12,12,AMD EPYC 4484PX 12-Core,7.0,FinanceBench,ms (Average),35556,2142
+13,13,AMD Ryzen 9 5900X 12-Core,32.0,FinanceBench,ms (Average),40435,849
+14,14,AMD Ryzen 5 7600X 6-Core,6.0,FinanceBench,ms (Average),40510,194
+15,15,Intel Core i9-11900K,18.0,FinanceBench,ms (Average),40832,1415
+16,16,AMD Ryzen 9 5950X 16-Core,50.0,FinanceBench,ms (Average),41062,3421
+17,17,AMD Ryzen 7 5800X 8-Core,22.0,FinanceBench,ms (Average),41132,2609
+18,18,AMD Ryzen 7 5800X3D 8-Core,15.0,FinanceBench,ms (Average),41672,287
+19,20,Intel Core i9-10900K,12.0,FinanceBench,ms (Average),43934,591
+20,21,Intel Core i5-13600K,8.0,FinanceBench,ms (Average),46643,2123
+21,22,AMD EPYC 4124P 4-Core,5.0,FinanceBench,ms (Average),46994,187
+22,23,AMD Ryzen Threadripper 3970X 32-Core,5.0,FinanceBench,ms (Average),47100,69
+23,24,AMD Ryzen Threadripper 3990X 64-Core,8.0,FinanceBench,ms (Average),48774,500
+24,25,AMD Ryzen 9 3900XT 12-Core,4.0,FinanceBench,ms (Average),48927,109
+25,26,Intel Core i5-12600K,11.0,FinanceBench,ms (Average),51155,7490
+26,27,Intel Core i7-7900X,3.0,FinanceBench,ms (Average),52528,517
+27,28,Intel Core i5-11600K,5.0,FinanceBench,ms (Average),53680,1519
+28,29,Intel Core i9-7980XE,5.0,FinanceBench,ms (Average),55718,104
+29,30,Intel Core i5-13400,4.0,FinanceBench,ms (Average),55937,597
+30,31,AMD Ryzen 7 PRO 5850U,6.0,FinanceBench,ms (Average),56805,234
+31,32,AMD Ryzen Threadripper 2990WX 32-Core,4.0,FinanceBench,ms (Average),57608,1174
+32,33,AMD Ryzen 7 PRO 6850U,5.0,FinanceBench,ms (Average),60063,6313
+33,34,AMD Ryzen 5 3600XT 6-Core,4.0,FinanceBench,ms (Average),64941,742
+34,35,AMD EPYC 73F3 16-Core,4.0,FinanceBench,ms (Average),67370,441
+35,36,AMD EPYC 75F3 32-Core,7.0,FinanceBench,ms (Average),68414,1118
+36,37,AMD Ryzen Threadripper 3960X 24-Core,3.0,FinanceBench,ms (Average),68788,65
+37,38,AMD EPYC 74F3 24-Core,4.0,FinanceBench,ms (Average),69774,161
+38,40,2 x AMD EPYC 73F3 16-Core,4.0,FinanceBench,ms (Average),69937,124
+39,41,Intel Xeon E-2278GEL,4.0,FinanceBench,ms (Average),70943,317
+40,42,AMD Ryzen 7 1700 Eight-Core,6.0,FinanceBench,ms (Average),71314,151
+41,44,AMD EPYC 7713 64-Core,6.0,FinanceBench,ms (Average),72643,8736
+42,45,Intel Core i9-9900KS,3.0,FinanceBench,ms (Average),73862,367
+43,46,AMD EPYC 7F52 16-Core,7.0,FinanceBench,ms (Average),76154,923
+44,47,Intel Core i9-9900K,3.0,FinanceBench,ms (Average),77199,87
+45,48,2 x AMD EPYC 7513 32-Core,4.0,FinanceBench,ms (Average),77915,388
+46,49,2 x AMD EPYC 7713 64-Core,6.0,FinanceBench,ms (Average),78723,692
+47,50,2 x AMD EPYC 7F52 16-Core,3.0,FinanceBench,ms (Average),79310,686
+48,51,2 x AMD EPYC 7763 64-Core,10.0,FinanceBench,ms (Average),80490,1141
+49,52,AMD Ryzen 5 4500U,11.0,FinanceBench,ms (Average),80791,3181
+50,53,2 x Intel Xeon Gold 6248R,4.0,FinanceBench,ms (Average),81295,213
+51,54,Intel Core i7-1280P,3.0,FinanceBench,ms (Average),81520,4163
+52,55,AMD EPYC 7542 32-Core,4.0,FinanceBench,ms (Average),87143,392
+53,56,AMD EPYC 7742 64-Core,5.0,FinanceBench,ms (Average),87805,432
+54,57,Intel Core i7-6700,5.0,FinanceBench,ms (Average),87957,175
+55,58,AMD EPYC 7502P 32-Core,5.0,FinanceBench,ms (Average),88718,516
+56,59,AMD EPYC 7402P 24-Core,5.0,FinanceBench,ms (Average),88848,477
+57,60,Intel Xeon Gold 6258R,3.0,FinanceBench,ms (Average),89643,465
+58,61,2 x AMD EPYC 7742 64-Core,10.0,FinanceBench,ms (Average),89852,392
+59,62,Intel Core i7-6800K,3.0,FinanceBench,ms (Average),89989,453
+60,63,AMD EPYC 7302P 16-Core,5.0,FinanceBench,ms (Average),90061,443
+61,64,AMD EPYC 7532 32-Core,5.0,FinanceBench,ms (Average),90302,323
+62,65,Intel Xeon Platinum 8280,3.0,FinanceBench,ms (Average),90404,90404
+63,66,AMD EPYC 7552 48-Core,5.0,FinanceBench,ms (Average),90619,690
+64,68,AMD EPYC 7642 48-Core,4.0,FinanceBench,ms (Average),90864,909
+65,69,AMD EPYC 7662 64-Core,5.0,FinanceBench,ms (Average),90891,488
+66,70,Intel Xeon E-2388G,7.0,FinanceBench,ms (Average),91475,768
+67,71,AMD EPYC 7272 12-Core,5.0,FinanceBench,ms (Average),92517,289
+68,72,AMD EPYC 7232P 8-Core,5.0,FinanceBench,ms (Average),92519,207
+69,73,2 x Intel Xeon Gold 5220R,7.0,FinanceBench,ms (Average),93091,533
+70,74,AMD EPYC 7282 16-Core,5.0,FinanceBench,ms (Average),93233,751
+71,75,Intel Xeon Gold 6226R,3.0,FinanceBench,ms (Average),93356,811
+72,76,Intel Xeon Gold 5220R,3.0,FinanceBench,ms (Average),94949,601
+73,78,AMD Ryzen 7 3800XT 8-Core,5.0,FinanceBench,ms (Average),99023,571
+74,79,Intel Core i7-8700K,3.0,FinanceBench,ms (Average),100567,336
+75,80,AMD Ryzen 7 PRO 3700 8-Core,3.0,FinanceBench,ms (Average),102799,102799
+76,81,AMD Ryzen 9 PRO 3900 12-Core,3.0,FinanceBench,ms (Average),102849,102849
+77,82,Intel Xeon E5-1680 v3,3.0,FinanceBench,ms (Average),105955,232
+78,83,Intel Core i7-7700K,3.0,FinanceBench,ms (Average),107107,120
+79,84,Intel Xeon E-2278G,4.0,FinanceBench,ms (Average),107336,107336
+80,85,Intel Core i7-1165G7,8.0,FinanceBench,ms (Average),110141,856
+81,86,AMD Ryzen 7 2700 Eight-Core,3.0,FinanceBench,ms (Average),113139,185
+82,87,AMD Ryzen Threadripper 2970WX 24-Core,3.0,FinanceBench,ms (Average),115184,8132
+83,88,Intel Xeon E5-2687W v3,3.0,FinanceBench,ms (Average),115478,1318
+84,89,Intel Core i5-9400F,3.0,FinanceBench,ms (Average),116389,1744
+85,90,AMD Ryzen Threadripper 2950X 16-Core,3.0,FinanceBench,ms (Average),118053,791
+86,91,Intel Xeon E3-1275 v6,3.0,FinanceBench,ms (Average),120834,222
+87,92,AMD EPYC 7601 32-Core,3.0,FinanceBench,ms (Average),122465,969
+88,93,Intel Core i7-9750H,4.0,FinanceBench,ms (Average),123495,18281
+89,94,Intel Core i7-8565U,6.0,FinanceBench,ms (Average),124115,5945
+90,95,2 x AMD EPYC 7601 32-Core,9.0,FinanceBench,ms (Average),127754,3494
+91,96,Intel Xeon E3-1245 v5,3.0,FinanceBench,ms (Average),134466,478
+92,97,Intel Xeon E3-1280 v5,3.0,FinanceBench,ms (Average),135207,326
+93,98,Intel Core i7-1065G7,8.0,FinanceBench,ms (Average),136903,3604
+94,99,Intel Core i7-4790K,3.0,FinanceBench,ms (Average),142787,7634
+95,100,AMD Ryzen 5 3400G,3.0,FinanceBench,ms (Average),147231,322
+96,101,Intel Xeon Silver 4216,6.0,FinanceBench,ms (Average),152263,679
+97,102,AMD EPYC 7551 32-Core,3.0,FinanceBench,ms (Average),162098,205
+98,103,Intel Celeron G6900,4.0,FinanceBench,ms (Average),182698,35
+99,104,Intel Core i7-5775C,3.0,FinanceBench,ms (Average),192259,313
+100,105,Intel Xeon E5-2609 v4,3.0,FinanceBench,ms (Average),203957,2284
+101,107,Intel Core i7-4600U,3.0,FinanceBench,ms (Average),288715,20698
+102,109,2 x Intel Xeon 6980P,22.0,amg,Figure Of Merit (Average),8110403243,777617637
+103,110,2 x AMD EPYC 9755 128-Core,30.0,amg,Figure Of Merit (Average),6236738724,103440146
+104,111,2 x AMD EPYC 9575F 64-Core,4.0,amg,Figure Of Merit (Average),6118251292,222241584
+105,112,2 x AMD EPYC 9655 96-Core,5.0,amg,Figure Of Merit (Average),5966481533,7190502
+106,113,2 x AMD EPYC 9965 192-Core,3.0,amg,Figure Of Merit (Average),5829853000,5829853000
+107,114,2 x AMD EPYC 9684X 96-Core,17.0,amg,Figure Of Merit (Average),4454792977,411539338
+108,115,2 x AMD EPYC 9374F 32-Core,5.0,amg,Figure Of Merit (Average),4295199760,41056407
+109,116,2 x AMD EPYC 9554 64-Core,20.0,amg,Figure Of Merit (Average),4254051136,200318498
+110,117,2 x AMD EPYC 9384X 32-Core,7.0,amg,Figure Of Merit (Average),4163476714,30522303
+111,118,Intel Xeon 6980P,18.0,amg,Figure Of Merit (Average),4017497092,531193476
+112,119,2 x AMD EPYC 9184X 16-Core,4.0,amg,Figure Of Merit (Average),3805841500,28037861
+113,120,2 x INTEL XEON PLATINUM 8592+,13.0,amg,Figure Of Merit (Average),3661048872,69090165
+114,121,AMD EPYC 9755 128-Core,14.0,amg,Figure Of Merit (Average),3176911820,10038433
+115,122,AMD EPYC 9575F 64-Core,5.0,amg,Figure Of Merit (Average),3169647350,58816125
+116,123,2 x Intel Xeon Platinum 8490H,21.0,amg,Figure Of Merit (Average),3129521492,37072405
+117,124,2 x Intel Xeon Platinum 8468,3.0,amg,Figure Of Merit (Average),3100295222,2484531
+118,125,AMD EPYC 9655 96-Core,8.0,amg,Figure Of Merit (Average),3081358334,4937562
+119,126,AMD EPYC 9965 192-Core,4.0,amg,Figure Of Merit (Average),2976345000,2976345000
+120,127,2 x Intel Xeon Platinum 8462Y+,3.0,amg,Figure Of Merit (Average),2934523250,83986278
+121,128,AMD EPYC 9655P 96-Core,14.0,amg,Figure Of Merit (Average),2879738476,288940622
+122,129,2 x Intel Xeon Gold 6442Y,3.0,amg,Figure Of Merit (Average),2751978867,104639021
+123,130,AMD EPYC 9845 160-Core,9.0,amg,Figure Of Merit (Average),2504185778,5914618
+124,131,AMD EPYC 9684X 96-Core,13.0,amg,Figure Of Merit (Average),2371771308,23961740
+125,132,AMD EPYC 9374F 32-Core,4.0,amg,Figure Of Merit (Average),2347293400,2240800
+126,133,AMD EPYC 9554 64-Core,14.0,amg,Figure Of Merit (Average),2340931881,19425062
+127,134,AMD EPYC 9654 96-Core,18.0,amg,Figure Of Merit (Average),2313470685,25109827
+128,135,AMD EPYC 9754 128-Core,10.0,amg,Figure Of Merit (Average),2281132167,12986170
+129,136,2 x Intel Xeon Platinum 8380,39.0,amg,Figure Of Merit (Average),2078694926,88666899
+130,137,2 x Intel Xeon Platinum 8362,9.0,amg,Figure Of Merit (Average),2058083667,14617413
+131,139,2 x AMD EPYC 7773X 64-Core,39.0,amg,Figure Of Merit (Average),2006012444,24074437
+132,140,2 x AMD EPYC 7573X 32-Core,5.0,amg,Figure Of Merit (Average),1955465000,10517622
+133,141,2 x AMD EPYC 7763 64-Core,34.0,amg,Figure Of Merit (Average),1926811140,20513869
+134,142,2 x AMD EPYC 7713 64-Core,30.0,amg,Figure Of Merit (Average),1922412089,13820700
+135,143,2 x AMD EPYC 7663 56-Core,3.0,amg,Figure Of Merit (Average),1918356667,1918356667
+136,144,2 x AMD EPYC 74F3 24-Core,4.0,amg,Figure Of Merit (Average),1901728813,874625
+137,145,2 x Intel Xeon Gold 6342,6.0,amg,Figure Of Merit (Average),1898265875,12917094
+138,146,2 x AMD EPYC 7543 32-Core,5.0,amg,Figure Of Merit (Average),1889123467,8876157
+139,147,2 x AMD EPYC 7373X 16-Core,3.0,amg,Figure Of Merit (Average),1885426556,61290540
+140,150,INTEL XEON PLATINUM 8592+,13.0,amg,Figure Of Merit (Average),1827466282,16577048
+141,153,2 x AMD EPYC 75F3 32-Core,19.0,amg,Figure Of Merit (Average),1769544348,227817578
+142,156,AMD Ryzen Threadripper PRO 7995WX 96-Cores,9.0,amg,Figure Of Merit (Average),1686991185,38978069
+143,157,2 x AMD EPYC 7443 24-Core,5.0,amg,Figure Of Merit (Average),1674618933,17565603
+144,158,2 x AMD EPYC 7343 16-Core,7.0,amg,Figure Of Merit (Average),1667683607,18121518
+145,159,2 x Intel Xeon Gold 6346,6.0,amg,Figure Of Merit (Average),1658642167,13757287
+146,160,2 x AMD EPYC 7551 32-Core,19.0,amg,Figure Of Merit (Average),1651081596,101992233
+147,161,Intel Xeon Platinum 8468,4.0,amg,Figure Of Merit (Average),1615399750,9676909
+148,162,Intel Xeon Platinum 8490H,16.0,amg,Figure Of Merit (Average),1610420021,6213893
+149,163,Intel Xeon Max 9480,4.0,amg,Figure Of Merit (Average),1599463667,1697795
+150,164,2 x AMD EPYC 9534 64-Core,4.0,amg,Figure Of Merit (Average),1598723100,64292986
+151,165,2 x AMD EPYC 7F52 16-Core,3.0,amg,Figure Of Merit (Average),1593214763,12854437
+152,166,Intel Xeon Platinum 8471N,3.0,amg,Figure Of Merit (Average),1591542111,9079603
+153,167,Intel Xeon Platinum 8462Y+,3.0,amg,Figure Of Merit (Average),1573718583,10850144
+154,168,Intel Xeon Gold 6442Y,3.0,amg,Figure Of Merit (Average),1541901267,1356311
+155,170,2 x AMD EPYC 7F72 24-Core,14.0,amg,Figure Of Merit (Average),1445737090,7125391
+156,171,2 x Intel Xeon Platinum 8280,22.0,amg,Figure Of Merit (Average),1395595856,178746938
+157,173,2 x Intel Xeon Gold 5220R,6.0,amg,Figure Of Merit (Average),1226897182,87678589
+158,174,AMD Ryzen Threadripper PRO 9995WX 96-Cores,5.0,amg,Figure Of Merit (Average),1218982400,1625620
+159,175,AMD EPYC 8534P 64-Core,8.0,amg,Figure Of Merit (Average),1152834667,1941482
+160,176,AMD EPYC 8534PN 64-Core,8.0,amg,Figure Of Merit (Average),1150494125,2271037
+161,177,AMD Ryzen Threadripper 9970X 32-Cores,4.0,amg,Figure Of Merit (Average),1077579638,116060225
+162,178,AMD EPYC 7573X 32-Core,6.0,amg,Figure Of Merit (Average),1071124667,2856167
+163,179,Intel Xeon Platinum 8362,3.0,amg,Figure Of Merit (Average),1068506889,1213398
+164,181,AMD EPYC 7773X 64-Core,22.0,amg,Figure Of Merit (Average),1055753318,1360749
+165,182,AMD EPYC 74F3 24-Core,6.0,amg,Figure Of Merit (Average),1043100667,1738355
+166,183,Intel Xeon Platinum 8380,29.0,amg,Figure Of Merit (Average),1041520127,103331528
+167,184,Intel Xeon Gold 6342,6.0,amg,Figure Of Merit (Average),1035442708,2109099
+168,185,AMD EPYC 7543 32-Core,4.0,amg,Figure Of Merit (Average),1024661834,800015
+169,186,AMD EPYC 7763 64-Core,33.0,amg,Figure Of Merit (Average),1013650660,7013499
+170,187,AMD EPYC 7713 64-Core,21.0,amg,Figure Of Merit (Average),983752654,97252359
+171,188,AMD EPYC 7343 16-Core,3.0,amg,Figure Of Merit (Average),925721753,3799415
+172,189,AMD EPYC 7443 24-Core,4.0,amg,Figure Of Merit (Average),923559988,3137451
+173,190,Intel Xeon Gold 6346,5.0,amg,Figure Of Merit (Average),912681524,1630288
+174,191,AMD EPYC 7532 32-Core,5.0,amg,Figure Of Merit (Average),912271088,6123296
+175,192,AMD EPYC 75F3 32-Core,14.0,amg,Figure Of Merit (Average),900547436,131805982
+176,193,AMD Ryzen Threadripper 7970X 32-Cores,6.0,amg,Figure Of Merit (Average),897847000,897847000
+177,194,AMD EPYC 7642 48-Core,4.0,amg,Figure Of Merit (Average),893810269,3122871
+178,195,AMD Ryzen Threadripper 7980X 64-Cores,8.0,amg,Figure Of Merit (Average),890161500,19489176
+179,196,AMD EPYC 7662 64-Core,5.0,amg,Figure Of Merit (Average),886573757,6347207
+180,197,AMD EPYC 7742 64-Core,5.0,amg,Figure Of Merit (Average),886304293,7265165
+181,198,AMD EPYC 7702 64-Core,9.0,amg,Figure Of Merit (Average),871440575,10980543
+182,199,AMD EPYC 7552 48-Core,5.0,amg,Figure Of Merit (Average),857923043,2302352
+183,200,AMD EPYC 7601 32-Core,3.0,amg,Figure Of Merit (Average),841734822,11904838
+184,201,AMD EPYC 7302P 16-Core,5.0,amg,Figure Of Merit (Average),789214057,2117962
+185,202,2 x Intel Xeon E5-2699 v4,7.0,amg,Figure Of Merit (Average),788813800,3032651
+186,203,AMD EPYC 7F52 16-Core,7.0,amg,Figure Of Merit (Average),785101715,96985693
+187,204,AMD EPYC 7542 32-Core,4.0,amg,Figure Of Merit (Average),776464681,4270427
+188,205,AMD EPYC 7502P 32-Core,5.0,amg,Figure Of Merit (Average),774614677,692906
+189,207,Intel Xeon Gold 6258R,3.0,amg,Figure Of Merit (Average),773379211,4459587
+190,209,AMD EPYC 7402P 24-Core,7.0,amg,Figure Of Merit (Average),739766613,70412636
+191,210,Intel Xeon Platinum 8280,12.0,amg,Figure Of Merit (Average),726813203,82320421
+192,211,2 x Intel Xeon E5-2696 v4,6.0,amg,Figure Of Merit (Average),699166533,14827096
+193,212,Intel Xeon Gold 5220R,3.0,amg,Figure Of Merit (Average),696206914,2006432
+194,213,Intel Xeon Gold 6226R,3.0,amg,Figure Of Merit (Average),692338967,2328970
+195,215,Intel Xeon Silver 4216,3.0,amg,Figure Of Merit (Average),595098978,5763872
+196,216,Intel Core Ultra 9 285K,11.0,amg,Figure Of Merit (Average),584077136,53810010
+197,218,AMD Ryzen Threadripper 3970X 32-Core,4.0,amg,Figure Of Merit (Average),554862500,193303
+198,219,2 x Intel Xeon Gold 5218,34.0,amg,Figure Of Merit (Average),485437095,24632255
+199,220,Intel Core i9-7980XE,5.0,amg,Figure Of Merit (Average),478208285,64692960
+200,221,AMD Ryzen Threadripper 3990X 64-Core,10.0,amg,Figure Of Merit (Average),468445860,31696926
+201,222,AMD Ryzen 9 9900X3D 12-Core,4.0,amg,Figure Of Merit (Average),460008875,806859
+202,223,AMD EPYC 7272 12-Core,5.0,amg,Figure Of Merit (Average),458771061,2047592
+203,224,AMD EPYC 7282 16-Core,5.0,amg,Figure Of Merit (Average),456856282,2449945
+204,225,Intel Core i9-7960X,4.0,amg,Figure Of Merit (Average),454205625,2143539
+205,226,AMD Ryzen 9 9950X3D 16-Core,9.0,amg,Figure Of Merit (Average),450387259,22659171
+206,227,AMD EPYC 7232P 8-Core,5.0,amg,Figure Of Merit (Average),450276393,804835
+207,228,Intel Core i3-14100,3.0,amg,Figure Of Merit (Average),447645786,447645786
+208,229,Intel Core i9-13900K,16.0,amg,Figure Of Merit (Average),444150617,17152032
+209,230,Intel Core i7-7900X,3.0,amg,Figure Of Merit (Average),433644181,3444474
+210,231,AMD Ryzen 7 9800X3D 8-Core,8.0,amg,Figure Of Merit (Average),421386696,13156199
+211,232,Intel Core i9-10980XE,4.0,amg,Figure Of Merit (Average),413356700,1874057
+212,233,AMD Ryzen Threadripper 3960X 24-Core,4.0,amg,Figure Of Merit (Average),406450667,1312887
+213,234,AMD Ryzen 9 7950X 16-Core,20.0,amg,Figure Of Merit (Average),405331805,28901646
+214,235,AMD Ryzen 5 8600G,4.0,amg,Figure Of Merit (Average),404794220,404794220
+215,236,AMD Ryzen 5 8500G,3.0,amg,Figure Of Merit (Average),401112300,11481592
+216,237,AMD Ryzen 7 7800X3D 8-Core,12.0,amg,Figure Of Merit (Average),394799253,22063221
+217,238,AMD Ryzen 9 7900X3D 12-Core,10.0,amg,Figure Of Merit (Average),393335117,26797084
+218,239,AMD Ryzen 9 7900X 12-Core,22.0,amg,Figure Of Merit (Average),393301404,27155922
+219,240,AMD Ryzen 9 7950X3D 16-Core,14.0,amg,Figure Of Merit (Average),392986900,39994978
+220,241,AMD Ryzen 9 7900 12-Core,15.0,amg,Figure Of Merit (Average),391662358,31643941
+221,242,AMD Ryzen 5 7600 6-Core,10.0,amg,Figure Of Merit (Average),387983100,14704220
+222,243,AMD Ryzen Threadripper 2950X 16-Core,4.0,amg,Figure Of Merit (Average),376904534,1198020
+223,244,AMD Ryzen 7 7700X 8-Core,19.0,amg,Figure Of Merit (Average),374766262,15149367
+224,245,Intel Core i5-13600K,7.0,amg,Figure Of Merit (Average),373618643,6351894
+225,246,AMD Ryzen 7 7700 8-Core,15.0,amg,Figure Of Merit (Average),373335356,14752112
+226,247,AMD Ryzen Threadripper 2990WX 32-Core,8.0,amg,Figure Of Merit (Average),366725106,54258227
+227,248,AMD Ryzen 5 7600X 6-Core,14.0,amg,Figure Of Merit (Average),366316733,16874437
+228,249,Intel Core i5-14500,3.0,amg,Figure Of Merit (Average),350297633,350297633
+229,250,Intel Core i5-13400,4.0,amg,Figure Of Merit (Average),345373517,1616034
+230,251,Intel Core i5-12600K,4.0,amg,Figure Of Merit (Average),342263538,28246425
+231,252,Intel Xeon E5-1680 v3,3.0,amg,Figure Of Merit (Average),333448456,176310
+232,253,AMD Ryzen 9 6900HX,3.0,amg,Figure Of Merit (Average),308020200,631319
+233,254,Intel Core i9-12900H,4.0,amg,Figure Of Merit (Average),306695325,1548785
+234,256,Intel Xeon E5-2687W v3,3.0,amg,Figure Of Merit (Average),303879044,1144788
+235,257,Intel Core i7-12700K,4.0,amg,Figure Of Merit (Average),302273333,3220019
+236,259,Intel Core i7-1165G7,10.0,amg,Figure Of Merit (Average),285776585,26053001
+237,260,Intel Core i9-11980HK,3.0,amg,Figure Of Merit (Average),282955475,7057385
+238,261,Intel Core i9-9900KS,3.0,amg,Figure Of Merit (Average),275865733,148574
+239,262,Intel Core i7-6800K,4.0,amg,Figure Of Merit (Average),273494250,1950922
+240,263,Intel Core i7-11700K,14.0,amg,Figure Of Merit (Average),270465419,21106004
+241,264,Intel Xeon E5-2609 v4,3.0,amg,Figure Of Merit (Average),265420089,666649
+242,265,AMD Ryzen 7 1700 Eight-Core,10.0,amg,Figure Of Merit (Average),260376920,14780585
+243,266,Intel Core i7-11700B,4.0,amg,Figure Of Merit (Average),259336075,20258688
+244,267,AMD Ryzen 7 1800X Eight-Core,4.0,amg,Figure Of Merit (Average),258903583,419646
+245,269,Intel Core i7-1065G7,4.0,amg,Figure Of Merit (Average),254573129,7003656
+246,270,Intel Core i5-10600K,6.0,amg,Figure Of Merit (Average),250416592,20415434
+247,271,Intel Core i7-8086K,4.0,amg,Figure Of Merit (Average),249503500,791478
+248,272,Intel Core i5-8400,4.0,amg,Figure Of Merit (Average),246553900,716069
+249,273,AMD Ryzen 5 5600G,6.0,amg,Figure Of Merit (Average),244561465,27068141
+250,274,AMD Ryzen 7 2700 Eight-Core,3.0,amg,Figure Of Merit (Average),243082778,266992
+251,275,AMD Ryzen 9 5900X 12-Core,25.0,amg,Figure Of Merit (Average),242102146,30313025
+252,276,AMD Ryzen 5 5600X 6-Core,12.0,amg,Figure Of Merit (Average),240743986,5554041
+253,277,AMD Ryzen 7 5800X3D 8-Core,24.0,amg,Figure Of Merit (Average),238727821,10298232
+254,278,Intel Core i7-7740K,3.0,amg,Figure Of Merit (Average),238007622,162996
+255,279,AMD Ryzen 3 1300X,4.0,amg,Figure Of Merit (Average),237986767,418006
+256,280,Intel Core i9-9900K,3.0,amg,Figure Of Merit (Average),237654867,751457
+257,281,Intel Core i7-7700K,3.0,amg,Figure Of Merit (Average),235333311,2079203
+258,282,AMD Ryzen 3 3300X 4-Core,4.0,amg,Figure Of Merit (Average),233163734,813752
+259,283,AMD Ryzen 7 5800X 8-Core,41.0,amg,Figure Of Merit (Average),231005706,18313780
+260,284,Intel Core i7-8700K,4.0,amg,Figure Of Merit (Average),229241400,14297992
+261,285,AMD Ryzen 5 PRO 6650U,3.0,amg,Figure Of Merit (Average),229130778,2743104
+262,286,AMD Ryzen 9 3900X 12-Core,6.0,amg,Figure Of Merit (Average),228039844,3571727
+263,287,Intel Core i7-8809G,3.0,amg,Figure Of Merit (Average),227477644,679877
+264,288,AMD Ryzen 9 3900XT 12-Core,5.0,amg,Figure Of Merit (Average),226168327,1992356
+265,289,Intel Core i7-9750H,3.0,amg,Figure Of Merit (Average),223806567,721385
+266,290,AMD Ryzen 7 2700X Eight-Core,8.0,amg,Figure Of Merit (Average),222757938,27025525
+267,291,AMD Ryzen 5 3600XT 6-Core,4.0,amg,Figure Of Merit (Average),220614875,2185702
+268,292,AMD Ryzen 7 3700X 8-Core,8.0,amg,Figure Of Merit (Average),220546108,28283302
+269,293,Intel Core i7-10700T,6.0,amg,Figure Of Merit (Average),220091603,4751741
+270,294,Intel Xeon E-2288G,5.0,amg,Figure Of Merit (Average),219070386,1261759
+271,295,AMD Ryzen 3 2200G,7.0,amg,Figure Of Merit (Average),216598900,2523539
+272,296,Intel Core i9-10900K,9.0,amg,Figure Of Merit (Average),216473059,13476639
+273,298,AMD Ryzen 5 3400G,3.0,amg,Figure Of Merit (Average),207741622,440764
+274,299,Intel Core i9-10885H,3.0,amg,Figure Of Merit (Average),207595755,322435
+275,300,Intel Core i5-9400F,3.0,amg,Figure Of Merit (Average),204743878,442892
+276,301,AMD Ryzen 9 3950X 16-Core,7.0,amg,Figure Of Merit (Average),203672024,5710117
+277,302,AMD Ryzen 5 2400G,4.0,amg,Figure Of Merit (Average),203569750,434216
+278,303,Intel Core i7-7700,3.0,amg,Figure Of Merit (Average),198146522,4724594
+279,304,Intel Xeon E3-1275 v6,3.0,amg,Figure Of Merit (Average),197562133,381888
+280,305,Intel Xeon E-2336,5.0,amg,Figure Of Merit (Average),192786180,220110
+281,306,Intel Xeon E-2388G,10.0,amg,Figure Of Merit (Average),191352370,983967
+282,307,AMD Ryzen 7 3800XT 8-Core,3.0,amg,Figure Of Merit (Average),190316985,7464124
+283,308,AMD Ryzen 5 4500U,3.0,amg,Figure Of Merit (Average),187221278,241355
+284,309,Intel Core i7-5960X,3.0,amg,Figure Of Merit (Average),186625533,406872
+285,310,Intel Xeon E3-1245 v5,3.0,amg,Figure Of Merit (Average),183000056,50045
+286,311,Intel Xeon E3-1260L v5,4.0,amg,Figure Of Merit (Average),180621467,59054
+287,312,Intel Core i5-6500,3.0,amg,Figure Of Merit (Average),178855800,428648
+288,313,Intel Core i3-10100,3.0,amg,Figure Of Merit (Average),178081322,6298317
+289,314,Intel Xeon E3-1280 v5,3.0,amg,Figure Of Merit (Average),173357211,42333
+290,315,AMD Custom APU 0405,4.0,amg,Figure Of Merit (Average),168347308,1333772
+291,316,Intel Core i5-6260U,5.0,amg,Figure Of Merit (Average),167142723,2465353
+292,317,Intel Core i7-8565U,3.0,amg,Figure Of Merit (Average),166479222,5596840
+293,318,Intel Xeon E3-1235L v5,3.0,amg,Figure Of Merit (Average),162782978,124829
+294,319,Intel Xeon E3-1240 v5,3.0,amg,Figure Of Merit (Average),160379011,969099
+295,320,Intel Core i7-5775C,4.0,amg,Figure Of Merit (Average),160221900,11434883
+296,321,Intel Core i7-8550U,3.0,amg,Figure Of Merit (Average),155193500,61037
+297,322,Intel Xeon E3-1270 v5,3.0,amg,Figure Of Merit (Average),151527800,547494
+298,323,Intel Xeon E3-1231 v3,4.0,amg,Figure Of Merit (Average),146144883,129452
+299,324,Intel Core i7-4790,3.0,amg,Figure Of Merit (Average),144264567,1074092
+300,325,Intel Core i7-4790K,3.0,amg,Figure Of Merit (Average),143393233,1287809
+301,326,Intel Core i5-3470,3.0,amg,Figure Of Merit (Average),137379311,65128
+302,327,Intel Core i7-4770K,3.0,amg,Figure Of Merit (Average),136876555,1522236
+303,328,Intel Core i5-4670,4.0,amg,Figure Of Merit (Average),128697217,2922758
+304,329,Intel Core i7-4960X,3.0,amg,Figure Of Merit (Average),126149344,210413
+305,330,Intel Xeon E-2278GEL,6.0,amg,Figure Of Merit (Average),122313606,124729
+306,331,Intel Core i7-5600U,3.0,amg,Figure Of Merit (Average),121560567,195209
+307,332,AMD FX-8370 Eight-Core,4.0,amg,Figure Of Merit (Average),118692142,1767314
+308,333,Intel Core i5-7600K,3.0,amg,Figure Of Merit (Average),106164178,62573
+309,334,AMD Ryzen 3 3200U,4.0,amg,Figure Of Merit (Average),104880309,18136
+310,335,Intel Core i5-5200U,7.0,amg,Figure Of Merit (Average),104520074,8126615
+311,337,Intel Core i7-3770K,3.0,amg,Figure Of Merit (Average),74935941,59160
+312,341,2 x Intel Xeon 6980P,13.0,hpcg,GFLOP/s (Average),170,3
+313,342,2 x AMD EPYC 9755 128-Core,8.0,hpcg,GFLOP/s (Average),126,126
+314,343,2 x Intel Xeon Max 9480,13.0,hpcg,GFLOP/s (Average),102,8
+315,344,2 x AMD EPYC 9534 64-Core,3.0,hpcg,GFLOP/s (Average),82,5
+316,345,Intel Xeon 6980P,9.0,hpcg,GFLOP/s (Average),76,10
+317,346,2 x INTEL XEON PLATINUM 8592+,9.0,hpcg,GFLOP/s (Average),71,2
+318,347,2 x Intel Xeon Platinum 8490H,9.0,hpcg,GFLOP/s (Average),63,1
+319,349,2 x Intel Xeon Platinum 8462Y+,4.0,hpcg,GFLOP/s (Average),59,59
+320,350,2 x AMD EPYC 9754 128-Core,6.0,hpcg,GFLOP/s (Average),55,5
+321,351,2 x Intel Xeon Gold 6444Y,4.0,hpcg,GFLOP/s (Average),44,44
+322,352,2 x Intel Xeon Platinum 8380,4.0,hpcg,GFLOP/s (Average),41,41
+323,354,2 x AMD EPYC 7773X 64-Core,9.0,hpcg,GFLOP/s (Average),38,38
+324,357,2 x AMD EPYC 7551 32-Core,11.0,hpcg,GFLOP/s (Average),34,1
+325,358,AMD Ryzen Threadripper PRO 7995WX 96-Cores,3.0,hpcg,GFLOP/s (Average),33,1
+326,361,AMD Ryzen Threadripper PRO 9995WX 96-Cores,5.0,hpcg,GFLOP/s (Average),24,24
+327,362,AMD EPYC 9754 128-Core,5.0,hpcg,GFLOP/s (Average),23,2
+328,365,AMD Ryzen Threadripper 7970X 32-Cores,13.0,hpcg,GFLOP/s (Average),16,2
+329,366,AMD RYZEN AI MAX PRO 390,3.0,hpcg,GFLOP/s (Average),15,15
+330,367,2 x Intel Xeon E5-2696 v4,5.0,hpcg,GFLOP/s (Average),14,1
+331,368,AMD Ryzen Threadripper PRO 5965WX 24-Cores,5.0,hpcg,GFLOP/s (Average),12,12
+332,369,AMD EPYC 7F32 8-Core,3.0,hpcg,GFLOP/s (Average),11,11
+333,370,Intel Xeon Silver 4216,3.0,hpcg,GFLOP/s (Average),11,11
+334,371,AMD Ryzen Threadripper 3970X 32-Core,4.0,hpcg,GFLOP/s (Average),11,11
+335,372,Intel Core Ultra 9 285K,16.0,hpcg,GFLOP/s (Average),11,1
+336,373,Intel Core i5-14500,3.0,hpcg,GFLOP/s (Average),10,10
+337,374,Intel Core i9-14900K,13.0,hpcg,GFLOP/s (Average),10,10
+338,375,Intel Core i9-13900K,6.0,hpcg,GFLOP/s (Average),10,10
+339,377,Intel Core Ultra 5 245K,4.0,hpcg,GFLOP/s (Average),10,10
+340,378,AMD Ryzen Threadripper 3990X 64-Core,3.0,hpcg,GFLOP/s (Average),9,1
+341,379,AMD Ryzen 9 9900X3D 12-Core,7.0,hpcg,GFLOP/s (Average),9,9
+342,380,AMD Ryzen 9 9900X 12-Core,4.0,hpcg,GFLOP/s (Average),9,9
+343,381,AMD Ryzen 9 9950X3D 16-Core,16.0,hpcg,GFLOP/s (Average),9,9
+344,382,AMD Ryzen 9 9950X 16-Core,19.0,hpcg,GFLOP/s (Average),9,9
+345,383,Intel Core i3-14100,3.0,hpcg,GFLOP/s (Average),8,8
+346,384,Intel Core i5-14600K,8.0,hpcg,GFLOP/s (Average),8,8
+347,385,AMD Ryzen 5 8600G,4.0,hpcg,GFLOP/s (Average),8,8
+348,386,AMD Ryzen 7 9700X 8-Core,5.0,hpcg,GFLOP/s (Average),8,8
+349,387,AMD Ryzen 7 9800X3D 8-Core,3.0,hpcg,GFLOP/s (Average),8,8
+350,388,AMD Ryzen 9 7950X 16-Core,17.0,hpcg,GFLOP/s (Average),8,1
+351,389,AMD Ryzen 9 7900X 12-Core,25.0,hpcg,GFLOP/s (Average),8,1
+352,390,AMD Ryzen 9 7900X3D 12-Core,12.0,hpcg,GFLOP/s (Average),8,1
+353,391,AMD Ryzen 9 7950X3D 16-Core,14.0,hpcg,GFLOP/s (Average),8,1
+354,392,Intel Core i9-10980XE,6.0,hpcg,GFLOP/s (Average),8,8
+355,393,AMD Ryzen 7 7800X3D 8-Core,10.0,hpcg,GFLOP/s (Average),7,7
+356,394,AMD Ryzen 9 7900 12-Core,14.0,hpcg,GFLOP/s (Average),7,1
+357,395,AMD Ryzen 5 9600X 6-Core,3.0,hpcg,GFLOP/s (Average),7,7
+358,396,AMD Ryzen 5 7600 6-Core,5.0,hpcg,GFLOP/s (Average),7,7
+359,397,AMD Ryzen 7 7700 8-Core,11.0,hpcg,GFLOP/s (Average),7,7
+360,398,AMD Ryzen 7 7700X 8-Core,11.0,hpcg,GFLOP/s (Average),7,7
+361,399,Intel Core i5-12600K,4.0,hpcg,GFLOP/s (Average),7,7
+362,401,AMD Ryzen 5 7600X 6-Core,10.0,hpcg,GFLOP/s (Average),7,7
+363,402,Intel Core i7-5960X,3.0,hpcg,GFLOP/s (Average),7,7
+364,403,AMD Ryzen 7 PRO 7840U,6.0,hpcg,GFLOP/s (Average),6,6
+365,404,AMD Ryzen Z1 Extreme,14.0,hpcg,GFLOP/s (Average),6,6
+366,406,AMD Ryzen 7 7840U,9.0,hpcg,GFLOP/s (Average),6,6
+367,407,Intel Core i7-1165G7,3.0,hpcg,GFLOP/s (Average),6,6
+368,408,Intel Core i7-1185G7,4.0,hpcg,GFLOP/s (Average),6,6
+369,409,AMD Ryzen 9 5950X 16-Core,5.0,hpcg,GFLOP/s (Average),5,5
+370,410,AMD Ryzen 9 3900XT 12-Core,4.0,hpcg,GFLOP/s (Average),5,5
+371,411,AMD Ryzen 5 5500U,6.0,hpcg,GFLOP/s (Average),5,5
+372,412,AMD Ryzen 7 5800X 8-Core,3.0,hpcg,GFLOP/s (Average),5,5
+373,413,AMD Ryzen 7 5800X3D 8-Core,6.0,hpcg,GFLOP/s (Average),5,5
+374,414,AMD Ryzen 7 PRO 6850U,8.0,hpcg,GFLOP/s (Average),4,4
+375,415,AMD Ryzen 7 3800XT 8-Core,3.0,hpcg,GFLOP/s (Average),4,4
+376,416,AMD Ryzen 5 4500U,4.0,hpcg,GFLOP/s (Average),4,4
+377,418,AMD Ryzen 7 PRO 5850U,8.0,hpcg,GFLOP/s (Average),4,4
+378,419,Intel Xeon E-2336,5.0,hpcg,GFLOP/s (Average),4,4
+379,420,Intel Xeon E-2388G,10.0,hpcg,GFLOP/s (Average),4,4
+380,421,AMD Ryzen 9 5900HX,3.0,hpcg,GFLOP/s (Average),3,3
+381,423,2 x AMD EPYC 9654 96-Core,14.0,linux_kernel,Seconds (Average),104,5
+382,424,2 x AMD EPYC 9634 84-Core,5.0,linux_kernel,Seconds (Average),111,111
+383,425,2 x AMD EPYC 9554 64-Core,11.0,linux_kernel,Seconds (Average),111,4
+384,426,2 x AMD EPYC 7773X 64-Core,24.0,linux_kernel,Seconds (Average),143,7
+385,427,2 x AMD EPYC 7763 64-Core,17.0,linux_kernel,Seconds (Average),147,9
+386,428,2 x Intel Xeon Platinum 8490H,5.0,linux_kernel,Seconds (Average),149,6
+387,429,2 x AMD EPYC 9374F 32-Core,6.0,linux_kernel,Seconds (Average),155,8
+388,430,AMD EPYC 9654 96-Core,16.0,linux_kernel,Seconds (Average),164,9
+389,431,2 x AMD EPYC 7663 56-Core,3.0,linux_kernel,Seconds (Average),165,165
+390,432,2 x AMD EPYC 7742 64-Core,6.0,linux_kernel,Seconds (Average),167,9
+391,433,2 x AMD EPYC 7713 64-Core,18.0,linux_kernel,Seconds (Average),168,11
+392,435,AMD EPYC 9634 84-Core,5.0,linux_kernel,Seconds (Average),176,1
+393,436,2 x AMD EPYC 7643 48-Core,6.0,linux_kernel,Seconds (Average),178,1
+394,437,AMD EPYC 9554 64-Core,13.0,linux_kernel,Seconds (Average),179,9
+395,438,2 x AMD EPYC 75F3 32-Core,11.0,linux_kernel,Seconds (Average),192,9
+396,439,2 x AMD EPYC 7543 32-Core,3.0,linux_kernel,Seconds (Average),210,1
+397,440,2 x Intel Xeon Platinum 8380,20.0,linux_kernel,Seconds (Average),216,10
+398,442,2 x AMD EPYC 74F3 24-Core,3.0,linux_kernel,Seconds (Average),238,238
+399,443,2 x Intel Xeon Platinum 8362,8.0,linux_kernel,Seconds (Average),239,10
+400,444,AMD EPYC 7773X 64-Core,14.0,linux_kernel,Seconds (Average),239,13
+401,445,AMD EPYC 7763 64-Core,15.0,linux_kernel,Seconds (Average),245,14
+402,446,Intel Xeon Platinum 8490H,5.0,linux_kernel,Seconds (Average),250,12
+403,447,AMD EPYC 9374F 32-Core,5.0,linux_kernel,Seconds (Average),270,14
+404,448,AMD Ryzen Threadripper 3990X 64-Core,12.0,linux_kernel,Seconds (Average),277,21
+405,449,2 x Intel Xeon Platinum 8280,6.0,linux_kernel,Seconds (Average),284,284
+406,450,AMD EPYC 7713 64-Core,13.0,linux_kernel,Seconds (Average),285,20
+407,451,2 x Intel Xeon Gold 6342,6.0,linux_kernel,Seconds (Average),301,12
+408,452,AMD EPYC 7643 48-Core,6.0,linux_kernel,Seconds (Average),308,1
+409,453,AMD Ryzen Threadripper 3970X 32-Core,4.0,linux_kernel,Seconds (Average),317,8
+410,454,AMD EPYC 75F3 32-Core,7.0,linux_kernel,Seconds (Average),358,31
+411,455,AMD EPYC 7543 32-Core,4.0,linux_kernel,Seconds (Average),372,2
+412,456,Intel Xeon Platinum 8380,13.0,linux_kernel,Seconds (Average),378,18
+413,457,AMD Ryzen Threadripper PRO 5965WX 24-Cores,10.0,linux_kernel,Seconds (Average),389,12
+414,458,2 x Intel Xeon Gold 6346,6.0,linux_kernel,Seconds (Average),405,18
+415,459,AMD Ryzen Threadripper 3960X 24-Core,5.0,linux_kernel,Seconds (Average),424,15
+416,460,AMD EPYC 74F3 24-Core,3.0,linux_kernel,Seconds (Average),430,430
+417,461,Intel Xeon Platinum 8362,3.0,linux_kernel,Seconds (Average),446,27
+418,462,AMD Ryzen 9 7950X 16-Core,23.0,linux_kernel,Seconds (Average),457,53
+419,463,2 x Intel Xeon Gold 5220R,3.0,linux_kernel,Seconds (Average),467,2
+420,464,2 x Intel Xeon Platinum 8260,3.0,linux_kernel,Seconds (Average),483,1
+421,465,Intel Xeon Gold 6342,6.0,linux_kernel,Seconds (Average),543,24
+422,467,AMD Ryzen 9 7900X 12-Core,7.0,linux_kernel,Seconds (Average),575,2
+423,468,Intel Core i9-12900K,11.0,linux_kernel,Seconds (Average),604,33
+424,469,AMD EPYC 7551 32-Core,3.0,linux_kernel,Seconds (Average),616,6
+425,470,Intel Core i9-10980XE,5.0,linux_kernel,Seconds (Average),639,1
+426,471,AMD Ryzen 9 5950X 16-Core,16.0,linux_kernel,Seconds (Average),667,53
+427,472,AMD Ryzen 9 3950X 16-Core,7.0,linux_kernel,Seconds (Average),672,49
+428,473,Intel Core i5-13600K,15.0,linux_kernel,Seconds (Average),700,5
+429,474,AMD Ryzen Threadripper 2970WX 24-Core,5.0,linux_kernel,Seconds (Average),710,47
+430,475,Intel Xeon Gold 6346,5.0,linux_kernel,Seconds (Average),747,36
+431,476,AMD Ryzen 9 3900XT 12-Core,5.0,linux_kernel,Seconds (Average),754,2
+432,477,AMD Ryzen 9 5900X 12-Core,9.0,linux_kernel,Seconds (Average),775,77
+433,478,Intel Xeon Gold 6226R,3.0,linux_kernel,Seconds (Average),776,776
+434,479,AMD Ryzen 7 7700X 8-Core,16.0,linux_kernel,Seconds (Average),815,8
+435,480,AMD Ryzen 9 3900X 12-Core,9.0,linux_kernel,Seconds (Average),853,79
+436,481,Intel Core i9-10900K,3.0,linux_kernel,Seconds (Average),922,922
+437,482,Intel Core i5-12600K,8.0,linux_kernel,Seconds (Average),945,27
+438,483,Intel Xeon Silver 4216,4.0,linux_kernel,Seconds (Average),951,1
+439,484,AMD Ryzen 7 7840HS,3.0,linux_kernel,Seconds (Average),982,25
+440,485,AMD Ryzen 5 7600X 6-Core,9.0,linux_kernel,Seconds (Average),1013,78
+441,486,AMD EPYC 72F3 8-Core,5.0,linux_kernel,Seconds (Average),1019,14
+442,487,AMD Ryzen 7 5800X3D 8-Core,10.0,linux_kernel,Seconds (Average),1048,94
+443,488,AMD EPYC 7F32 8-Core,3.0,linux_kernel,Seconds (Average),1049,1
+444,489,Intel Core i9-11900K,6.0,linux_kernel,Seconds (Average),1051,57
+445,490,AMD Ryzen 7 3800XT 8-Core,4.0,linux_kernel,Seconds (Average),1062,8
+446,491,Intel Core i5-13400,4.0,linux_kernel,Seconds (Average),1066,4
+447,492,AMD Ryzen 7 5800X 8-Core,6.0,linux_kernel,Seconds (Average),1118,71
+448,494,AMD Ryzen 7 3700X 8-Core,11.0,linux_kernel,Seconds (Average),1287,62
+449,495,AMD Ryzen 7 7735HS,3.0,linux_kernel,Seconds (Average),1348,85
+450,496,AMD Ryzen 9 5900HX,6.0,linux_kernel,Seconds (Average),1396,68
+451,497,Intel Core i9-9900K,3.0,linux_kernel,Seconds (Average),1424,1
+452,498,Intel Core i5-11600K,3.0,linux_kernel,Seconds (Average),1491,4
+453,499,AMD Ryzen 5 5600X 6-Core,4.0,linux_kernel,Seconds (Average),1494,5
+454,500,Intel Core i5-10600K,4.0,linux_kernel,Seconds (Average),1504,1
+455,501,AMD Ryzen 7 PRO 5850U,3.0,linux_kernel,Seconds (Average),1671,10
+456,502,AMD Ryzen 7 1700 Eight-Core,4.0,linux_kernel,Seconds (Average),1962,250
+457,503,Intel Core i7-1280P,3.0,linux_kernel,Seconds (Average),2132,191
+458,504,AMD Ryzen 5 5560U,4.0,linux_kernel,Seconds (Average),2191,117
+459,505,AMD Ryzen 7 4700U,3.0,linux_kernel,Seconds (Average),2279,1
+460,506,Intel Core i7-10700T,4.0,linux_kernel,Seconds (Average),2279,10
+461,507,AMD Ryzen 5 5500U,6.0,linux_kernel,Seconds (Average),2440,144
+462,508,2 x Intel Xeon L5640,10.0,linux_kernel,Seconds (Average),2445,10
+463,509,Intel Core i3-12100,3.0,linux_kernel,Seconds (Average),2746,32
+464,510,Intel Xeon E3-1275 v6,3.0,linux_kernel,Seconds (Average),2837,7
+465,511,AMD Ryzen 5 4500U,3.0,linux_kernel,Seconds (Average),2856,16
+466,512,Intel Core i7-1185G7,3.0,linux_kernel,Seconds (Average),2950,4
+467,513,Intel Core i7-1165G7,5.0,linux_kernel,Seconds (Average),3273,321
+468,514,Intel Xeon E5-2609 v4,4.0,linux_kernel,Seconds (Average),3884,2
+469,515,Intel Core i7-8565U,3.0,linux_kernel,Seconds (Average),4254,21
+470,516,Intel Core i5-8250U,4.0,linux_kernel,Seconds (Average),5505,230
+471,517,Intel Core i3-7100,5.0,linux_kernel,Seconds (Average),5524,116
+472,519,2 x AMD EPYC 9184X 16-Core,4.0,miniFE,CG Mflops (Average),81910,366
+473,521,2 x AMD EPYC 9384X 32-Core,7.0,miniFE,CG Mflops (Average),69664,52
+474,522,AMD EPYC 9575F 64-Core,3.0,miniFE,CG Mflops (Average),69114,69114
+475,523,AMD EPYC 9655 96-Core,3.0,miniFE,CG Mflops (Average),67879,62
+476,524,AMD EPYC 9755 128-Core,8.0,miniFE,CG Mflops (Average),67848,3573
+477,525,AMD EPYC 9965 192-Core,4.0,miniFE,CG Mflops (Average),65295,65295
+478,526,2 x AMD EPYC 9684X 96-Core,19.0,miniFE,CG Mflops (Average),62735,5694
+479,527,2 x AMD EPYC 9965 192-Core,3.0,miniFE,CG Mflops (Average),62007,62007
+480,528,AMD EPYC 9384X 32-Core,5.0,miniFE,CG Mflops (Average),56863,1207
+481,529,2 x AMD EPYC 9754 128-Core,19.0,miniFE,CG Mflops (Average),54477,6495
+482,530,AMD EPYC 9684X 96-Core,18.0,miniFE,CG Mflops (Average),53420,744
+483,531,2 x AMD EPYC 9554 64-Core,12.0,miniFE,CG Mflops (Average),50957,5838
+484,532,AMD EPYC 9654 96-Core,12.0,miniFE,CG Mflops (Average),50702,409
+485,533,AMD EPYC 9554 64-Core,6.0,miniFE,CG Mflops (Average),50581,514
+486,534,AMD EPYC 9754 128-Core,12.0,miniFE,CG Mflops (Average),50453,627
+487,535,2 x AMD EPYC 9575F 64-Core,4.0,miniFE,CG Mflops (Average),49941,4854
+488,536,2 x AMD EPYC 9654 96-Core,15.0,miniFE,CG Mflops (Average),49191,4923
+489,537,Intel Xeon 6980P,14.0,miniFE,CG Mflops (Average),47273,6786
+490,538,2 x Intel Xeon Platinum 8468,3.0,miniFE,CG Mflops (Average),47172,2494
+491,539,2 x AMD EPYC 9755 128-Core,8.0,miniFE,CG Mflops (Average),44843,6338
+492,540,2 x Intel Xeon Platinum 8490H,17.0,miniFE,CG Mflops (Average),44571,3260
+493,541,2 x Intel Xeon Gold 6442Y,3.0,miniFE,CG Mflops (Average),44443,2187
+494,542,2 x Intel Xeon Platinum 8462Y+,3.0,miniFE,CG Mflops (Average),43251,2988
+495,543,2 x INTEL XEON PLATINUM 8592+,10.0,miniFE,CG Mflops (Average),42296,2957
+496,544,Intel Xeon 6780E,5.0,miniFE,CG Mflops (Average),40626,40626
+497,546,Intel Xeon 6766E,5.0,miniFE,CG Mflops (Average),40441,40441
+498,549,AMD Ryzen Threadripper PRO 7995WX 96-Cores,3.0,miniFE,CG Mflops (Average),36994,294
+499,551,Intel Xeon Platinum 8468,3.0,miniFE,CG Mflops (Average),35410,214
+500,552,Intel Xeon Platinum 8490H,15.0,miniFE,CG Mflops (Average),35359,133
+501,553,Intel Xeon Gold 6442Y,3.0,miniFE,CG Mflops (Average),34214,96
+502,554,Intel Xeon Platinum 8462Y+,3.0,miniFE,CG Mflops (Average),34094,271
+503,555,INTEL XEON PLATINUM 8592+,13.0,miniFE,CG Mflops (Average),31565,680
+504,558,2 x AMD EPYC 7443 24-Core,4.0,miniFE,CG Mflops (Average),28307,938
+505,559,2 x AMD EPYC 7343 16-Core,6.0,miniFE,CG Mflops (Average),28062,377
+506,560,2 x AMD EPYC 7313 16-Core,3.0,miniFE,CG Mflops (Average),26590,1499
+507,561,AMD Ryzen Threadripper PRO 9995WX 96-Cores,5.0,miniFE,CG Mflops (Average),26065,267
+508,562,2 x AMD EPYC 74F3 24-Core,4.0,miniFE,CG Mflops (Average),25871,1036
+509,563,2 x AMD EPYC 7773X 64-Core,12.0,miniFE,CG Mflops (Average),25445,1725
+510,564,2 x AMD EPYC 7763 64-Core,13.0,miniFE,CG Mflops (Average),24852,1387
+511,565,2 x AMD EPYC 7373X 16-Core,6.0,miniFE,CG Mflops (Average),24766,2333
+512,566,AMD EPYC 8534PN 64-Core,5.0,miniFE,CG Mflops (Average),24666,161
+513,567,AMD EPYC 8534P 64-Core,5.0,miniFE,CG Mflops (Average),24595,125
+514,568,2 x AMD EPYC 7713 64-Core,11.0,miniFE,CG Mflops (Average),24483,992
+515,570,2 x AMD EPYC 7663 56-Core,3.0,miniFE,CG Mflops (Average),23741,23741
+516,571,AMD Ryzen Threadripper 9980X 64-Cores,5.0,miniFE,CG Mflops (Average),23696,3423
+517,573,Intel Xeon Platinum 8380,16.0,miniFE,CG Mflops (Average),23073,63
+518,574,AMD Ryzen Threadripper 9970X 32-Cores,4.0,miniFE,CG Mflops (Average),22632,2512
+519,575,AMD EPYC 7773X 64-Core,10.0,miniFE,CG Mflops (Average),22607,73
+520,576,AMD EPYC 74F3 24-Core,4.0,miniFE,CG Mflops (Average),22117,5
+521,577,AMD EPYC 7713 64-Core,10.0,miniFE,CG Mflops (Average),21853,37
+522,578,AMD EPYC 7763 64-Core,10.0,miniFE,CG Mflops (Average),21812,62
+523,579,AMD EPYC 7373X 16-Core,5.0,miniFE,CG Mflops (Average),21513,171
+524,580,2 x AMD EPYC 75F3 32-Core,12.0,miniFE,CG Mflops (Average),21322,2329
+525,581,Intel Xeon Max 9468,6.0,miniFE,CG Mflops (Average),21084,2458
+526,582,2 x Intel Xeon Max 9480,9.0,miniFE,CG Mflops (Average),21078,1258
+527,583,AMD EPYC 7313 16-Core,35.0,miniFE,CG Mflops (Average),20022,27
+528,584,AMD EPYC 7443 24-Core,3.0,miniFE,CG Mflops (Average),19768,33
+529,585,2 x Intel Xeon Max 9468,6.0,miniFE,CG Mflops (Average),19583,2158
+530,586,AMD Ryzen Threadripper 7980X 64-Cores,8.0,miniFE,CG Mflops (Average),19430,482
+531,587,AMD EPYC 7642 48-Core,19.0,miniFE,CG Mflops (Average),19366,42
+532,589,Intel Xeon Max 9480,5.0,miniFE,CG Mflops (Average),19278,899
+533,590,AMD EPYC 7702 64-Core,14.0,miniFE,CG Mflops (Average),19130,37
+534,591,AMD Ryzen Threadripper 7970X 32-Cores,6.0,miniFE,CG Mflops (Average),19106,19106
+535,592,AMD EPYC 75F3 32-Core,6.0,miniFE,CG Mflops (Average),18623,2607
+536,593,AMD RYZEN AI MAX PRO 390,3.0,miniFE,CG Mflops (Average),17006,21
+537,595,2 x AMD EPYC 7642 48-Core,3.0,miniFE,CG Mflops (Average),14927,673
+538,596,Intel Core Ultra 9 285K,3.0,miniFE,CG Mflops (Average),12389,12389
+539,597,Intel Core i5-14500,3.0,miniFE,CG Mflops (Average),12312,12312
+540,598,AMD EPYC 7601 32-Core,7.0,miniFE,CG Mflops (Average),11588,338
+541,599,Intel Core i3-14100,3.0,miniFE,CG Mflops (Average),10130,10130
+542,600,AMD Ryzen Threadripper 3990X 64-Core,7.0,miniFE,CG Mflops (Average),9779,148
+543,601,Intel Xeon Silver 4108,4.0,miniFE,CG Mflops (Average),9466,5
+544,602,AMD Ryzen 9 9950X3D 16-Core,3.0,miniFE,CG Mflops (Average),9249,9249
+545,603,AMD Ryzen 9 9950X 16-Core,5.0,miniFE,CG Mflops (Average),9234,229
+546,604,Intel Core i9-7980XE,12.0,miniFE,CG Mflops (Average),8869,346
+547,605,AMD Ryzen 5 8600G,4.0,miniFE,CG Mflops (Average),8771,8771
+548,606,Intel Core i9-7960X,17.0,miniFE,CG Mflops (Average),8635,6
+549,607,AMD Ryzen 9 7900X3D 12-Core,8.0,miniFE,CG Mflops (Average),7906,13
+550,608,AMD Ryzen Threadripper 2950X 16-Core,3.0,miniFE,CG Mflops (Average),7902,337
+551,609,AMD Ryzen 7 7800X3D 8-Core,6.0,miniFE,CG Mflops (Average),7877,337
+552,610,AMD Ryzen 9 7900X 12-Core,11.0,miniFE,CG Mflops (Average),7790,3
+553,611,AMD Ryzen Threadripper 3960X 24-Core,13.0,miniFE,CG Mflops (Average),7750,21
+554,612,AMD Ryzen 9 7950X3D 16-Core,9.0,miniFE,CG Mflops (Average),7663,541
+555,613,AMD Ryzen 7 7700 8-Core,8.0,miniFE,CG Mflops (Average),7643,4
+556,614,AMD Ryzen 7 7700X 8-Core,8.0,miniFE,CG Mflops (Average),7589,13
+557,615,AMD Ryzen 9 7950X 16-Core,6.0,miniFE,CG Mflops (Average),7457,61
+558,617,AMD Ryzen 9 7900 12-Core,4.0,miniFE,CG Mflops (Average),7395,22
+559,618,Intel Core i9-10980XE,17.0,miniFE,CG Mflops (Average),7373,359
+560,619,AMD Ryzen 5 7600X 6-Core,8.0,miniFE,CG Mflops (Average),7331,20
+561,620,2 x AMD EPYC 7601 32-Core,3.0,miniFE,CG Mflops (Average),6553,317
+562,621,AMD Ryzen Threadripper 2970WX 24-Core,4.0,miniFE,CG Mflops (Average),6513,148
+563,622,Intel Core i7-5960X,9.0,miniFE,CG Mflops (Average),6480,256
+564,623,Intel Core i7-12700K,8.0,miniFE,CG Mflops (Average),6149,332
+565,624,AMD Ryzen 7 1700 Eight-Core,7.0,miniFE,CG Mflops (Average),5882,10
+566,625,AMD Ryzen Threadripper 2990WX 32-Core,4.0,miniFE,CG Mflops (Average),5774,473
+567,626,AMD Ryzen 7 5800H,3.0,miniFE,CG Mflops (Average),5564,88
+568,627,AMD Ryzen 5 5600X 6-Core,8.0,miniFE,CG Mflops (Average),4714,388
+569,628,Intel Core i7-10700T,3.0,miniFE,CG Mflops (Average),4698,1
+570,629,AMD Ryzen 7 5800X3D 8-Core,9.0,miniFE,CG Mflops (Average),4688,511
+571,630,Intel Core i9-9900KS,5.0,miniFE,CG Mflops (Average),4672,78
+572,631,AMD Ryzen 7 5800X 8-Core,13.0,miniFE,CG Mflops (Average),4548,423
+573,632,AMD Ryzen 9 5900X 12-Core,27.0,miniFE,CG Mflops (Average),4425,237
+574,633,Intel Core i9-10885H,3.0,miniFE,CG Mflops (Average),4349,8
+575,634,Intel Core i9-10900K,6.0,miniFE,CG Mflops (Average),4258,45
+576,635,Intel Xeon E3-1275 v6,3.0,miniFE,CG Mflops (Average),4235,66
+577,636,AMD Ryzen 5 3600X 6-Core,3.0,miniFE,CG Mflops (Average),4187,173
+578,638,Intel Xeon E-2336,5.0,miniFE,CG Mflops (Average),4108,3
+579,639,AMD Ryzen 7 3700X 8-Core,7.0,miniFE,CG Mflops (Average),4071,349
+580,640,Intel Xeon E-2388G,10.0,miniFE,CG Mflops (Average),4049,10
+581,641,AMD Ryzen 9 3900XT 12-Core,3.0,miniFE,CG Mflops (Average),4039,9
+582,642,AMD Ryzen 9 3950X 16-Core,4.0,miniFE,CG Mflops (Average),3731,95
+583,644,Intel Core i7-8550U,3.0,miniFE,CG Mflops (Average),3325,54
+584,645,Intel Xeon E-2278GEL,5.0,miniFE,CG Mflops (Average),2530,8
+585,646,Intel Core i7 990X,10.0,miniFE,CG Mflops (Average),2247,28
+586,647,Intel Core i5-5200U,14.0,miniFE,CG Mflops (Average),2115,235
+587,649,2 x AMD EPYC 7763 64-Core,12.0,nqueens,Seconds (Average),1,1
+588,650,2 x AMD EPYC 7663 56-Core,3.0,nqueens,Seconds (Average),1,1
+589,651,2 x AMD EPYC 7643 48-Core,3.0,nqueens,Seconds (Average),1,1
+590,653,2 x AMD EPYC 7713 64-Core,3.0,nqueens,Seconds (Average),1,1
+591,654,AMD Ryzen Threadripper PRO 7995WX 96-Cores,4.0,nqueens,Seconds (Average),1,1
+592,655,2 x AMD EPYC 7742 64-Core,9.0,nqueens,Seconds (Average),2,2
+593,656,2 x AMD EPYC 75F3 32-Core,8.0,nqueens,Seconds (Average),2,2
+594,657,AMD Ryzen Threadripper 7980X 64-Cores,3.0,nqueens,Seconds (Average),2,2
+595,658,2 x AMD EPYC 7513 32-Core,5.0,nqueens,Seconds (Average),2,2
+596,659,2 x AMD EPYC 7543 32-Core,4.0,nqueens,Seconds (Average),2,2
+597,660,2 x AMD EPYC 7642 48-Core,5.0,nqueens,Seconds (Average),2,2
+598,661,2 x AMD EPYC 7453 28-Core,6.0,nqueens,Seconds (Average),2,2
+599,662,AMD Ryzen Threadripper 3990X 64-Core,4.0,nqueens,Seconds (Average),2,2
+600,663,2 x AMD EPYC 7443 24-Core,3.0,nqueens,Seconds (Average),2,2
+601,664,AMD EPYC 7763 64-Core,4.0,nqueens,Seconds (Average),2,2
+602,665,2 x AMD EPYC 74F3 24-Core,4.0,nqueens,Seconds (Average),2,2
+603,666,AMD EPYC 7773X 64-Core,5.0,nqueens,Seconds (Average),2,2
+604,667,AMD EPYC 7713 64-Core,3.0,nqueens,Seconds (Average),3,3
+605,668,AMD EPYC 7662 64-Core,6.0,nqueens,Seconds (Average),3,3
+606,669,AMD EPYC 7643 48-Core,3.0,nqueens,Seconds (Average),3,3
+607,670,AMD EPYC 7702 64-Core,6.0,nqueens,Seconds (Average),3,3
+608,671,2 x AMD EPYC 7601 32-Core,5.0,nqueens,Seconds (Average),3,3
+609,672,2 x AMD EPYC 73F3 16-Core,7.0,nqueens,Seconds (Average),3,3
+610,673,2 x Intel Xeon Platinum 8280,23.0,nqueens,Seconds (Average),3,3
+611,674,AMD EPYC 7642 48-Core,15.0,nqueens,Seconds (Average),3,3
+612,675,AMD EPYC 7552 48-Core,6.0,nqueens,Seconds (Average),3,3
+613,676,AMD EPYC 75F3 32-Core,8.0,nqueens,Seconds (Average),3,3
+614,677,AMD Ryzen Threadripper 3970X 32-Core,21.0,nqueens,Seconds (Average),3,3
+615,678,AMD EPYC 7543 32-Core,6.0,nqueens,Seconds (Average),4,4
+616,680,AMD Ryzen Threadripper PRO 3975WX 32-Cores,5.0,nqueens,Seconds (Average),4,4
+617,681,AMD EPYC 7542 32-Core,5.0,nqueens,Seconds (Average),4,4
+618,682,AMD EPYC 7453 28-Core,3.0,nqueens,Seconds (Average),4,4
+619,683,AMD EPYC 74F3 24-Core,8.0,nqueens,Seconds (Average),4,4
+620,684,AMD Ryzen Threadripper 3960X 24-Core,8.0,nqueens,Seconds (Average),4,4
+621,685,AMD Ryzen Threadripper 2990WX 32-Core,30.0,nqueens,Seconds (Average),4,4
+622,686,AMD EPYC 7502 32-Core,3.0,nqueens,Seconds (Average),5,5
+623,687,AMD EPYC 7502P 32-Core,6.0,nqueens,Seconds (Average),5,5
+624,688,AMD EPYC 7532 32-Core,6.0,nqueens,Seconds (Average),5,5
+625,689,AMD EPYC 7452 32-Core,5.0,nqueens,Seconds (Average),5,5
+626,690,2 x Intel Xeon Gold 6138,7.0,nqueens,Seconds (Average),5,5
+627,691,AMD EPYC 7F72 24-Core,5.0,nqueens,Seconds (Average),5,5
+628,692,2 x Intel Xeon Gold 6140,3.0,nqueens,Seconds (Average),5,5
+629,693,AMD Ryzen Threadripper 2970WX 24-Core,4.0,nqueens,Seconds (Average),6,6
+630,694,AMD Ryzen 9 7950X 16-Core,13.0,nqueens,Seconds (Average),6,6
+631,695,AMD EPYC 7402P 24-Core,7.0,nqueens,Seconds (Average),6,6
+632,696,AMD Ryzen 9 9950X 16-Core,4.0,nqueens,Seconds (Average),6,6
+633,697,Intel Core i9-13900K,15.0,nqueens,Seconds (Average),6,6
+634,698,AMD Ryzen 9 7950X3D 16-Core,5.0,nqueens,Seconds (Average),6,6
+635,699,AMD EPYC 73F3 16-Core,7.0,nqueens,Seconds (Average),6,6
+636,700,AMD Ryzen 9 5950X 16-Core,41.0,nqueens,Seconds (Average),6,1
+637,701,AMD EPYC 7352 24-Core,5.0,nqueens,Seconds (Average),6,6
+638,702,Intel Core i9-14900K,3.0,nqueens,Seconds (Average),7,7
+639,703,2 x Intel Xeon E5-2683 v4,3.0,nqueens,Seconds (Average),7,7
+640,704,AMD Ryzen 9 3950X 16-Core,16.0,nqueens,Seconds (Average),7,7
+641,705,AMD EPYC 7F52 16-Core,6.0,nqueens,Seconds (Average),7,7
+642,707,AMD Ryzen Threadripper 2950X 16-Core,17.0,nqueens,Seconds (Average),8,8
+643,708,AMD Ryzen 9 7900X 12-Core,9.0,nqueens,Seconds (Average),8,8
+644,709,4 x Intel Xeon E5-4620 v4,3.0,nqueens,Seconds (Average),8,8
+645,710,AMD Ryzen 9 5900X 12-Core,19.0,nqueens,Seconds (Average),8,1
+646,711,Intel Core i9-10980XE,11.0,nqueens,Seconds (Average),8,1
+647,712,AMD Ryzen Threadripper 1950X 16-Core,20.0,nqueens,Seconds (Average),8,1
+648,713,AMD EPYC 7302P 16-Core,6.0,nqueens,Seconds (Average),8,8
+649,714,Intel Core i9-7980XE,21.0,nqueens,Seconds (Average),9,1
+650,715,AMD EPYC 7282 16-Core,6.0,nqueens,Seconds (Average),9,9
+651,716,Intel Xeon Gold 6226R,4.0,nqueens,Seconds (Average),9,9
+652,717,2 x Intel Xeon E5-2680 v2,6.0,nqueens,Seconds (Average),9,9
+653,719,Intel Core i9-12900K,11.0,nqueens,Seconds (Average),9,1
+654,720,AMD Ryzen 9 3900XT 12-Core,7.0,nqueens,Seconds (Average),9,9
+655,721,AMD Ryzen 9 3900X 12-Core,42.0,nqueens,Seconds (Average),9,9
+656,722,AMD Ryzen Threadripper 2920X 12-Core,3.0,nqueens,Seconds (Average),10,10
+657,723,Intel Core i9-7960X,22.0,nqueens,Seconds (Average),10,1
+658,724,2 x Intel Xeon Silver 4210,11.0,nqueens,Seconds (Average),10,10
+659,725,AMD EPYC 7351P 16-Core,7.0,nqueens,Seconds (Average),10,10
+660,726,Intel Core i9-10900K,17.0,nqueens,Seconds (Average),10,10
+661,727,AMD Ryzen 7 7700X 8-Core,10.0,nqueens,Seconds (Average),11,11
+662,728,AMD Ryzen 7 9800X3D 8-Core,12.0,nqueens,Seconds (Average),11,11
+663,729,Intel Xeon Gold 5218,4.0,nqueens,Seconds (Average),11,11
+664,730,AMD Ryzen 7 5800X 8-Core,23.0,nqueens,Seconds (Average),12,1
+665,731,AMD EPYC 7272 12-Core,4.0,nqueens,Seconds (Average),12,12
+666,732,Intel Xeon Silver 4216,4.0,nqueens,Seconds (Average),12,12
+667,733,AMD Ryzen 9 5900HX,6.0,nqueens,Seconds (Average),12,1
+668,734,AMD EPYC 72F3 8-Core,3.0,nqueens,Seconds (Average),12,12
+669,735,2 x Intel Xeon E5-2643 v3,7.0,nqueens,Seconds (Average),12,12
+670,736,AMD Ryzen 7 3800XT 8-Core,3.0,nqueens,Seconds (Average),13,13
+671,737,Intel Core i9-11900K,15.0,nqueens,Seconds (Average),13,13
+672,738,AMD Ryzen 7 PRO 4750G,7.0,nqueens,Seconds (Average),13,1
+673,739,AMD Ryzen 7 5800X3D 8-Core,11.0,nqueens,Seconds (Average),13,13
+674,740,AMD Ryzen 7 5700G,3.0,nqueens,Seconds (Average),14,14
+675,741,AMD Ryzen 7 3700X 8-Core,22.0,nqueens,Seconds (Average),14,1
+676,742,Intel Xeon Silver 4214R,3.0,nqueens,Seconds (Average),14,14
+677,743,Intel Core i9-9900K,11.0,nqueens,Seconds (Average),14,1
+678,744,Intel Core i5-12600K,5.0,nqueens,Seconds (Average),14,1
+679,745,AMD EPYC 7F32 8-Core,6.0,nqueens,Seconds (Average),14,14
+680,746,Intel Core i5-14500,3.0,nqueens,Seconds (Average),14,14
+681,747,AMD Ryzen 7 2700X Eight-Core,32.0,nqueens,Seconds (Average),14,14
+682,749,AMD Ryzen 7 3800X 8-Core,4.0,nqueens,Seconds (Average),15,1
+683,750,AMD Ryzen 5 5600X 6-Core,21.0,nqueens,Seconds (Average),15,2
+684,751,AMD Ryzen 5 7600X 6-Core,6.0,nqueens,Seconds (Average),15,15
+685,752,AMD Ryzen 7 5700X 8-Core,5.0,nqueens,Seconds (Average),15,2
+686,753,Intel Core i9-9900KS,4.0,nqueens,Seconds (Average),16,1
+687,754,AMD Ryzen 7 1800X Eight-Core,9.0,nqueens,Seconds (Average),16,1
+688,755,Intel Core i5-13400,4.0,nqueens,Seconds (Average),16,16
+689,756,AMD Ryzen 5 8600G,4.0,nqueens,Seconds (Average),16,16
+690,757,AMD EPYC 7262 8-Core,3.0,nqueens,Seconds (Average),16,16
+691,758,AMD Ryzen 7 2700 Eight-Core,4.0,nqueens,Seconds (Average),17,1
+692,759,AMD Ryzen 7 1700X Eight-Core,5.0,nqueens,Seconds (Average),17,1
+693,760,2 x Intel Xeon X5675,3.0,nqueens,Seconds (Average),17,17
+694,761,AMD EPYC 7232P 8-Core,6.0,nqueens,Seconds (Average),17,17
+695,762,AMD EPYC 7252 8-Core,3.0,nqueens,Seconds (Average),17,17
+696,763,Intel Xeon Silver 4215R,3.0,nqueens,Seconds (Average),18,18
+697,764,Intel Core i5-11600K,6.0,nqueens,Seconds (Average),18,1
+698,765,AMD Ryzen 5 3600X 6-Core,7.0,nqueens,Seconds (Average),18,1
+699,766,AMD Ryzen 7 1700 Eight-Core,7.0,nqueens,Seconds (Average),19,1
+700,767,Intel Xeon Gold 5217,5.0,nqueens,Seconds (Average),19,19
+701,768,AMD Ryzen 5 5600G,3.0,nqueens,Seconds (Average),19,1
+702,769,Intel Core i5-10600K,14.0,nqueens,Seconds (Average),19,19
+703,770,Intel Core i7-5960X,5.0,nqueens,Seconds (Average),19,1
+704,771,AMD Ryzen 7 PRO 5850U,3.0,nqueens,Seconds (Average),19,1
+705,772,Intel Xeon E-2278GEL,3.0,nqueens,Seconds (Average),19,1
+706,773,2 x Intel Xeon E5-2620 v2,3.0,nqueens,Seconds (Average),19,19
+707,774,AMD Ryzen 5 3600 6-Core,7.0,nqueens,Seconds (Average),20,1
+708,775,AMD Ryzen 5 2600X Six-Core,5.0,nqueens,Seconds (Average),20,1
+709,776,AMD Ryzen 5 5500,4.0,nqueens,Seconds (Average),20,1
+710,777,AMD Ryzen 5 1600X Six-Core,7.0,nqueens,Seconds (Average),21,1
+711,778,Intel Core i7-8700K,15.0,nqueens,Seconds (Average),21,2
+712,779,Intel Core i7-8086K,3.0,nqueens,Seconds (Average),21,1
+713,780,Intel Core i5-12400,3.0,nqueens,Seconds (Average),21,2
+714,781,AMD EPYC 7251 8-Core,3.0,nqueens,Seconds (Average),21,2
+715,782,AMD Ryzen 5 2600 Six-Core,26.0,nqueens,Seconds (Average),22,1
+716,783,AMD Ryzen 5 1600 Six-Core,34.0,nqueens,Seconds (Average),24,1
+717,784,Intel Core i7-6800K,14.0,nqueens,Seconds (Average),26,1
+718,785,Intel Core i7-7700K,10.0,nqueens,Seconds (Average),29,2
+719,786,Intel Core i3-14100,3.0,nqueens,Seconds (Average),29,29
+720,787,Intel Xeon Gold 5215,3.0,nqueens,Seconds (Average),29,29
+721,788,AMD Ryzen 5 3400G,3.0,nqueens,Seconds (Average),29,1
+722,789,Intel Core i7-9750H,5.0,nqueens,Seconds (Average),30,1
+723,790,Intel Xeon Silver 4108,5.0,nqueens,Seconds (Average),31,31
+724,791,AMD Ryzen 5 2400G with Radeon Vega,3.0,nqueens,Seconds (Average),31,1
+725,792,Intel Core i7-4790K,3.0,nqueens,Seconds (Average),31,2
+726,793,AMD Ryzen 5 2400G,3.0,nqueens,Seconds (Average),31,1
+727,794,Intel Core i5-10210U,6.0,nqueens,Seconds (Average),33,33
+728,795,AMD Ryzen 5 1500X,5.0,nqueens,Seconds (Average),33,1
+729,796,Intel Core i7-7700,7.0,nqueens,Seconds (Average),33,2
+730,797,Intel Core i7-6700K,7.0,nqueens,Seconds (Average),34,4
+731,798,Intel Core i7-5775C,3.0,nqueens,Seconds (Average),35,2
+732,799,AMD Ryzen 5 4500U,4.0,nqueens,Seconds (Average),36,1
+733,801,Intel Core i7-6700,3.0,nqueens,Seconds (Average),37,1
+734,802,Intel Xeon E3-1280 v5,6.0,nqueens,Seconds (Average),38,1
+735,803,Intel Core i5-8400H,3.0,nqueens,Seconds (Average),38,4
+736,804,AMD FX-8350 Eight-Core,10.0,nqueens,Seconds (Average),39,5
+737,806,8 x AMD EPYC 7601 32-Core,3.0,nqueens,Seconds (Average),42,2
+738,807,Intel Core i7-2700K,15.0,nqueens,Seconds (Average),44,2
+739,808,Intel Core i5-7600K,4.0,nqueens,Seconds (Average),45,45
+740,809,Intel Core i5-1135G7,3.0,nqueens,Seconds (Average),45,5
+741,810,Intel Core i7-1065G7,7.0,nqueens,Seconds (Average),47,2
+742,811,Intel Core i7-8550U,4.0,nqueens,Seconds (Average),50,3
+743,812,Intel Core i5-8250U,6.0,nqueens,Seconds (Average),51,6
+744,813,Intel Core i3-8100,3.0,nqueens,Seconds (Average),51,1
+745,814,Intel Core i7-3632QM,5.0,nqueens,Seconds (Average),53,6
+746,815,AMD Ryzen 3 2200G,13.0,nqueens,Seconds (Average),56,3
+747,817,Intel Core i5-4460,5.0,nqueens,Seconds (Average),59,3
+748,819,Intel Core i5-2400,3.0,nqueens,Seconds (Average),62,62
+749,820,Intel Core i7-8565U,15.0,nqueens,Seconds (Average),63,8
+750,821,Intel Core i3-7100,3.0,nqueens,Seconds (Average),69,4
+751,822,Intel Core i7-5557U,5.0,nqueens,Seconds (Average),80,1
+752,823,AMD Phenom 9650,3.0,nqueens,Seconds (Average),80,80
+753,824,AMD Phenom II X3 720,3.0,nqueens,Seconds (Average),89,2
+754,825,Intel Core i5-3320M,3.0,nqueens,Seconds (Average),91,5
+755,826,Intel Core i5-7200U,6.0,nqueens,Seconds (Average),93,8
+756,827,Intel Core i5-6300U,3.0,nqueens,Seconds (Average),93,2
+757,828,Intel Core i7-6500U,4.0,nqueens,Seconds (Average),102,11
+758,829,Intel Core i5-4210U,3.0,nqueens,Seconds (Average),110,9
+759,831,Intel Core i3-7020U,4.0,nqueens,Seconds (Average),123,8
+760,833,Intel Core 2 Duo T9500,3.0,nqueens,Seconds (Average),196,13
+761,835,AMD Ryzen 9 7950X3D 16-Core,6.0,numenta_nab,Seconds (Average),12,1
+762,836,AMD Ryzen 9 7950X 16-Core,9.0,numenta_nab,Seconds (Average),13,2
+763,837,AMD EPYC 9654 96-Core,4.0,numenta_nab,Seconds (Average),16,16
+764,838,Intel Core i9-13900K,6.0,numenta_nab,Seconds (Average),17,1
+765,839,2 x AMD EPYC 9554 64-Core,3.0,numenta_nab,Seconds (Average),17,17
+766,840,2 x AMD EPYC 9654 96-Core,40.0,numenta_nab,Seconds (Average),18,2
+767,841,Intel Xeon Platinum 8490H,4.0,numenta_nab,Seconds (Average),19,1
+768,842,2 x Intel Xeon Platinum 8490H,9.0,numenta_nab,Seconds (Average),20,2
+769,843,AMD Ryzen Threadripper 3960X 24-Core,5.0,numenta_nab,Seconds (Average),22,3
+770,844,AMD Ryzen 9 5950X 16-Core,20.0,numenta_nab,Seconds (Average),22,1
+771,845,AMD Ryzen Threadripper 3970X 32-Core,11.0,numenta_nab,Seconds (Average),23,2
+772,846,AMD Ryzen 9 5900X 12-Core,14.0,numenta_nab,Seconds (Average),23,23
+773,847,AMD Ryzen Threadripper 3990X 64-Core,13.0,numenta_nab,Seconds (Average),24,2
+774,848,AMD Ryzen 7 5800X3D 8-Core,6.0,numenta_nab,Seconds (Average),25,1
+775,849,AMD Ryzen 7 7840U,3.0,numenta_nab,Seconds (Average),25,25
+776,851,AMD Ryzen 9 3950X 16-Core,10.0,numenta_nab,Seconds (Average),26,26
+777,852,AMD EPYC 75F3 32-Core,3.0,numenta_nab,Seconds (Average),26,26
+778,853,2 x Intel Xeon Platinum 8380,6.0,numenta_nab,Seconds (Average),26,3
+779,854,2 x AMD EPYC 75F3 32-Core,4.0,numenta_nab,Seconds (Average),27,27
+780,855,Intel Core i7-12700K,3.0,numenta_nab,Seconds (Average),27,2
+781,856,AMD Ryzen 9 3900XT 12-Core,11.0,numenta_nab,Seconds (Average),28,28
+782,857,2 x AMD EPYC 7F52 16-Core,3.0,numenta_nab,Seconds (Average),29,29
+783,858,AMD EPYC 7F52 16-Core,8.0,numenta_nab,Seconds (Average),29,1
+784,859,AMD Ryzen 9 3900X 12-Core,14.0,numenta_nab,Seconds (Average),29,4
+785,860,AMD EPYC 7F72 24-Core,4.0,numenta_nab,Seconds (Average),29,1
+786,861,AMD Ryzen 7 5800X 8-Core,7.0,numenta_nab,Seconds (Average),30,2
+787,862,2 x AMD EPYC 7713 64-Core,5.0,numenta_nab,Seconds (Average),30,30
+788,863,2 x AMD EPYC 7763 64-Core,5.0,numenta_nab,Seconds (Average),31,31
+789,864,AMD EPYC 7713 64-Core,4.0,numenta_nab,Seconds (Average),31,31
+790,865,AMD EPYC 7763 64-Core,4.0,numenta_nab,Seconds (Average),31,31
+791,866,Intel Core i9-10980XE,9.0,numenta_nab,Seconds (Average),32,2
+792,867,AMD Ryzen 7 3800XT 8-Core,8.0,numenta_nab,Seconds (Average),32,1
+793,868,AMD EPYC 7742 64-Core,5.0,numenta_nab,Seconds (Average),33,33
+794,869,AMD EPYC 7502P 32-Core,5.0,numenta_nab,Seconds (Average),33,33
+795,870,2 x AMD EPYC 7742 64-Core,7.0,numenta_nab,Seconds (Average),33,1
+796,871,AMD EPYC 7542 32-Core,4.0,numenta_nab,Seconds (Average),33,33
+797,872,AMD Ryzen 5 5600X 6-Core,10.0,numenta_nab,Seconds (Average),33,4
+798,873,Intel Core i9-7980XE,3.0,numenta_nab,Seconds (Average),33,33
+799,874,AMD EPYC 7642 48-Core,6.0,numenta_nab,Seconds (Average),33,1
+800,875,AMD EPYC 7702 64-Core,5.0,numenta_nab,Seconds (Average),33,33
+801,876,AMD EPYC 7662 64-Core,5.0,numenta_nab,Seconds (Average),33,33
+802,877,AMD EPYC 7532 32-Core,5.0,numenta_nab,Seconds (Average),34,34
+803,879,AMD EPYC 7552 48-Core,5.0,numenta_nab,Seconds (Average),34,34
+804,880,Intel Core i9-10900K,16.0,numenta_nab,Seconds (Average),34,2
+805,881,AMD EPYC 7402P 24-Core,5.0,numenta_nab,Seconds (Average),34,34
+806,882,2 x Intel Xeon Gold 5220R,9.0,numenta_nab,Seconds (Average),35,1
+807,883,AMD Ryzen 9 5900HX,3.0,numenta_nab,Seconds (Average),35,35
+808,884,2 x Intel Xeon Platinum 8280,6.0,numenta_nab,Seconds (Average),35,1
+809,885,Intel Xeon Gold 6258R,3.0,numenta_nab,Seconds (Average),35,35
+810,886,Intel Xeon Platinum 8280,3.0,numenta_nab,Seconds (Average),35,35
+811,887,AMD Ryzen 7 3700X 8-Core,6.0,numenta_nab,Seconds (Average),35,2
+812,888,AMD EPYC 7F32 8-Core,8.0,numenta_nab,Seconds (Average),36,36
+813,889,AMD EPYC 7282 16-Core,5.0,numenta_nab,Seconds (Average),36,36
+814,890,Intel Core i7-1280P,3.0,numenta_nab,Seconds (Average),37,1
+815,891,AMD Ryzen 5 3600X 6-Core,5.0,numenta_nab,Seconds (Average),37,1
+816,892,Intel Xeon Gold 6226R,7.0,numenta_nab,Seconds (Average),38,3
+817,893,AMD EPYC 7272 12-Core,5.0,numenta_nab,Seconds (Average),38,38
+818,895,2 x AMD EPYC 7601 32-Core,4.0,numenta_nab,Seconds (Average),39,1
+819,896,Intel Xeon Gold 5220R,3.0,numenta_nab,Seconds (Average),41,41
+820,897,AMD Ryzen 7 PRO 6850U,3.0,numenta_nab,Seconds (Average),41,1
+821,898,Intel Core i9-9900KS,8.0,numenta_nab,Seconds (Average),42,3
+822,899,AMD EPYC 7551 32-Core,3.0,numenta_nab,Seconds (Average),44,1
+823,900,Intel Xeon E-2288G,4.0,numenta_nab,Seconds (Average),44,1
+824,901,AMD EPYC 7232P 8-Core,6.0,numenta_nab,Seconds (Average),45,1
+825,902,Intel Core i5-10600K,10.0,numenta_nab,Seconds (Average),45,2
+826,903,Intel Xeon Gold 5218,3.0,numenta_nab,Seconds (Average),46,5
+827,904,Intel Core i7-8700K,3.0,numenta_nab,Seconds (Average),49,1
+828,906,AMD Ryzen 7 4700U,3.0,numenta_nab,Seconds (Average),50,50
+829,908,Intel Core i7-1185G7,3.0,numenta_nab,Seconds (Average),54,54
+830,909,Intel Core i7-1165G7,3.0,numenta_nab,Seconds (Average),57,1
+831,910,Intel Core i5-9400F,3.0,numenta_nab,Seconds (Average),57,7
+832,911,Intel Core i7-10700T,5.0,numenta_nab,Seconds (Average),60,2
+833,912,Intel Core i7-9750H,3.0,numenta_nab,Seconds (Average),61,6
+834,913,AMD Ryzen 5 5500U,4.0,numenta_nab,Seconds (Average),62,1
+835,914,Intel Xeon E5-1680 v3,3.0,numenta_nab,Seconds (Average),62,3
+836,915,Intel Core i7-5960X,7.0,numenta_nab,Seconds (Average),64,1
+837,916,AMD Ryzen 5 4500U,3.0,numenta_nab,Seconds (Average),67,67
+838,917,Intel Xeon E3-1270 v5,3.0,numenta_nab,Seconds (Average),70,70
+839,919,Intel Xeon E3-1280 v5,3.0,numenta_nab,Seconds (Average),74,1
+840,920,Intel Core i7-4960X,3.0,numenta_nab,Seconds (Average),75,75
+841,921,Intel Core i5-1135G7,3.0,numenta_nab,Seconds (Average),76,4
+842,922,Intel Core i7-8565U,4.0,numenta_nab,Seconds (Average),85,2
+843,923,Intel Xeon E3-1260L v5,3.0,numenta_nab,Seconds (Average),85,85
+844,924,Intel Core i5-7600K,3.0,numenta_nab,Seconds (Average),86,86
+845,925,AMD Ryzen 7 4800U,4.0,numenta_nab,Seconds (Average),92,1
+846,926,Intel Core i7-9700TE,4.0,numenta_nab,Seconds (Average),97,97
+847,927,Intel Core i3-7100,3.0,numenta_nab,Seconds (Average),144,144
+848,928,Intel Pentium Gold G6400,5.0,numenta_nab,Seconds (Average),145,13
+849,929,Intel Celeron G5900,4.0,numenta_nab,Seconds (Average),209,1
+850,930,AMD Ryzen 9 9950X3D 16-Core,8.0,numpy,Score (Average),1101,37
+851,931,AMD EPYC 4585PX 16-Core,29.0,numpy,Score (Average),1098,5
+852,932,AMD EPYC 4565P 16-Core,22.0,numpy,Score (Average),1097,4
+853,933,AMD EPYC 4345P 8-Core,7.0,numpy,Score (Average),1092,1092
+854,934,AMD EPYC 4465P 12-Core,4.0,numpy,Score (Average),1082,5
+855,935,AMD EPYC 4545P 16-Core,8.0,numpy,Score (Average),1080,5
+856,936,AMD EPYC 4245P 6-Core,4.0,numpy,Score (Average),1067,4
+857,937,AMD Ryzen 9 9900X 12-Core,12.0,numpy,Score (Average),1059,32
+858,938,AMD Ryzen 7 9700X 8-Core,8.0,numpy,Score (Average),1056,6
+859,939,AMD Ryzen 9 9900X3D 12-Core,4.0,numpy,Score (Average),1052,4
+860,940,AMD Ryzen 9 9950X 16-Core,34.0,numpy,Score (Average),1048,85
+861,941,AMD Ryzen 5 9600X 6-Core,14.0,numpy,Score (Average),1042,15
+862,942,AMD Ryzen 7 9800X3D 8-Core,9.0,numpy,Score (Average),1035,4
+863,943,2 x AMD EPYC 9575F 64-Core,4.0,numpy,Score (Average),982,42
+864,944,AMD EPYC 9575F 64-Core,3.0,numpy,Score (Average),962,962
+865,946,AMD Ryzen 9 7950X 16-Core,51.0,numpy,Score (Average),885,89
+866,947,AMD Ryzen 7 7700X 8-Core,23.0,numpy,Score (Average),883,66
+867,948,AMD EPYC 9655P 96-Core,5.0,numpy,Score (Average),873,25
+868,949,2 x AMD EPYC 9655 96-Core,5.0,numpy,Score (Average),872,872
+869,950,AMD EPYC 9655 96-Core,7.0,numpy,Score (Average),867,3
+870,951,AMD Ryzen 5 7600X 6-Core,18.0,numpy,Score (Average),858,61
+871,952,AMD Ryzen 9 7900X 12-Core,24.0,numpy,Score (Average),840,60
+872,953,AMD Ryzen 7 7700 8-Core,19.0,numpy,Score (Average),824,43
+873,954,AMD Ryzen 9 7950X3D 16-Core,26.0,numpy,Score (Average),823,79
+874,955,AMD EPYC 4364P 8-Core,13.0,numpy,Score (Average),822,11
+875,956,AMD Ryzen 9 7900 12-Core,12.0,numpy,Score (Average),817,42
+876,957,AMD EPYC 4564P 16-Core,22.0,numpy,Score (Average),816,34
+877,958,AMD EPYC 4584PX 16-Core,19.0,numpy,Score (Average),812,47
+878,959,AMD Ryzen 9 7900X3D 12-Core,17.0,numpy,Score (Average),810,69
+879,960,AMD EPYC 4464P 12-Core,15.0,numpy,Score (Average),809,18
+880,961,AMD EPYC 4484PX 12-Core,17.0,numpy,Score (Average),807,36
+881,962,AMD EPYC 4344P 8-Core,9.0,numpy,Score (Average),804,3
+882,963,AMD EPYC 9755 128-Core,18.0,numpy,Score (Average),800,21
+883,964,2 x AMD EPYC 9755 128-Core,12.0,numpy,Score (Average),798,25
+884,965,AMD Ryzen 7 7800X3D 8-Core,15.0,numpy,Score (Average),785,50
+885,966,AMD EPYC 4244P 6-Core,8.0,numpy,Score (Average),774,2
+886,967,AMD Ryzen 5 7600 6-Core,6.0,numpy,Score (Average),771,52
+887,968,Intel Core i9-13900K,15.0,numpy,Score (Average),766,20
+888,969,Intel Core i9-14900K,18.0,numpy,Score (Average),759,65
+889,970,2 x AMD EPYC 9965 192-Core,13.0,numpy,Score (Average),746,20
+890,971,AMD EPYC 9965 192-Core,10.0,numpy,Score (Average),744,14
+891,972,AMD Ryzen Threadripper PRO 7995WX 96-Cores,6.0,numpy,Score (Average),743,18
+892,973,AMD Ryzen Threadripper 7980X 64-Cores,10.0,numpy,Score (Average),743,15
+893,974,AMD Ryzen 7 PRO 7840U,8.0,numpy,Score (Average),736,20
+894,975,Intel Xeon 6369P,11.0,numpy,Score (Average),727,3
+895,976,Intel Core Ultra 9 285K,9.0,numpy,Score (Average),721,3
+896,977,AMD Ryzen 7 8700G,7.0,numpy,Score (Average),707,20
+897,978,AMD Ryzen 5 8600G,10.0,numpy,Score (Average),703,17
+898,979,AMD EPYC 4124P 4-Core,19.0,numpy,Score (Average),700,7
+899,980,AMD Ryzen 7 7840U,13.0,numpy,Score (Average),691,40
+900,983,Intel Xeon E E-2488,5.0,numpy,Score (Average),682,14
+901,984,AMD Ryzen 5 8500G,9.0,numpy,Score (Average),682,29
+902,985,AMD EPYC 9374F 32-Core,4.0,numpy,Score (Average),677,1
+903,986,2 x AMD EPYC 9374F 32-Core,4.0,numpy,Score (Average),675,1
+904,987,Intel Core i5-13600K,5.0,numpy,Score (Average),669,31
+905,989,Intel Core i5-14600K,8.0,numpy,Score (Average),666,20
+906,990,AMD Ryzen Z1 Extreme,5.0,numpy,Score (Average),664,58
+907,991,Intel Core Ultra 5 245K,6.0,numpy,Score (Average),662,11
+908,992,AMD Ryzen 5 8400F 6-Core,7.0,numpy,Score (Average),652,5
+909,993,AMD Ryzen 7 7840HS,5.0,numpy,Score (Average),647,37
+910,994,Intel Core i9-12900K,30.0,numpy,Score (Average),647,39
+911,995,Intel Core i5-14500,8.0,numpy,Score (Average),629,21
+912,997,AMD Ryzen 7 5800X3D 8-Core,23.0,numpy,Score (Average),600,25
+913,998,AMD EPYC 9554 64-Core,8.0,numpy,Score (Average),593,593
+914,999,2 x AMD EPYC 9554 64-Core,8.0,numpy,Score (Average),592,1
+915,1000,Intel Core Ultra 7 155H,3.0,numpy,Score (Average),586,13
+916,1002,Intel Core i5-14400F,8.0,numpy,Score (Average),580,9
+917,1003,Intel Xeon W-1370P,5.0,numpy,Score (Average),578,17
+918,1005,2 x AMD EPYC 9654 96-Core,15.0,numpy,Score (Average),575,24
+919,1006,Intel Core i5-12600K,14.0,numpy,Score (Average),575,40
+920,1007,AMD EPYC 9654 96-Core,10.0,numpy,Score (Average),573,23
+921,1008,Intel Core i7-12700K,8.0,numpy,Score (Average),573,65
+922,1009,AMD Ryzen 9 5950X 16-Core,83.0,numpy,Score (Average),565,43
+923,1010,AMD EPYC 9684X 96-Core,5.0,numpy,Score (Average),565,22
+924,1011,Intel Core i3-14100,8.0,numpy,Score (Average),562,16
+925,1012,AMD Ryzen 7 5800X 8-Core,57.0,numpy,Score (Average),558,37
+926,1013,Intel Core i5-12400,3.0,numpy,Score (Average),544,8
+927,1014,Intel Xeon Platinum 8462Y+,3.0,numpy,Score (Average),544,3
+928,1015,AMD Ryzen 9 5900X 12-Core,60.0,numpy,Score (Average),543,35
+929,1016,AMD Ryzen 9 6900HX,8.0,numpy,Score (Average),543,51
+930,1017,Intel Xeon E-2388G,17.0,numpy,Score (Average),542,36
+931,1018,Intel Core i9-10900KF,3.0,numpy,Score (Average),538,2
+932,1019,Intel Xeon Gold 6442Y,3.0,numpy,Score (Average),530,8
+933,1020,Intel Core i9-11900K,23.0,numpy,Score (Average),529,70
+934,1021,AMD Ryzen 5 5600X 6-Core,38.0,numpy,Score (Average),526,27
+935,1022,2 x Intel Xeon Gold 6442Y,3.0,numpy,Score (Average),526,7
+936,1023,2 x Intel Xeon 6980P,12.0,numpy,Score (Average),524,2
+937,1024,Intel Core i7-11700K,3.0,numpy,Score (Average),523,25
+938,1025,INTEL XEON PLATINUM 8592+,7.0,numpy,Score (Average),521,3
+939,1026,Intel Xeon 6980P,6.0,numpy,Score (Average),520,1
+940,1027,2 x INTEL XEON PLATINUM 8592+,7.0,numpy,Score (Average),518,4
+941,1028,AMD Ryzen AI 9 HX 370,3.0,numpy,Score (Average),517,8
+942,1029,Intel Xeon E-2336,5.0,numpy,Score (Average),517,1
+943,1030,2 x AMD EPYC 72F3 8-Core,3.0,numpy,Score (Average),504,43
+944,1032,AMD Ryzen 7 PRO 6850U,19.0,numpy,Score (Average),501,17
+945,1033,Intel Xeon Gold 5412U,3.0,numpy,Score (Average),495,56
+946,1034,Intel Xeon Platinum 8468,3.0,numpy,Score (Average),495,3
+947,1035,2 x AMD EPYC 74F3 24-Core,5.0,numpy,Score (Average),493,44
+948,1036,AMD Ryzen 5 5600G,4.0,numpy,Score (Average),491,58
+949,1037,Intel Core i5-11600K,8.0,numpy,Score (Average),483,11
+950,1038,2 x AMD EPYC 7373X 16-Core,4.0,numpy,Score (Average),479,39
+951,1039,AMD Ryzen 7 5700G,3.0,numpy,Score (Average),479,8
+952,1040,AMD Ryzen 7 PRO 5850U,7.0,numpy,Score (Average),472,14
+953,1041,2 x AMD EPYC 75F3 32-Core,23.0,numpy,Score (Average),471,45
+954,1042,AMD EPYC 72F3 8-Core,7.0,numpy,Score (Average),469,42
+955,1043,AMD Ryzen 9 5900HX,14.0,numpy,Score (Average),467,41
+956,1044,AMD EPYC 73F3 16-Core,6.0,numpy,Score (Average),465,40
+957,1045,2 x AMD EPYC 73F3 16-Core,6.0,numpy,Score (Average),464,41
+958,1046,AMD EPYC 74F3 24-Core,7.0,numpy,Score (Average),462,38
+959,1047,2 x AMD EPYC 7313 16-Core,5.0,numpy,Score (Average),461,41
+960,1048,AMD EPYC 75F3 32-Core,10.0,numpy,Score (Average),461,39
+961,1049,AMD Ryzen 5 5500,6.0,numpy,Score (Average),459,22
+962,1050,Intel Xeon Max 9468,4.0,numpy,Score (Average),459,3
+963,1051,Intel Xeon Platinum 8490H,9.0,numpy,Score (Average),458,2
+964,1052,Intel Xeon Max 9480,4.0,numpy,Score (Average),458,8
+965,1053,AMD EPYC 7773X 64-Core,11.0,numpy,Score (Average),457,27
+966,1054,2 x AMD EPYC 7773X 64-Core,21.0,numpy,Score (Average),456,40
+967,1055,AMD EPYC 7313P 16-Core,4.0,numpy,Score (Average),447,28
+968,1056,Intel Core i9-9900KS,10.0,numpy,Score (Average),447,10
+969,1057,2 x Intel Xeon Platinum 8490H,13.0,numpy,Score (Average),446,28
+970,1058,AMD EPYC 7543 32-Core,12.0,numpy,Score (Average),445,30
+971,1059,2 x Intel Xeon Max 9480,15.0,numpy,Score (Average),444,23
+972,1060,Intel Core i9-10900K,20.0,numpy,Score (Average),443,34
+973,1061,Intel Core i9-9900K,10.0,numpy,Score (Average),443,5
+974,1062,AMD EPYC 7713 64-Core,14.0,numpy,Score (Average),441,41
+975,1063,Intel Core i7-8086K,4.0,numpy,Score (Average),437,27
+976,1064,Intel Core i7-1185G7,6.0,numpy,Score (Average),437,39
+977,1065,2 x AMD EPYC 7713 64-Core,15.0,numpy,Score (Average),436,43
+978,1066,AMD EPYC 7643 48-Core,3.0,numpy,Score (Average),434,34
+979,1067,2 x AMD EPYC 7643 48-Core,3.0,numpy,Score (Average),433,45
+980,1068,2 x Intel Xeon Max 9468,5.0,numpy,Score (Average),432,11
+981,1069,AMD EPYC 7K83 64-Core,3.0,numpy,Score (Average),428,4
+982,1070,AMD Ryzen 7 3800XT 8-Core,12.0,numpy,Score (Average),428,21
+983,1071,2 x AMD EPYC 7663 56-Core,4.0,numpy,Score (Average),426,32
+984,1072,AMD Ryzen Threadripper 3970X 32-Core,20.0,numpy,Score (Average),424,16
+985,1073,2 x AMD EPYC 9754 128-Core,4.0,numpy,Score (Average),424,2
+986,1074,2 x AMD EPYC 7543 32-Core,3.0,numpy,Score (Average),423,39
+987,1075,Intel Core i9-9900,5.0,numpy,Score (Average),423,19
+988,1076,AMD Ryzen Threadripper 3960X 24-Core,6.0,numpy,Score (Average),420,10
+989,1077,AMD EPYC 7663 56-Core,3.0,numpy,Score (Average),419,39
+990,1078,AMD Ryzen 9 3950X 16-Core,27.0,numpy,Score (Average),418,10
+991,1080,Intel Core i7-1165G7,23.0,numpy,Score (Average),417,59
+992,1081,AMD Ryzen 7 3700X 8-Core,15.0,numpy,Score (Average),416,25
+993,1082,AMD Ryzen 3 3300X 4-Core,5.0,numpy,Score (Average),415,20
+994,1083,Intel Xeon E-2288G,13.0,numpy,Score (Average),414,19
+995,1084,AMD Ryzen 9 3900X 12-Core,34.0,numpy,Score (Average),413,17
+996,1085,2 x Intel Xeon Platinum 8362,4.0,numpy,Score (Average),411,2
+997,1086,AMD Ryzen 9 3900XT 12-Core,14.0,numpy,Score (Average),411,29
+998,1087,Intel Core i5-10600K,16.0,numpy,Score (Average),410,10
+999,1088,2 x AMD EPYC 7763 64-Core,24.0,numpy,Score (Average),410,38
+1000,1089,Intel Xeon E-2278G,5.0,numpy,Score (Average),409,409
+1001,1090,AMD Ryzen 5 3600 6-Core,6.0,numpy,Score (Average),405,9
+1002,1091,AMD Ryzen 5 3600X 6-Core,11.0,numpy,Score (Average),405,8
+1003,1092,2 x AMD EPYC 7513 32-Core,5.0,numpy,Score (Average),403,34
+1004,1093,Intel Core i7-8700K,4.0,numpy,Score (Average),401,12
+1005,1094,Intel Xeon Platinum 8380,4.0,numpy,Score (Average),399,1
+1006,1095,AMD Ryzen 9 PRO 3900 12-Core,3.0,numpy,Score (Average),398,398
+1007,1096,AMD EPYC 7763 64-Core,24.0,numpy,Score (Average),396,57
+1008,1097,AMD Ryzen Threadripper 3990X 64-Core,24.0,numpy,Score (Average),395,17
+1009,1098,AMD Ryzen 7 3800X 8-Core,13.0,numpy,Score (Average),390,15
+1010,1099,AMD Ryzen Threadripper PRO 3975WX 32-Cores,5.0,numpy,Score (Average),384,11
+1011,1100,2 x Intel Xeon Platinum 8380,34.0,numpy,Score (Average),383,22
+1012,1102,Intel Core i7-8700B,7.0,numpy,Score (Average),382,21
+1013,1103,Intel Xeon W-2295,5.0,numpy,Score (Average),376,19
+1014,1104,Intel Core i7-7740K,4.0,numpy,Score (Average),375,6
+1015,1105,Intel Core i9-10980XE,12.0,numpy,Score (Average),375,17
+1016,1106,Intel Core i7-1065G7,13.0,numpy,Score (Average),371,28
+1017,1107,Intel Core i9-7980XE,7.0,numpy,Score (Average),365,4
+1018,1108,Intel Core i7-9750H,17.0,numpy,Score (Average),363,14
+1019,1109,Intel Core i7-7900X,4.0,numpy,Score (Average),362,3
+1020,1110,Intel Core i3-10100,8.0,numpy,Score (Average),360,17
+1021,1111,2 x AMD EPYC 7F32 8-Core,3.0,numpy,Score (Average),359,10
+1022,1112,2 x AMD EPYC 7F52 16-Core,7.0,numpy,Score (Average),357,7
+1023,1113,Intel Xeon Gold 6258R,4.0,numpy,Score (Average),351,9
+1024,1114,AMD EPYC 7F52 16-Core,21.0,numpy,Score (Average),351,12
+1025,1116,AMD EPYC 7F32 8-Core,18.0,numpy,Score (Average),346,13
+1026,1117,Intel Core i5-8400,4.0,numpy,Score (Average),343,9
+1027,1118,Intel Xeon Platinum 8280,6.0,numpy,Score (Average),342,14
+1028,1119,2 x Intel Xeon Platinum 8280,29.0,numpy,Score (Average),340,16
+1029,1120,Intel Xeon Gold 5220R,5.0,numpy,Score (Average),333,18
+1030,1121,Intel Core i5-9400F,5.0,numpy,Score (Average),332,14
+1031,1122,Intel Core i5-10210U,3.0,numpy,Score (Average),329,2
+1032,1123,Intel Core i7-7700,4.0,numpy,Score (Average),327,36
+1033,1124,2 x AMD EPYC 7F72 24-Core,19.0,numpy,Score (Average),326,11
+1034,1125,Intel Xeon E3-1270 v5,18.0,numpy,Score (Average),325,20
+1035,1126,AMD EPYC 7F72 24-Core,10.0,numpy,Score (Average),323,10
+1036,1127,2 x Intel Xeon Gold 6138,3.0,numpy,Score (Average),322,47
+1037,1128,Intel Core i7-8565U,4.0,numpy,Score (Average),322,14
+1038,1129,AMD Ryzen 3 3100 4-Core,6.0,numpy,Score (Average),321,321
+1039,1130,Intel Xeon E3-1245 v5,3.0,numpy,Score (Average),319,1
+1040,1131,Intel Xeon Gold 6226R,9.0,numpy,Score (Average),319,4
+1041,1132,Intel Core i7-4790K,6.0,numpy,Score (Average),319,5
+1042,1133,AMD Ryzen Threadripper 2970WX 24-Core,5.0,numpy,Score (Average),318,6
+1043,1134,2 x Intel Xeon Platinum 8272CL,4.0,numpy,Score (Average),318,9
+1044,1135,AMD Ryzen 7 2700X Eight-Core,5.0,numpy,Score (Average),318,16
+1045,1136,Intel Xeon E3-1240 v5,4.0,numpy,Score (Average),316,19
+1046,1137,Intel Pentium Gold G6400,7.0,numpy,Score (Average),315,14
+1047,1138,Intel Xeon E3-1280 v5,7.0,numpy,Score (Average),314,7
+1048,1139,AMD Ryzen Threadripper 2990WX 32-Core,6.0,numpy,Score (Average),314,20
+1049,1140,Intel Xeon E3-1260L v5,3.0,numpy,Score (Average),314,1
+1050,1141,Intel Core i7-6700,4.0,numpy,Score (Average),314,28
+1051,1142,Intel Core i7-9700TE,5.0,numpy,Score (Average),314,17
+1052,1144,2 x AMD EPYC 7742 64-Core,26.0,numpy,Score (Average),314,11
+1053,1145,Intel Xeon Gold 5218,10.0,numpy,Score (Average),313,8
+1054,1146,2 x Intel Xeon Gold 5220R,17.0,numpy,Score (Average),311,17
+1055,1147,AMD EPYC 7262 8-Core,5.0,numpy,Score (Average),310,12
+1056,1148,AMD EPYC 7742 64-Core,16.0,numpy,Score (Average),309,5
+1057,1149,AMD EPYC 7542 32-Core,8.0,numpy,Score (Average),309,4
+1058,1150,2 x Intel Xeon Platinum 8259L,5.0,numpy,Score (Average),306,10
+1059,1151,AMD EPYC 7502P 32-Core,15.0,numpy,Score (Average),305,6
+1060,1152,AMD EPYC 7702 64-Core,14.0,numpy,Score (Average),305,9
+1061,1153,AMD EPYC 7642 48-Core,14.0,numpy,Score (Average),304,12
+1062,1154,AMD EPYC 7402P 24-Core,10.0,numpy,Score (Average),304,5
+1063,1155,AMD EPYC 7452 32-Core,7.0,numpy,Score (Average),304,4
+1064,1157,Intel Core i3-8100,5.0,numpy,Score (Average),303,14
+1065,1158,2 x Intel Xeon Gold 6226R,4.0,numpy,Score (Average),301,9
+1066,1159,Intel Core i7-8550U,8.0,numpy,Score (Average),301,6
+1067,1160,AMD EPYC 7502 32-Core,6.0,numpy,Score (Average),300,2
+1068,1161,AMD EPYC 7552 48-Core,10.0,numpy,Score (Average),300,4
+1069,1162,Intel Core i5-7600K,7.0,numpy,Score (Average),299,6
+1070,1163,AMD EPYC 7532 32-Core,10.0,numpy,Score (Average),299,5
+1071,1164,Intel Core i3-7100,10.0,numpy,Score (Average),298,21
+1072,1165,AMD Ryzen 7 2700 Eight-Core,6.0,numpy,Score (Average),298,20
+1073,1166,AMD EPYC 7662 64-Core,10.0,numpy,Score (Average),298,6
+1074,1167,AMD EPYC 7302P 16-Core,16.0,numpy,Score (Average),297,18
+1075,1168,AMD EPYC 7282 16-Core,11.0,numpy,Score (Average),296,6
+1076,1169,AMD EPYC 7272 12-Core,8.0,numpy,Score (Average),294,6
+1077,1170,AMD Ryzen 7 4700U,9.0,numpy,Score (Average),294,19
+1078,1171,AMD Ryzen 5 5500U,7.0,numpy,Score (Average),292,7
+1079,1172,AMD EPYC 7352 24-Core,6.0,numpy,Score (Average),291,13
+1080,1173,Intel Xeon Silver 4215R,3.0,numpy,Score (Average),290,290
+1081,1174,Intel Xeon Gold 5217,5.0,numpy,Score (Average),289,1
+1082,1175,AMD Ryzen 5 2600 Six-Core,7.0,numpy,Score (Average),289,12
+1083,1176,Intel Core i5-6500,4.0,numpy,Score (Average),286,9
+1084,1177,AMD Ryzen 5 3400G,3.0,numpy,Score (Average),286,10
+1085,1178,AMD EPYC 7252 8-Core,3.0,numpy,Score (Average),286,286
+1086,1179,2 x Intel Xeon Gold 6254,3.0,numpy,Score (Average),284,284
+1087,1180,Intel Xeon E5-1680 v3,4.0,numpy,Score (Average),284,4
+1088,1181,Intel Xeon Silver 4214R,3.0,numpy,Score (Average),282,282
+1089,1182,Intel Xeon Silver 4216,11.0,numpy,Score (Average),282,13
+1090,1183,AMD Ryzen 7 1800X Eight-Core,8.0,numpy,Score (Average),278,4
+1091,1184,AMD Ryzen 5 2400G,7.0,numpy,Score (Average),273,37
+1092,1185,Intel Celeron G5900,5.0,numpy,Score (Average),272,6
+1093,1186,AMD Ryzen 3 1300X,5.0,numpy,Score (Average),271,7
+1094,1187,2 x Intel Xeon Gold 5218,3.0,numpy,Score (Average),270,8
+1095,1188,AMD Ryzen 5 4500U,15.0,numpy,Score (Average),270,7
+1096,1189,Intel Core i7-5775C,5.0,numpy,Score (Average),268,21
+1097,1190,AMD EPYC 7232P 8-Core,11.0,numpy,Score (Average),268,6
+1098,1191,Intel Core i7-5960X,5.0,numpy,Score (Average),268,2
+1099,1192,Intel Core i7-4770K,3.0,numpy,Score (Average),266,1
+1100,1193,Intel Xeon Platinum 8253,4.0,numpy,Score (Average),265,6
+1101,1194,Intel Core i5-4670,6.0,numpy,Score (Average),264,12
+1102,1195,AMD Ryzen 7 1700 Eight-Core,12.0,numpy,Score (Average),263,10
+1103,1196,Intel Core i7-6700HQ,5.0,numpy,Score (Average),261,20
+1104,1197,Intel Xeon E5-2687W v3,5.0,numpy,Score (Average),258,6
+1105,1198,AMD Ryzen 7 1700X Eight-Core,3.0,numpy,Score (Average),258,8
+1106,1199,4 x Intel Xeon Gold 6254,3.0,numpy,Score (Average),258,6
+1107,1200,AMD EPYC 7601 32-Core,13.0,numpy,Score (Average),257,4
+1108,1201,AMD Athlon 3000G,3.0,numpy,Score (Average),253,15
+1109,1202,Intel Xeon E3-1235L v5,3.0,numpy,Score (Average),253,1
+1110,1203,2 x AMD EPYC 7601 32-Core,8.0,numpy,Score (Average),252,10
+1111,1205,AMD Ryzen 3 2200G,5.0,numpy,Score (Average),251,12
+1112,1206,AMD Ryzen 3 3200G,3.0,numpy,Score (Average),249,29
+1113,1207,AMD Custom APU 0405,3.0,numpy,Score (Average),242,3
+1114,1208,2 x Intel Xeon E5-2678 v3,3.0,numpy,Score (Average),240,21
+1115,1209,2 x Intel Xeon E5-2680 v2,3.0,numpy,Score (Average),223,19
+1116,1210,Intel Core i7-4960X,4.0,numpy,Score (Average),222,6
+1117,1211,AMD Ryzen 3 3200U,12.0,numpy,Score (Average),219,5
+1118,1212,Intel Core i7-5600U,3.0,numpy,Score (Average),214,22
+1119,1213,Intel Core i5-5300U,4.0,numpy,Score (Average),208,9
+1120,1214,Intel Core i5-3470,5.0,numpy,Score (Average),207,2
+1121,1215,Intel Core i7-5500U,3.0,numpy,Score (Average),206,1
+1122,1216,Intel Core i7-3770K,4.0,numpy,Score (Average),198,3
+1123,1218,Intel Core i7-2700K,4.0,numpy,Score (Average),193,11
+1124,1219,Intel Core i7-3517U,6.0,numpy,Score (Average),173,3
+1125,1220,Intel Core i3-4130,5.0,numpy,Score (Average),172,13
+1126,1221,2 x Intel Xeon E5-2650 0,3.0,numpy,Score (Average),168,2
+1127,1223,AMD FX-8370 Eight-Core,4.0,numpy,Score (Average),150,150
+1128,1224,AMD A10-7870K Radeon R7 12 Compute Cores 4C+8G,4.0,numpy,Score (Average),138,138
+1129,1225,AMD FX-8150 Eight-Core,4.0,numpy,Score (Average),137,3
+1130,1226,AMD A10-7850K APU,9.0,numpy,Score (Average),131,5
+1131,1233,2 x AMD EPYC 9575F 64-Core,4.0,nwchem,Seconds (Average),1127,1
+1132,1234,AMD EPYC 9575F 64-Core,3.0,nwchem,Seconds (Average),1226,1226
+1133,1235,2 x AMD EPYC 9554 64-Core,17.0,nwchem,Seconds (Average),1250,138
+1134,1236,2 x AMD EPYC 9655 96-Core,5.0,nwchem,Seconds (Average),1281,25
+1135,1237,2 x AMD EPYC 9374F 32-Core,4.0,nwchem,Seconds (Average),1304,19
+1136,1238,AMD EPYC 9655 96-Core,8.0,nwchem,Seconds (Average),1313,22
+1137,1239,AMD EPYC 9755 128-Core,14.0,nwchem,Seconds (Average),1319,11
+1138,1240,2 x AMD EPYC 9755 128-Core,8.0,nwchem,Seconds (Average),1320,17
+1139,1242,AMD EPYC 9554 64-Core,13.0,nwchem,Seconds (Average),1450,6
+1140,1243,2 x AMD EPYC 9684X 96-Core,12.0,nwchem,Seconds (Average),1474,185
+1141,1244,2 x AMD EPYC 9654 96-Core,37.0,nwchem,Seconds (Average),1494,91
+1142,1245,AMD EPYC 9654 96-Core,17.0,nwchem,Seconds (Average),1518,79
+1143,1246,2 x AMD EPYC 9965 192-Core,3.0,nwchem,Seconds (Average),1558,1558
+1144,1247,Intel Xeon 6980P,7.0,nwchem,Seconds (Average),1564,4
+1145,1248,AMD EPYC 9684X 96-Core,10.0,nwchem,Seconds (Average),1565,99
+1146,1249,2 x AMD EPYC 9754 128-Core,16.0,nwchem,Seconds (Average),1569,219
+1147,1250,AMD EPYC 9965 192-Core,3.0,nwchem,Seconds (Average),1594,1594
+1148,1251,AMD Ryzen Threadripper PRO 7995WX 96-Cores,3.0,nwchem,Seconds (Average),1599,4
+1149,1252,2 x Intel Xeon 6980P,17.0,nwchem,Seconds (Average),1645,55
+1150,1253,AMD EPYC 9754 128-Core,9.0,nwchem,Seconds (Average),1682,37
+1151,1254,2 x INTEL XEON PLATINUM 8592+,19.0,nwchem,Seconds (Average),1769,48
+1152,1255,2 x AMD EPYC 75F3 32-Core,41.0,nwchem,Seconds (Average),1778,100
+1153,1257,2 x AMD EPYC 7543 32-Core,9.0,nwchem,Seconds (Average),1841,97
+1154,1258,INTEL XEON PLATINUM 8592+,13.0,nwchem,Seconds (Average),1852,20
+1155,1259,2 x AMD EPYC 7513 32-Core,6.0,nwchem,Seconds (Average),1872,95
+1156,1260,AMD EPYC 8534P 64-Core,8.0,nwchem,Seconds (Average),1893,128
+1157,1261,2 x AMD EPYC 7643 48-Core,5.0,nwchem,Seconds (Average),1901,102
+1158,1262,2 x AMD EPYC 7763 64-Core,35.0,nwchem,Seconds (Average),1957,113
+1159,1263,2 x AMD EPYC 7773X 64-Core,25.0,nwchem,Seconds (Average),1969,52
+1160,1264,2 x Intel Xeon Platinum 8380,32.0,nwchem,Seconds (Average),2018,199
+1161,1265,2 x AMD EPYC 7663 56-Core,6.0,nwchem,Seconds (Average),2062,105
+1162,1266,2 x AMD EPYC 7742 64-Core,18.0,nwchem,Seconds (Average),2089,88
+1163,1267,AMD EPYC 8534PN 64-Core,8.0,nwchem,Seconds (Average),2100,144
+1164,1268,2 x AMD EPYC 7713 64-Core,23.0,nwchem,Seconds (Average),2141,87
+1165,1269,AMD EPYC 7763 64-Core,21.0,nwchem,Seconds (Average),2160,154
+1166,1270,AMD EPYC 7773X 64-Core,14.0,nwchem,Seconds (Average),2163,100
+1167,1271,2 x AMD EPYC 7453 28-Core,4.0,nwchem,Seconds (Average),2199,87
+1168,1273,2 x AMD EPYC 7443 24-Core,7.0,nwchem,Seconds (Average),2211,91
+1169,1274,AMD EPYC 7662 64-Core,5.0,nwchem,Seconds (Average),2222,4
+1170,1275,2 x Intel Xeon Platinum 8362,3.0,nwchem,Seconds (Average),2226,85
+1171,1276,Intel Xeon Max 9480,4.0,nwchem,Seconds (Average),2242,3
+1172,1277,2 x AMD EPYC 74F3 24-Core,7.0,nwchem,Seconds (Average),2246,106
+1173,1278,AMD EPYC 7702 64-Core,5.0,nwchem,Seconds (Average),2254,16
+1174,1279,AMD Ryzen Threadripper 3990X 64-Core,5.0,nwchem,Seconds (Average),2286,286
+1175,1281,2 x AMD EPYC 7F72 24-Core,4.0,nwchem,Seconds (Average),2311,17
+1176,1282,AMD EPYC 7742 64-Core,14.0,nwchem,Seconds (Average),2312,137
+1177,1283,AMD EPYC 7713 64-Core,19.0,nwchem,Seconds (Average),2344,163
+1178,1284,AMD EPYC 9374F 32-Core,4.0,nwchem,Seconds (Average),2413,62
+1179,1286,Intel Xeon Max 9468,5.0,nwchem,Seconds (Average),2533,18
+1180,1287,AMD EPYC 7663 56-Core,4.0,nwchem,Seconds (Average),2589,123
+1181,1288,AMD EPYC 7642 48-Core,4.0,nwchem,Seconds (Average),2656,16
+1182,1289,2 x AMD EPYC 7601 32-Core,12.0,nwchem,Seconds (Average),2664,112
+1183,1290,AMD EPYC 7643 48-Core,4.0,nwchem,Seconds (Average),2695,229
+1184,1292,2 x Intel Xeon Platinum 8280,10.0,nwchem,Seconds (Average),2699,37
+1185,1295,AMD EPYC 7552 48-Core,5.0,nwchem,Seconds (Average),2724,16
+1186,1296,2 x Intel Xeon Gold 6342,4.0,nwchem,Seconds (Average),2796,84
+1187,1297,AMD EPYC 7713P 64-Core,3.0,nwchem,Seconds (Average),2800,2800
+1188,1298,2 x AMD EPYC 73F3 16-Core,8.0,nwchem,Seconds (Average),2939,103
+1189,1299,2 x Intel Xeon Gold 6338,3.0,nwchem,Seconds (Average),3019,16
+1190,1300,2 x AMD EPYC 7343 16-Core,8.0,nwchem,Seconds (Average),3056,89
+1191,1301,AMD EPYC 75F3 32-Core,25.0,nwchem,Seconds (Average),3142,192
+1192,1302,2 x AMD EPYC 7F52 16-Core,3.0,nwchem,Seconds (Average),3148,20
+1193,1303,2 x AMD EPYC 7373X 16-Core,9.0,nwchem,Seconds (Average),3154,103
+1194,1304,2 x AMD EPYC 7313 16-Core,4.0,nwchem,Seconds (Average),3274,170
+1195,1305,AMD EPYC 7543 32-Core,17.0,nwchem,Seconds (Average),3316,193
+1196,1306,Intel Xeon Platinum 8380,20.0,nwchem,Seconds (Average),3337,305
+1197,1308,AMD Ryzen 9 9950X 16-Core,4.0,nwchem,Seconds (Average),3496,12
+1198,1309,AMD EPYC 7513 32-Core,4.0,nwchem,Seconds (Average),3599,211
+1199,1310,AMD EPYC 7532 32-Core,5.0,nwchem,Seconds (Average),3655,3
+1200,1311,AMD EPYC 7542 32-Core,4.0,nwchem,Seconds (Average),3670,31
+1201,1312,AMD EPYC 7502P 32-Core,5.0,nwchem,Seconds (Average),3684,12
+1202,1313,AMD Ryzen Threadripper PRO 5965WX 24-Cores,18.0,nwchem,Seconds (Average),3694,153
+1203,1314,2 x Intel Xeon Gold 6346,4.0,nwchem,Seconds (Average),3747,140
+1204,1315,AMD Ryzen 9 7950X3D 16-Core,4.0,nwchem,Seconds (Average),3944,240
+1205,1316,AMD EPYC 74F3 24-Core,10.0,nwchem,Seconds (Average),4005,184
+1206,1317,AMD EPYC 7453 28-Core,3.0,nwchem,Seconds (Average),4073,189
+1207,1318,AMD EPYC 7443 24-Core,5.0,nwchem,Seconds (Average),4171,215
+1208,1319,AMD Ryzen 9 7950X 16-Core,3.0,nwchem,Seconds (Average),4240,38
+1209,1320,2 x Intel Xeon Gold 5220R,7.0,nwchem,Seconds (Average),4269,24
+1210,1321,AMD EPYC 7413 24-Core,4.0,nwchem,Seconds (Average),4440,193
+1211,1322,AMD EPYC 7402P 24-Core,5.0,nwchem,Seconds (Average),4720,23
+1212,1323,Intel Xeon Gold 6338,3.0,nwchem,Seconds (Average),4755,9
+1213,1324,Intel Xeon Gold 6258R,3.0,nwchem,Seconds (Average),4941,34
+1214,1325,Intel Xeon Platinum 8280,5.0,nwchem,Seconds (Average),5134,187
+1215,1326,2 x AMD EPYC 72F3 8-Core,3.0,nwchem,Seconds (Average),5151,115
+1216,1327,AMD Ryzen 9 7900X 12-Core,4.0,nwchem,Seconds (Average),5221,101
+1217,1328,Intel Xeon Gold 6342,3.0,nwchem,Seconds (Average),5232,292
+1218,1329,AMD Ryzen 9 5950X 16-Core,6.0,nwchem,Seconds (Average),5251,310
+1219,1330,AMD EPYC 73F3 16-Core,8.0,nwchem,Seconds (Average),5273,141
+1220,1331,AMD EPYC 7343 16-Core,8.0,nwchem,Seconds (Average),5483,182
+1221,1332,AMD EPYC 7373X 16-Core,7.0,nwchem,Seconds (Average),5568,184
+1222,1333,AMD Ryzen 9 3950X 16-Core,3.0,nwchem,Seconds (Average),5630,12
+1223,1334,Intel Core i9-12900K,18.0,nwchem,Seconds (Average),5725,840
+1224,1335,AMD EPYC 7313 16-Core,3.0,nwchem,Seconds (Average),5900,185
+1225,1336,AMD EPYC 7F52 16-Core,8.0,nwchem,Seconds (Average),5951,283
+1226,1337,AMD Ryzen 9 5900X 12-Core,3.0,nwchem,Seconds (Average),5987,25
+1227,1338,Intel Xeon Gold 6346,6.0,nwchem,Seconds (Average),6346,563
+1228,1339,AMD EPYC 7302P 16-Core,5.0,nwchem,Seconds (Average),6686,21
+1229,1340,AMD EPYC 7282 16-Core,5.0,nwchem,Seconds (Average),7074,41
+1230,1341,Intel Xeon Gold 5220R,3.0,nwchem,Seconds (Average),7959,28
+1231,1342,AMD EPYC 7272 12-Core,5.0,nwchem,Seconds (Average),8876,72
+1232,1344,AMD Ryzen 3 3300X 4-Core,3.0,nwchem,Seconds (Average),15862,13
+1233,1345,AMD Ryzen 5 3400G,5.0,nwchem,Seconds (Average),19626,60
+1234,1347,2 x Intel Xeon 6980P,25.0,openfoam,Seconds (Average),72,3
+1235,1348,2 x AMD EPYC 9755 128-Core,30.0,openfoam,Seconds (Average),73,3
+1236,1349,2 x AMD EPYC 9965 192-Core,5.0,openfoam,Seconds (Average),78,3
+1237,1350,2 x AMD EPYC 9655 96-Core,5.0,openfoam,Seconds (Average),87,1
+1238,1351,2 x AMD EPYC 9684X 96-Core,15.0,openfoam,Seconds (Average),92,9
+1239,1352,2 x AMD EPYC 9575F 64-Core,4.0,openfoam,Seconds (Average),104,104
+1240,1353,2 x AMD EPYC 9654 96-Core,41.0,openfoam,Seconds (Average),116,14
+1241,1354,2 x AMD EPYC 9634 84-Core,11.0,openfoam,Seconds (Average),118,4
+1242,1355,Intel Xeon 6980P,11.0,openfoam,Seconds (Average),127,4
+1243,1356,2 x AMD EPYC 9754 128-Core,13.0,openfoam,Seconds (Average),129,13
+1244,1357,2 x AMD EPYC 9554 64-Core,20.0,openfoam,Seconds (Average),130,2
+1245,1358,2 x INTEL XEON PLATINUM 8592+,9.0,openfoam,Seconds (Average),138,1
+1246,1359,4 x Intel Xeon 6728P,3.0,openfoam,Seconds (Average),140,1
+1247,1360,AMD EPYC 9755 128-Core,17.0,openfoam,Seconds (Average),161,1
+1248,1361,2 x AMD EPYC 9374F 32-Core,7.0,openfoam,Seconds (Average),170,1
+1249,1362,2 x AMD EPYC 9384X 32-Core,7.0,openfoam,Seconds (Average),170,1
+1250,1363,AMD EPYC 9965 192-Core,4.0,openfoam,Seconds (Average),176,176
+1251,1364,AMD EPYC 9684X 96-Core,14.0,openfoam,Seconds (Average),186,9
+1252,1365,2 x Intel Xeon Max 9480,29.0,openfoam,Seconds (Average),193,20
+1253,1366,AMD EPYC 9655 96-Core,8.0,openfoam,Seconds (Average),194,1
+1254,1367,2 x Intel Xeon Platinum 8490H,26.0,openfoam,Seconds (Average),195,2
+1255,1368,2 x AMD EPYC 7573X 32-Core,5.0,openfoam,Seconds (Average),204,1
+1256,1369,2 x Intel Xeon Platinum 8468,3.0,openfoam,Seconds (Average),214,2
+1257,1371,2 x Intel Xeon Platinum 8474C,3.0,openfoam,Seconds (Average),234,14
+1258,1372,AMD EPYC 9575F 64-Core,9.0,openfoam,Seconds (Average),240,25
+1259,1373,2 x Intel Xeon Platinum 8462Y+,4.0,openfoam,Seconds (Average),262,2
+1260,1374,2 x AMD EPYC 9184X 16-Core,4.0,openfoam,Seconds (Average),263,263
+1261,1375,AMD EPYC 9634 84-Core,5.0,openfoam,Seconds (Average),270,1
+1262,1376,AMD EPYC 9654 96-Core,25.0,openfoam,Seconds (Average),272,40
+1263,1377,2 x AMD EPYC 7763 64-Core,10.0,openfoam,Seconds (Average),277,1
+1264,1378,2 x AMD EPYC 7713 64-Core,3.0,openfoam,Seconds (Average),286,286
+1265,1379,2 x AMD EPYC 7663 56-Core,3.0,openfoam,Seconds (Average),296,296
+1266,1380,2 x AMD EPYC 7643 48-Core,6.0,openfoam,Seconds (Average),297,1
+1267,1381,INTEL XEON PLATINUM 8592+,8.0,openfoam,Seconds (Average),304,2
+1268,1382,2 x AMD EPYC 75F3 32-Core,3.0,openfoam,Seconds (Average),310,1
+1269,1383,2 x Intel Xeon Gold 6442Y,3.0,openfoam,Seconds (Average),318,1
+1270,1384,2 x AMD EPYC 7543 32-Core,3.0,openfoam,Seconds (Average),320,1
+1271,1386,AMD Ryzen Threadripper PRO 7995WX 96-Cores,13.0,openfoam,Seconds (Average),326,9
+1272,1387,AMD EPYC 9845 160-Core,9.0,openfoam,Seconds (Average),328,6
+1273,1388,2 x AMD EPYC 7373X 16-Core,5.0,openfoam,Seconds (Average),333,1
+1274,1390,2 x AMD EPYC 7K62 48-Core,3.0,openfoam,Seconds (Average),353,18
+1275,1391,2 x Intel Xeon Platinum 8380,15.0,openfoam,Seconds (Average),362,3
+1276,1392,AMD EPYC 9374F 32-Core,4.0,openfoam,Seconds (Average),373,1
+1277,1395,2 x Intel Xeon Platinum 8362,4.0,openfoam,Seconds (Average),401,3
+1278,1396,AMD Ryzen Threadripper PRO 9995WX 96-Cores,5.0,openfoam,Seconds (Average),402,1
+1279,1397,AMD EPYC 9754 128-Core,13.0,openfoam,Seconds (Average),416,28
+1280,1398,Intel Xeon Platinum 8490H,14.0,openfoam,Seconds (Average),422,3
+1281,1399,AMD EPYC 7573X 32-Core,6.0,openfoam,Seconds (Average),425,9
+1282,1401,Intel Xeon Max 9468,4.0,openfoam,Seconds (Average),442,1
+1283,1402,Intel Xeon Platinum 8468,3.0,openfoam,Seconds (Average),462,4
+1284,1403,Intel Xeon Platinum 8471N,4.0,openfoam,Seconds (Average),464,5
+1285,1404,2 x AMD EPYC 7551 32-Core,4.0,openfoam,Seconds (Average),516,11
+1286,1405,2 x AMD EPYC 7313 16-Core,3.0,openfoam,Seconds (Average),523,4
+1287,1406,AMD EPYC 7473X 24-Core,4.0,openfoam,Seconds (Average),532,16
+1288,1407,2 x AMD EPYC 7601 32-Core,5.0,openfoam,Seconds (Average),540,4
+1289,1408,Intel Xeon Platinum 8462Y+,5.0,openfoam,Seconds (Average),552,7
+1290,1410,2 x Intel Xeon Platinum 8280,4.0,openfoam,Seconds (Average),596,1
+1291,1412,AMD EPYC 7763 64-Core,15.0,openfoam,Seconds (Average),632,7
+1292,1413,AMD EPYC 7713 64-Core,3.0,openfoam,Seconds (Average),632,1
+1293,1414,AMD EPYC 7643 48-Core,6.0,openfoam,Seconds (Average),648,2
+1294,1415,Intel Xeon Gold 6442Y,3.0,openfoam,Seconds (Average),656,4
+1295,1416,AMD EPYC 75F3 32-Core,7.0,openfoam,Seconds (Average),663,1
+1296,1417,AMD EPYC 7543 32-Core,4.0,openfoam,Seconds (Average),678,2
+1297,1418,AMD EPYC 8534P 64-Core,10.0,openfoam,Seconds (Average),680,7
+1298,1419,AMD EPYC 8534PN 64-Core,4.0,openfoam,Seconds (Average),687,5
+1299,1420,AMD Ryzen Threadripper 9970X 32-Cores,4.0,openfoam,Seconds (Average),746,103
+1300,1421,AMD EPYC 7663P 56-Core,3.0,openfoam,Seconds (Average),778,10
+1301,1422,Intel Xeon Platinum 8380,5.0,openfoam,Seconds (Average),795,2
+1302,1423,AMD EPYC 7532 32-Core,3.0,openfoam,Seconds (Average),833,1
+1303,1425,Intel Xeon Platinum 8362,3.0,openfoam,Seconds (Average),864,1
+1304,1426,2 x Intel Xeon Gold 5220R,4.0,openfoam,Seconds (Average),899,1
+1305,1428,AMD RYZEN AI MAX+ 395,3.0,openfoam,Seconds (Average),1027,1027
+1306,1429,2 x Intel Xeon E5-2696 v4,3.0,openfoam,Seconds (Average),1131,45
+1307,1430,2 x Intel Xeon E5-2690 v4,37.0,openfoam,Seconds (Average),1281,50
+1308,1431,AMD Ryzen Threadripper PRO 5965WX 24-Cores,6.0,openfoam,Seconds (Average),1290,12
+1309,1432,AMD Ryzen Threadripper 3990X 64-Core,11.0,openfoam,Seconds (Average),1335,71
+1310,1433,AMD Ryzen Threadripper 3970X 32-Core,5.0,openfoam,Seconds (Average),1454,7
+1311,1434,Intel Core Ultra 9 285K,18.0,openfoam,Seconds (Average),1566,149
+1312,1435,Intel Xeon Gold 6226R,3.0,openfoam,Seconds (Average),1606,7
+1313,1436,Intel Core Ultra 5 245K,3.0,openfoam,Seconds (Average),1654,1654
+1314,1437,AMD Ryzen 9 9950X3D 16-Core,8.0,openfoam,Seconds (Average),1728,33
+1315,1438,Intel Core i9-13900K,14.0,openfoam,Seconds (Average),1757,29
+1316,1439,Intel Core i9-14900K,16.0,openfoam,Seconds (Average),1780,39
+1317,1440,AMD Ryzen 9 7950X3D 16-Core,27.0,openfoam,Seconds (Average),1929,125
+1318,1441,AMD Ryzen 7 9800X3D 8-Core,14.0,openfoam,Seconds (Average),1987,31
+1319,1442,AMD Ryzen 9 7900X3D 12-Core,21.0,openfoam,Seconds (Average),2013,121
+1320,1443,AMD EPYC 4584PX 16-Core,4.0,openfoam,Seconds (Average),2040,2040
+1321,1444,Intel Core i5-14500,4.0,openfoam,Seconds (Average),2061,2061
+1322,1445,AMD Ryzen 9 9950X 16-Core,23.0,openfoam,Seconds (Average),2072,54
+1323,1446,Intel Xeon Silver 4216,3.0,openfoam,Seconds (Average),2076,2076
+1324,1448,AMD Ryzen 7 7800X3D 8-Core,29.0,openfoam,Seconds (Average),2114,176
+1325,1449,AMD Ryzen 9 9900X 12-Core,9.0,openfoam,Seconds (Average),2114,64
+1326,1450,AMD EPYC 4484PX 12-Core,4.0,openfoam,Seconds (Average),2124,2124
+1327,1451,Intel Core i5-13600K,9.0,openfoam,Seconds (Average),2144,13
+1328,1452,Intel Core i5-14600K,11.0,openfoam,Seconds (Average),2166,19
+1329,1453,AMD Ryzen 9 7950X 16-Core,22.0,openfoam,Seconds (Average),2197,137
+1330,1454,Intel Xeon E E-2488,8.0,openfoam,Seconds (Average),2222,42
+1331,1455,AMD Ryzen 9 7900X 12-Core,30.0,openfoam,Seconds (Average),2311,166
+1332,1456,Intel Core i5-13400,3.0,openfoam,Seconds (Average),2342,2342
+1333,1457,AMD Ryzen 9 7900 12-Core,23.0,openfoam,Seconds (Average),2367,163
+1334,1458,AMD EPYC 4564P 16-Core,5.0,openfoam,Seconds (Average),2370,42
+1335,1459,AMD Ryzen 7 9700X 8-Core,10.0,openfoam,Seconds (Average),2401,2
+1336,1460,AMD EPYC 4464P 12-Core,3.0,openfoam,Seconds (Average),2408,2408
+1337,1461,AMD Ryzen 5 9600X 6-Core,10.0,openfoam,Seconds (Average),2497,7
+1338,1462,2 x Intel Xeon E5-2670 0,3.0,openfoam,Seconds (Average),2507,344
+1339,1463,AMD Ryzen 7 8700G,5.0,openfoam,Seconds (Average),2551,2551
+1340,1464,Intel Core i3-14100,5.0,openfoam,Seconds (Average),2644,2644
+1341,1465,AMD Ryzen 5 8400F 6-Core,4.0,openfoam,Seconds (Average),2654,2654
+1342,1466,AMD Ryzen AI 9 HX 370,4.0,openfoam,Seconds (Average),2656,12
+1343,1467,AMD Ryzen 7 7700X 8-Core,18.0,openfoam,Seconds (Average),2658,153
+1344,1468,AMD Ryzen 5 8600G,5.0,openfoam,Seconds (Average),2664,6
+1345,1469,AMD Ryzen 7 7700 8-Core,15.0,openfoam,Seconds (Average),2678,141
+1346,1470,AMD Ryzen 5 7600 6-Core,6.0,openfoam,Seconds (Average),2767,156
+1347,1471,AMD EPYC 4344P 8-Core,3.0,openfoam,Seconds (Average),2781,2781
+1348,1472,Intel Core i5-14400F,5.0,openfoam,Seconds (Average),2802,2802
+1349,1473,AMD Ryzen 5 7600X 6-Core,19.0,openfoam,Seconds (Average),2812,189
+1350,1474,AMD EPYC 4364P 8-Core,4.0,openfoam,Seconds (Average),2853,50
+1351,1475,AMD EPYC 4244P 6-Core,3.0,openfoam,Seconds (Average),2945,2945
+1352,1476,Intel Core i7-1280P,3.0,openfoam,Seconds (Average),2978,4
+1353,1477,AMD EPYC 4124P 4-Core,4.0,openfoam,Seconds (Average),3662,33
+1354,1478,AMD Ryzen 7 5800X3D 8-Core,13.0,openfoam,Seconds (Average),3847,249
+1355,1479,Intel Core i9-11900K,3.0,openfoam,Seconds (Average),4378,13
+1356,1480,AMD Ryzen 9 5900X 12-Core,7.0,openfoam,Seconds (Average),4394,395
+1357,1481,AMD Ryzen 5 5600X 6-Core,5.0,openfoam,Seconds (Average),4540,205
+1358,1482,AMD Ryzen 7 5800X 8-Core,8.0,openfoam,Seconds (Average),4636,397
+1359,1483,AMD Ryzen 5 5500,6.0,openfoam,Seconds (Average),4765,144
+1360,1484,Intel Xeon E-2388G,10.0,openfoam,Seconds (Average),5761,13
+1361,1485,AMD Ryzen 7 PRO 5850U,3.0,openfoam,Seconds (Average),5837,3
+1362,1486,Intel Xeon E-2336,5.0,openfoam,Seconds (Average),5886,7
+1363,1487,AMD EPYC 9755 128-Core,4.0,openradioss,Seconds (Average),16,16
+1364,1488,AMD Ryzen Threadripper PRO 9995WX 96-Cores,9.0,openradioss,Seconds (Average),16,16
+1365,1489,AMD Ryzen Threadripper 9980X 64-Cores,13.0,openradioss,Seconds (Average),17,17
+1366,1490,AMD EPYC 9965 192-Core,7.0,openradioss,Seconds (Average),19,19
+1367,1491,AMD EPYC 9655P 96-Core,8.0,openradioss,Seconds (Average),20,20
+1368,1492,2 x AMD EPYC 9965 192-Core,8.0,openradioss,Seconds (Average),20,20
+1369,1493,AMD Ryzen Threadripper 7980X 64-Cores,18.0,openradioss,Seconds (Average),22,1
+1370,1494,AMD Ryzen Threadripper 9970X 32-Cores,8.0,openradioss,Seconds (Average),22,1
+1371,1495,2 x Intel Xeon 6980P,5.0,openradioss,Seconds (Average),22,1
+1372,1496,Intel Xeon 6980P,11.0,openradioss,Seconds (Average),23,2
+1373,1497,AMD EPYC 9754 128-Core,4.0,openradioss,Seconds (Average),24,24
+1374,1498,AMD Ryzen Threadripper 7970X 32-Cores,12.0,openradioss,Seconds (Average),27,27
+1375,1499,2 x Intel Xeon Max 9468,8.0,openradioss,Seconds (Average),31,1
+1376,1500,2 x AMD EPYC 7773X 64-Core,13.0,openradioss,Seconds (Average),33,1
+1377,1502,AMD Ryzen Threadripper PRO 5965WX 24-Cores,6.0,openradioss,Seconds (Average),39,1
+1378,1503,AMD Ryzen 9 9950X3D 16-Core,18.0,openradioss,Seconds (Average),40,40
+1379,1504,Intel Core Ultra 9 285K,12.0,openradioss,Seconds (Average),41,1
+1380,1505,AMD EPYC 4585PX 16-Core,29.0,openradioss,Seconds (Average),43,43
+1381,1506,AMD Ryzen 9 9950X 16-Core,11.0,openradioss,Seconds (Average),45,45
+1382,1507,AMD Ryzen Threadripper 3990X 64-Core,5.0,openradioss,Seconds (Average),46,2
+1383,1508,AMD RYZEN AI MAX+ 395,8.0,openradioss,Seconds (Average),46,1
+1384,1509,AMD Ryzen 9 9900X3D 12-Core,12.0,openradioss,Seconds (Average),47,47
+1385,1510,AMD EPYC 4584PX 16-Core,10.0,openradioss,Seconds (Average),48,48
+1386,1511,AMD EPYC 4565P 16-Core,22.0,openradioss,Seconds (Average),49,1
+1387,1512,AMD Ryzen 9 9900X 12-Core,8.0,openradioss,Seconds (Average),50,50
+1388,1513,AMD EPYC 4564P 16-Core,10.0,openradioss,Seconds (Average),51,51
+1389,1515,AMD EPYC 4545P 16-Core,9.0,openradioss,Seconds (Average),53,53
+1390,1516,Intel Core Ultra 5 245K,6.0,openradioss,Seconds (Average),55,55
+1391,1517,AMD RYZEN AI MAX+ PRO 395,17.0,openradioss,Seconds (Average),55,3
+1392,1518,AMD Ryzen AI MAX+ PRO 395,3.0,openradioss,Seconds (Average),55,55
+1393,1519,AMD EPYC 4484PX 12-Core,6.0,openradioss,Seconds (Average),57,57
+1394,1521,AMD EPYC 4465P 12-Core,4.0,openradioss,Seconds (Average),58,58
+1395,1522,AMD Ryzen 7 9800X3D 8-Core,9.0,openradioss,Seconds (Average),59,59
+1396,1523,Intel Core i9-14900K,6.0,openradioss,Seconds (Average),62,2
+1397,1524,AMD EPYC 7601 32-Core,9.0,openradioss,Seconds (Average),62,1
+1398,1525,AMD RYZEN AI MAX PRO 390,9.0,openradioss,Seconds (Average),63,3
+1399,1526,AMD EPYC 4464P 12-Core,7.0,openradioss,Seconds (Average),63,63
+1400,1527,AMD Ryzen 7 9700X 8-Core,6.0,openradioss,Seconds (Average),69,69
+1401,1528,AMD EPYC 4345P 8-Core,14.0,openradioss,Seconds (Average),71,71
+1402,1529,Intel Core i9-10980XE,3.0,openradioss,Seconds (Average),79,79
+1403,1530,AMD EPYC 4364P 8-Core,6.0,openradioss,Seconds (Average),80,1
+1404,1531,AMD EPYC 4344P 8-Core,5.0,openradioss,Seconds (Average),81,81
+1405,1532,Intel Xeon 6369P,22.0,openradioss,Seconds (Average),82,6
+1406,1533,AMD EPYC 4245P 6-Core,4.0,openradioss,Seconds (Average),86,86
+1407,1534,AMD Ryzen 5 9600X 6-Core,5.0,openradioss,Seconds (Average),87,87
+1408,1536,AMD Ryzen 7 5800X3D 8-Core,8.0,openradioss,Seconds (Average),95,1
+1409,1537,AMD EPYC 4244P 6-Core,6.0,openradioss,Seconds (Average),99,99
+1410,1538,AMD Ryzen AI 9 365,10.0,openradioss,Seconds (Average),109,6
+1411,1539,AMD Ryzen AI 9 HX 370,8.0,openradioss,Seconds (Average),109,6
+1412,1540,Intel Xeon Silver 4216,4.0,openradioss,Seconds (Average),110,110
+1413,1541,AMD Ryzen 7 7840HS,5.0,openradioss,Seconds (Average),111,6
+1414,1542,AMD EPYC 7F32 8-Core,8.0,openradioss,Seconds (Average),113,2
+1415,1543,Intel Core Ultra 7 256V,8.0,openradioss,Seconds (Average),119,7
+1416,1544,Intel Core Ultra 7 258V,9.0,openradioss,Seconds (Average),130,3
+1417,1545,AMD Ryzen 7 7840U,7.0,openradioss,Seconds (Average),138,18
+1418,1546,AMD EPYC 4124P 4-Core,10.0,openradioss,Seconds (Average),140,1
+1419,1547,AMD Ryzen AI 5 340,13.0,openradioss,Seconds (Average),151,15
+1420,1548,AMD Ryzen AI 7 PRO 360,8.0,openradioss,Seconds (Average),157,18
+1421,1549,AMD Ryzen 7 PRO 6850U,3.0,openradioss,Seconds (Average),161,161
+1422,1550,Intel Core Ultra 7 155H,6.0,openradioss,Seconds (Average),165,6
+1423,1551,AMD Ryzen 9 5900HX,5.0,openradioss,Seconds (Average),166,12
+1424,1552,Intel Core i7-5960X,4.0,openradioss,Seconds (Average),176,3
+1425,1553,AMD Ryzen 7 4700U,5.0,openradioss,Seconds (Average),208,8
+1426,1554,Intel Core i7-1185G7,7.0,openradioss,Seconds (Average),247,2
+1427,1555,Intel Core i7-1165G7,5.0,openradioss,Seconds (Average),258,3
+1428,1556,Intel Core i5-1334U,4.0,openradioss,Seconds (Average),354,19
+1429,1557,Intel Core Ultra 9 285K,15.0,pybench,Milliseconds (Average),373,27
+1430,1558,Intel Core Ultra 5 245K,9.0,pybench,Milliseconds (Average),383,2
+1431,1559,Intel Core i9-14900K,34.0,pybench,Milliseconds (Average),387,16
+1432,1560,AMD Ryzen 9 9950X3D 16-Core,19.0,pybench,Milliseconds (Average),395,17
+1433,1561,AMD Ryzen 9 9900X 12-Core,13.0,pybench,Milliseconds (Average),398,7
+1434,1562,AMD Ryzen 7 9700X 8-Core,13.0,pybench,Milliseconds (Average),400,15
+1435,1563,AMD EPYC 4585PX 16-Core,6.0,pybench,Milliseconds (Average),409,1
+1436,1564,AMD Ryzen 9 9900X3D 12-Core,10.0,pybench,Milliseconds (Average),412,3
+1437,1565,AMD Ryzen 9 9950X 16-Core,30.0,pybench,Milliseconds (Average),413,33
+1438,1566,AMD Ryzen 5 9600X 6-Core,17.0,pybench,Milliseconds (Average),414,19
+1439,1567,AMD Ryzen 7 9800X3D 8-Core,13.0,pybench,Milliseconds (Average),417,2
+1440,1568,Intel Xeon E E-2488,5.0,pybench,Milliseconds (Average),428,30
+1441,1569,Intel Core i5-14600K,17.0,pybench,Milliseconds (Average),432,6
+1442,1572,Intel Core i9-13900K,48.0,pybench,Milliseconds (Average),452,45
+1443,1573,AMD RYZEN AI MAX+ 395,11.0,pybench,Milliseconds (Average),454,40
+1444,1574,AMD RYZEN AI MAX+ PRO 395,18.0,pybench,Milliseconds (Average),454,25
+1445,1575,Intel Core i5-14500,11.0,pybench,Milliseconds (Average),457,4
+1446,1576,AMD Ryzen AI 5 340,9.0,pybench,Milliseconds (Average),460,5
+1447,1577,Intel Core i3-14100,11.0,pybench,Milliseconds (Average),488,5
+1448,1578,Intel Core i5-12600,5.0,pybench,Milliseconds (Average),495,4
+1449,1579,Intel Core Ultra 7 258V,13.0,pybench,Milliseconds (Average),495,13
+1450,1580,Intel Core i5-14400F,9.0,pybench,Milliseconds (Average),499,20
+1451,1581,AMD EPYC 9655P 96-Core,5.0,pybench,Milliseconds (Average),503,27
+1452,1582,Intel Core i5-13600K,18.0,pybench,Milliseconds (Average),504,27
+1453,1583,AMD EPYC 4364P 8-Core,4.0,pybench,Milliseconds (Average),528,3
+1454,1584,AMD EPYC 4564P 16-Core,5.0,pybench,Milliseconds (Average),534,1
+1455,1585,Intel Core i5-12600K,28.0,pybench,Milliseconds (Average),535,8
+1456,1586,2 x AMD EPYC 9755 128-Core,28.0,pybench,Milliseconds (Average),539,29
+1457,1587,Intel Core i5-13400,7.0,pybench,Milliseconds (Average),545,40
+1458,1588,AMD Ryzen 7 8700G,17.0,pybench,Milliseconds (Average),550,4
+1459,1589,AMD EPYC 4124P 4-Core,4.0,pybench,Milliseconds (Average),551,3
+1460,1590,AMD Ryzen 5 7600X 6-Core,30.0,pybench,Milliseconds (Average),556,28
+1461,1591,AMD Ryzen 5 8600G,18.0,pybench,Milliseconds (Average),561,23
+1462,1592,AMD Ryzen 9 7900X 12-Core,36.0,pybench,Milliseconds (Average),562,30
+1463,1593,AMD Ryzen 7 7700X 8-Core,38.0,pybench,Milliseconds (Average),564,37
+1464,1594,AMD Ryzen 9 7950X 16-Core,74.0,pybench,Milliseconds (Average),568,51
+1465,1595,AMD Ryzen 7 7700 8-Core,26.0,pybench,Milliseconds (Average),570,31
+1466,1596,AMD EPYC 4584PX 16-Core,4.0,pybench,Milliseconds (Average),571,571
+1467,1597,AMD Ryzen Threadripper 7970X 32-Cores,5.0,pybench,Milliseconds (Average),573,22
+1468,1598,Intel Core Ultra 7 155H,29.0,pybench,Milliseconds (Average),576,19
+1469,1599,AMD Ryzen Z1 Extreme,9.0,pybench,Milliseconds (Average),577,50
+1470,1600,AMD EPYC 9755 128-Core,8.0,pybench,Milliseconds (Average),583,2
+1471,1601,AMD Ryzen 7 7840U,24.0,pybench,Milliseconds (Average),584,35
+1472,1602,Intel Core i5-12400,18.0,pybench,Milliseconds (Average),589,9
+1473,1603,2 x AMD EPYC 9965 192-Core,8.0,pybench,Milliseconds (Average),589,45
+1474,1604,AMD Ryzen 7 7840HS,15.0,pybench,Milliseconds (Average),589,21
+1475,1605,AMD Ryzen 9 7950X3D 16-Core,34.0,pybench,Milliseconds (Average),593,56
+1476,1606,AMD Ryzen 5 8400F 6-Core,7.0,pybench,Milliseconds (Average),594,2
+1477,1607,AMD Ryzen 9 7900X3D 12-Core,26.0,pybench,Milliseconds (Average),594,61
+1478,1608,AMD Ryzen 9 7900 12-Core,24.0,pybench,Milliseconds (Average),599,79
+1479,1609,AMD Ryzen 5 7600 6-Core,14.0,pybench,Milliseconds (Average),602,29
+1480,1610,AMD EPYC 4484PX 12-Core,4.0,pybench,Milliseconds (Average),602,602
+1481,1611,AMD Ryzen 7 PRO 7840U,14.0,pybench,Milliseconds (Average),603,62
+1482,1612,AMD Ryzen 7 8845HS,5.0,pybench,Milliseconds (Average),615,21
+1483,1613,Intel Xeon Platinum 8480+,5.0,pybench,Milliseconds (Average),619,41
+1484,1614,Intel Core i5-1334U,15.0,pybench,Milliseconds (Average),623,48
+1485,1615,AMD Ryzen 7 7800X3D 8-Core,22.0,pybench,Milliseconds (Average),632,75
+1486,1616,2 x Intel Xeon 6980P,12.0,pybench,Milliseconds (Average),659,1
+1487,1617,Intel Xeon 6980P,6.0,pybench,Milliseconds (Average),660,660
+1488,1618,Intel Core i7-11700K,13.0,pybench,Milliseconds (Average),682,21
+1489,1619,INTEL XEON PLATINUM 8592+,4.0,pybench,Milliseconds (Average),689,5
+1490,1620,Intel Core i9-11900K,38.0,pybench,Milliseconds (Average),689,71
+1491,1621,Intel Core Ultra 7 165U,4.0,pybench,Milliseconds (Average),689,689
+1492,1622,2 x INTEL XEON PLATINUM 8592+,4.0,pybench,Milliseconds (Average),689,7
+1493,1623,Intel Core i5-11600K,10.0,pybench,Milliseconds (Average),697,15
+1494,1624,Intel Xeon Max 9480,5.0,pybench,Milliseconds (Average),701,56
+1495,1625,AMD Ryzen 5 5600X 6-Core,51.0,pybench,Milliseconds (Average),704,86
+1496,1626,Intel Xeon E-2388G,11.0,pybench,Milliseconds (Average),705,58
+1497,1627,Intel Xeon E-2336,9.0,pybench,Milliseconds (Average),707,3
+1498,1628,Intel Core i7-11700B,4.0,pybench,Milliseconds (Average),721,5
+1499,1629,AMD Ryzen 7 5700G,16.0,pybench,Milliseconds (Average),734,47
+1500,1630,AMD Ryzen 7 PRO 6850U,29.0,pybench,Milliseconds (Average),735,71
+1501,1631,2 x AMD EPYC 9374F 32-Core,5.0,pybench,Milliseconds (Average),736,3
+1502,1632,2 x Intel Xeon Max 9480,13.0,pybench,Milliseconds (Average),738,65
+1503,1633,AMD EPYC 9374F 32-Core,4.0,pybench,Milliseconds (Average),740,5
+1504,1634,AMD Ryzen 7 5800X 8-Core,77.0,pybench,Milliseconds (Average),754,58
+1505,1635,AMD Ryzen 9 5900X 12-Core,75.0,pybench,Milliseconds (Average),759,102
+1506,1636,2 x Intel Xeon Platinum 8490H,15.0,pybench,Milliseconds (Average),765,37
+1507,1637,Intel Xeon Platinum 8490H,7.0,pybench,Milliseconds (Average),765,5
+1508,1638,AMD Ryzen 9 5900HX,20.0,pybench,Milliseconds (Average),766,41
+1509,1639,AMD Ryzen 9 5950X 16-Core,123.0,pybench,Milliseconds (Average),771,112
+1510,1640,AMD Ryzen 7 5800X3D 8-Core,32.0,pybench,Milliseconds (Average),776,90
+1511,1641,Intel Celeron G6900,15.0,pybench,Milliseconds (Average),797,56
+1512,1642,AMD Ryzen 5 5500,14.0,pybench,Milliseconds (Average),798,39
+1513,1643,AMD Ryzen 7 5800U,12.0,pybench,Milliseconds (Average),817,30
+1514,1644,AMD Ryzen 5 PRO 6650U,4.0,pybench,Milliseconds (Average),830,41
+1515,1645,Intel Core i9-10850K,10.0,pybench,Milliseconds (Average),833,105
+1516,1647,2 x AMD EPYC 9554 64-Core,9.0,pybench,Milliseconds (Average),845,1
+1517,1648,AMD Ryzen 7 3800XT 8-Core,4.0,pybench,Milliseconds (Average),847,38
+1518,1650,AMD EPYC 9554 64-Core,9.0,pybench,Milliseconds (Average),849,849
+1519,1651,AMD EPYC 9654 96-Core,11.0,pybench,Milliseconds (Average),852,17
+1520,1652,2 x AMD EPYC 9654 96-Core,36.0,pybench,Milliseconds (Average),852,72
+1521,1653,AMD EPYC 75F3 32-Core,10.0,pybench,Milliseconds (Average),855,21
+1522,1654,2 x AMD EPYC 73F3 16-Core,6.0,pybench,Milliseconds (Average),857,19
+1523,1655,AMD EPYC 73F3 16-Core,6.0,pybench,Milliseconds (Average),859,18
+1524,1656,Intel Core i5-10600K,18.0,pybench,Milliseconds (Average),865,99
+1525,1657,AMD EPYC 72F3 8-Core,10.0,pybench,Milliseconds (Average),870,84
+1526,1658,2 x AMD EPYC 75F3 32-Core,27.0,pybench,Milliseconds (Average),872,39
+1527,1659,AMD Ryzen 7 PRO 5850U,74.0,pybench,Milliseconds (Average),884,125
+1528,1660,AMD Ryzen 9 3900XT 12-Core,9.0,pybench,Milliseconds (Average),897,27
+1529,1661,Intel Core i7-8086K,30.0,pybench,Milliseconds (Average),899,112
+1530,1662,Intel Core i9-9900K,51.0,pybench,Milliseconds (Average),899,134
+1531,1663,AMD Ryzen 5 PRO 4650G,8.0,pybench,Milliseconds (Average),927,7
+1532,1664,Intel Core i7-7900X,5.0,pybench,Milliseconds (Average),929,26
+1533,1665,Intel Core i7-1065G7,37.0,pybench,Milliseconds (Average),929,110
+1534,1666,AMD Ryzen 7 3800X 8-Core,10.0,pybench,Milliseconds (Average),930,103
+1535,1667,AMD Ryzen 3 3300X 4-Core,7.0,pybench,Milliseconds (Average),932,27
+1536,1668,Intel N150,5.0,pybench,Milliseconds (Average),936,73
+1537,1669,2 x AMD EPYC 7713 64-Core,14.0,pybench,Milliseconds (Average),940,25
+1538,1670,Intel Core i3-10100,14.0,pybench,Milliseconds (Average),940,37
+1539,1671,2 x AMD EPYC 7513 32-Core,5.0,pybench,Milliseconds (Average),940,19
+1540,1672,Intel Xeon E-2288G,9.0,pybench,Milliseconds (Average),940,122
+1541,1673,AMD EPYC 7713 64-Core,13.0,pybench,Milliseconds (Average),958,38
+1542,1674,Intel Core i7-7700K,24.0,pybench,Milliseconds (Average),959,132
+1543,1675,2 x Intel Xeon Gold 6346,6.0,pybench,Milliseconds (Average),961,11
+1544,1676,Intel Xeon Gold 6346,5.0,pybench,Milliseconds (Average),962,11
+1545,1677,2 x Intel Xeon Platinum 8362,8.0,pybench,Milliseconds (Average),972,13
+1546,1678,AMD Ryzen 9 3900X 12-Core,92.0,pybench,Milliseconds (Average),973,124
+1547,1679,AMD Ryzen 7 4700U,16.0,pybench,Milliseconds (Average),975,100
+1548,1680,AMD Ryzen 5 3600X 6-Core,21.0,pybench,Milliseconds (Average),976,61
+1549,1681,AMD Ryzen 9 3950X 16-Core,35.0,pybench,Milliseconds (Average),977,132
+1550,1682,AMD Ryzen 5 3500X 6-Core,10.0,pybench,Milliseconds (Average),985,11
+1551,1683,Intel Xeon Gold 6342,6.0,pybench,Milliseconds (Average),990,14
+1552,1684,2 x Intel Xeon Gold 6342,6.0,pybench,Milliseconds (Average),990,13
+1553,1685,Intel Pentium Gold G6400,7.0,pybench,Milliseconds (Average),991,34
+1554,1686,Intel Xeon E3-1275 v6,6.0,pybench,Milliseconds (Average),991,28
+1555,1687,AMD EPYC 7763 64-Core,21.0,pybench,Milliseconds (Average),998,22
+1556,1688,AMD Ryzen Threadripper 3990X 64-Core,45.0,pybench,Milliseconds (Average),1000,128
+1557,1689,AMD Ryzen Threadripper PRO 3975WX 32-Cores,5.0,pybench,Milliseconds (Average),1005,99
+1558,1690,AMD EPYC 7773X 64-Core,6.0,pybench,Milliseconds (Average),1008,9
+1559,1691,2 x AMD EPYC 7F52 16-Core,9.0,pybench,Milliseconds (Average),1009,11
+1560,1692,AMD Ryzen 5 3600 6-Core,27.0,pybench,Milliseconds (Average),1010,86
+1561,1693,2 x AMD EPYC 7763 64-Core,29.0,pybench,Milliseconds (Average),1013,58
+1562,1694,2 x AMD EPYC 7313 16-Core,7.0,pybench,Milliseconds (Average),1014,119
+1563,1695,AMD EPYC 7F32 8-Core,14.0,pybench,Milliseconds (Average),1014,13
+1564,1696,Intel Core i5-7600K,9.0,pybench,Milliseconds (Average),1014,83
+1565,1697,Intel Xeon W-2295,10.0,pybench,Milliseconds (Average),1014,67
+1566,1698,Intel Core i9-7960X,64.0,pybench,Milliseconds (Average),1017,115
+1567,1699,Intel Xeon Platinum 8380,9.0,pybench,Milliseconds (Average),1019,22
+1568,1700,Intel Core i7-8700K,57.0,pybench,Milliseconds (Average),1021,141
+1569,1701,Intel Xeon E3-1260L v5,18.0,pybench,Milliseconds (Average),1023,4
+1570,1702,Intel Core i7-4790K,7.0,pybench,Milliseconds (Average),1028,148
+1571,1703,AMD Ryzen 3 3100 4-Core,10.0,pybench,Milliseconds (Average),1036,35
+1572,1704,Intel Core i5-9400F,6.0,pybench,Milliseconds (Average),1037,59
+1573,1705,Intel Xeon E3-1245 v5,24.0,pybench,Milliseconds (Average),1039,28
+1574,1706,AMD Ryzen Threadripper 1900X 8-Core,8.0,pybench,Milliseconds (Average),1053,123
+1575,1707,2 x AMD EPYC 7F72 24-Core,7.0,pybench,Milliseconds (Average),1055,12
+1576,1708,AMD Ryzen Threadripper 3960X 24-Core,8.0,pybench,Milliseconds (Average),1056,153
+1577,1709,AMD Ryzen 7 PRO 3700U,6.0,pybench,Milliseconds (Average),1060,7
+1578,1710,2 x Intel Xeon Platinum 8380,77.0,pybench,Milliseconds (Average),1065,82
+1579,1711,AMD EPYC 7F72 24-Core,13.0,pybench,Milliseconds (Average),1070,13
+1580,1712,Intel Core i7-8700,5.0,pybench,Milliseconds (Average),1070,159
+1581,1713,Intel Xeon Gold 6258R,4.0,pybench,Milliseconds (Average),1094,12
+1582,1714,Intel Core i5-1035G1,5.0,pybench,Milliseconds (Average),1097,116
+1583,1715,Intel Core i5-8300H,4.0,pybench,Milliseconds (Average),1097,97
+1584,1716,2 x Intel Xeon Platinum 8280,62.0,pybench,Milliseconds (Average),1100,103
+1585,1717,Intel Xeon Gold 5218,10.0,pybench,Milliseconds (Average),1100,58
+1586,1718,2 x Intel Xeon Gold 5220R,11.0,pybench,Milliseconds (Average),1111,24
+1587,1719,AMD Ryzen 5 2600X Six-Core,5.0,pybench,Milliseconds (Average),1114,120
+1588,1720,Intel Core i7-9750H,14.0,pybench,Milliseconds (Average),1120,117
+1589,1721,Intel Xeon Gold 5220R,5.0,pybench,Milliseconds (Average),1123,9
+1590,1722,Intel Xeon Gold 6226R,6.0,pybench,Milliseconds (Average),1134,24
+1591,1723,2 x Intel Xeon Gold 6254,28.0,pybench,Milliseconds (Average),1139,2
+1592,1724,AMD Custom APU 0405,13.0,pybench,Milliseconds (Average),1146,74
+1593,1725,Intel Celeron G5900,6.0,pybench,Milliseconds (Average),1154,23
+1594,1726,AMD EPYC 7262 8-Core,5.0,pybench,Milliseconds (Average),1163,26
+1595,1727,Intel Core i5-6500,30.0,pybench,Milliseconds (Average),1164,99
+1596,1728,Intel Core i3-7100,9.0,pybench,Milliseconds (Average),1166,146
+1597,1730,Intel Xeon Gold 5217,5.0,pybench,Milliseconds (Average),1179,13
+1598,1731,AMD EPYC 7702 64-Core,23.0,pybench,Milliseconds (Average),1179,11
+1599,1732,AMD EPYC 7502P 32-Core,12.0,pybench,Milliseconds (Average),1179,14
+1600,1733,AMD EPYC 7452 32-Core,7.0,pybench,Milliseconds (Average),1181,18
+1601,1734,AMD EPYC 7742 64-Core,12.0,pybench,Milliseconds (Average),1182,21
+1602,1735,Intel Core i7-7700,14.0,pybench,Milliseconds (Average),1190,170
+1603,1736,AMD EPYC 7552 48-Core,10.0,pybench,Milliseconds (Average),1194,15
+1604,1737,AMD EPYC 7532 32-Core,10.0,pybench,Milliseconds (Average),1197,16
+1605,1738,2 x Intel Xeon Gold 6248R,10.0,pybench,Milliseconds (Average),1198,47
+1606,1739,AMD EPYC 7662 64-Core,10.0,pybench,Milliseconds (Average),1199,13
+1607,1740,AMD Ryzen Threadripper 2920X 12-Core,5.0,pybench,Milliseconds (Average),1199,101
+1608,1741,Intel Core i5-8600K,19.0,pybench,Milliseconds (Average),1206,2
+1609,1742,AMD EPYC 7502 32-Core,8.0,pybench,Milliseconds (Average),1208,14
+1610,1743,2 x AMD EPYC 7402 24-Core,4.0,pybench,Milliseconds (Average),1211,1211
+1611,1744,AMD EPYC 7302 16-Core,6.0,pybench,Milliseconds (Average),1216,12
+1612,1745,AMD EPYC 7272 12-Core,8.0,pybench,Milliseconds (Average),1225,20
+1613,1746,AMD EPYC 7642 48-Core,21.0,pybench,Milliseconds (Average),1225,35
+1614,1747,Intel Pentium G4400,17.0,pybench,Milliseconds (Average),1229,28
+1615,1748,AMD EPYC 7282 16-Core,11.0,pybench,Milliseconds (Average),1231,15
+1616,1749,Intel Core i7-8700B,20.0,pybench,Milliseconds (Average),1235,142
+1617,1750,AMD EPYC 7232P 8-Core,10.0,pybench,Milliseconds (Average),1236,21
+1618,1751,AMD Ryzen 5 2600 Six-Core,13.0,pybench,Milliseconds (Average),1239,135
+1619,1752,Intel Core i7-4790,5.0,pybench,Milliseconds (Average),1241,141
+1620,1753,2 x AMD EPYC 7502 32-Core,6.0,pybench,Milliseconds (Average),1244,73
+1621,1754,2 x AMD EPYC 7742 64-Core,37.0,pybench,Milliseconds (Average),1247,153
+1622,1756,2 x Intel Xeon Platinum 8259L,5.0,pybench,Milliseconds (Average),1252,1
+1623,1757,Intel Core i7-4770K,7.0,pybench,Milliseconds (Average),1257,84
+1624,1758,AMD EPYC 7352 24-Core,6.0,pybench,Milliseconds (Average),1261,5
+1625,1759,AMD Ryzen 7 1800X Eight-Core,12.0,pybench,Milliseconds (Average),1282,186
+1626,1760,Intel Xeon E5-2687W v3,5.0,pybench,Milliseconds (Average),1299,42
+1627,1761,Intel Core i7-8559U,5.0,pybench,Milliseconds (Average),1306,191
+1628,1762,AMD Ryzen 7 2700 Eight-Core,9.0,pybench,Milliseconds (Average),1307,188
+1629,1763,Intel Xeon E5-1680 v3,8.0,pybench,Milliseconds (Average),1310,174
+1630,1765,Intel Core i7-9850H,8.0,pybench,Milliseconds (Average),1317,13
+1631,1766,Intel Core i3-8100,16.0,pybench,Milliseconds (Average),1322,125
+1632,1767,Intel Xeon Silver 4216,8.0,pybench,Milliseconds (Average),1322,72
+1633,1768,Intel Core i3-4130,9.0,pybench,Milliseconds (Average),1328,43
+1634,1769,Intel Xeon E3-1235L v5,21.0,pybench,Milliseconds (Average),1330,7
+1635,1770,Intel Xeon Silver 4108,29.0,pybench,Milliseconds (Average),1348,33
+1636,1771,Intel Core i7-5775C,7.0,pybench,Milliseconds (Average),1354,179
+1637,1772,AMD Ryzen 5 3500U,13.0,pybench,Milliseconds (Average),1367,84
+1638,1773,Intel Core i5-3550,5.0,pybench,Milliseconds (Average),1381,3
+1639,1774,Intel Core i7-6700K,20.0,pybench,Milliseconds (Average),1404,36
+1640,1775,Intel Core i5-3570K,10.0,pybench,Milliseconds (Average),1411,189
+1641,1776,Intel Core i5-8250U,20.0,pybench,Milliseconds (Average),1423,132
+1642,1777,Intel Core i5-6500T,4.0,pybench,Milliseconds (Average),1431,71
+1643,1778,AMD Athlon 3000G,17.0,pybench,Milliseconds (Average),1440,174
+1644,1779,Intel Core i7-5820K,10.0,pybench,Milliseconds (Average),1442,186
+1645,1780,Intel Core i7-3770K,9.0,pybench,Milliseconds (Average),1449,144
+1646,1781,Intel Core i5-4300M,5.0,pybench,Milliseconds (Average),1461,166
+1647,1782,Intel Core i5-4430,18.0,pybench,Milliseconds (Average),1471,4
+1648,1783,2 x Intel Xeon Gold 6130,7.0,pybench,Milliseconds (Average),1476,102
+1649,1784,Intel Core i5-7200U,13.0,pybench,Milliseconds (Average),1477,167
+1650,1785,2 x Intel Xeon Gold 6142,5.0,pybench,Milliseconds (Average),1494,16
+1651,1786,Intel Xeon W-2123,4.0,pybench,Milliseconds (Average),1494,3
+1652,1787,Intel Core i5-2500S,4.0,pybench,Milliseconds (Average),1501,22
+1653,1788,Intel Core i5-6260U,7.0,pybench,Milliseconds (Average),1503,58
+1654,1789,Intel Core i5-6200U,6.0,pybench,Milliseconds (Average),1520,120
+1655,1790,Intel Core i3-8100T,9.0,pybench,Milliseconds (Average),1529,77
+1656,1791,AMD Ryzen 7 1700 Eight-Core,35.0,pybench,Milliseconds (Average),1535,178
+1657,1792,Intel Core i7-4600U,8.0,pybench,Milliseconds (Average),1544,194
+1658,1793,AMD Ryzen Threadripper 1950X 16-Core,30.0,pybench,Milliseconds (Average),1565,172
+1659,1794,2 x AMD EPYC 7601 32-Core,47.0,pybench,Milliseconds (Average),1589,214
+1660,1795,Intel Core i7-4558U,6.0,pybench,Milliseconds (Average),1613,187
+1661,1796,AMD EPYC 7251 8-Core,5.0,pybench,Milliseconds (Average),1622,58
+1662,1797,Intel Core i7-5960X,20.0,pybench,Milliseconds (Average),1634,200
+1663,1799,Intel Core i7-2700K,24.0,pybench,Milliseconds (Average),1658,179
+1664,1800,Intel Core i7-5600U,14.0,pybench,Milliseconds (Average),1665,196
+1665,1801,Intel Core m3-7Y30,7.0,pybench,Milliseconds (Average),1715,173
+1666,1802,Intel Core i3-2120,5.0,pybench,Milliseconds (Average),1719,30
+1667,1803,Intel Core i7-3770,4.0,pybench,Milliseconds (Average),1729,204
+1668,1804,Intel Core i5-5300U,6.0,pybench,Milliseconds (Average),1729,214
+1669,1805,Intel Core i5-5200U,5.0,pybench,Milliseconds (Average),1743,124
+1670,1806,Intel Core i7-2600,5.0,pybench,Milliseconds (Average),1773,167
+1671,1807,Intel Core i5-3427U,5.0,pybench,Milliseconds (Average),1774,70
+1672,1810,AMD A10-7850K APU,6.0,pybench,Milliseconds (Average),1813,78
+1673,1811,AMD FX-6300 Six-Core,5.0,pybench,Milliseconds (Average),1830,78
+1674,1813,Intel Core i5-4210U,5.0,pybench,Milliseconds (Average),1861,215
+1675,1814,Intel Core i5-4278U,4.0,pybench,Milliseconds (Average),1886,196
+1676,1815,AMD A12-9720P RADEON R7 12 COMPUTE CORES 4C+8G,5.0,pybench,Milliseconds (Average),1895,38
+1677,1816,Intel Core i5,8.0,pybench,Milliseconds (Average),1909,145
+1678,1817,AMD FX-8150 Eight-Core,4.0,pybench,Milliseconds (Average),1935,9
+1679,1818,2 x Intel Xeon Silver 4214,4.0,pybench,Milliseconds (Average),1959,199
+1680,1819,Intel Core i7 990X,13.0,pybench,Milliseconds (Average),2054,244
+1681,1820,Intel Core i5-2410M,5.0,pybench,Milliseconds (Average),2058,142
+1682,1821,Intel Core 2 Duo E8500,5.0,pybench,Milliseconds (Average),2129,11
+1683,1822,Intel Core i5-2520M,7.0,pybench,Milliseconds (Average),2141,283
+1684,1823,Intel Core i7-3630QM,4.0,pybench,Milliseconds (Average),2149,4
+1685,1824,Intel Core i7 920,12.0,pybench,Milliseconds (Average),2211,5
+1686,1825,AMD FX-8350 Eight-Core,8.0,pybench,Milliseconds (Average),2293,236
+1687,1826,Intel Core m3-6Y30,5.0,pybench,Milliseconds (Average),2402,183
+1688,1827,Intel Xeon E5-2609 v4,21.0,pybench,Milliseconds (Average),2600,63
+1689,1828,Intel Core 2 Duo T7700,5.0,pybench,Milliseconds (Average),2605,214
+1690,1829,Intel Xeon E3-12xx v2,7.0,pybench,Milliseconds (Average),2620,5
+1691,1830,Intel Core i3-3110M,10.0,pybench,Milliseconds (Average),2620,335
+1692,1833,Intel Celeron N3350,6.0,pybench,Milliseconds (Average),3497,426
+1693,1834,Intel Core 2 Duo T7100,9.0,pybench,Milliseconds (Average),3534,11
+1694,1835,Intel Pentium N4200,4.0,pybench,Milliseconds (Average),3789,369
+1695,1836,Intel Celeron J3455,14.0,pybench,Milliseconds (Average),3918,355
+1696,1837,Intel Core 2 Duo P7350,19.0,pybench,Milliseconds (Average),3995,483
+1697,1841,Intel Celeron N2830,5.0,pybench,Milliseconds (Average),4798,140
+1698,1845,AMD A6-3410MX APU,4.0,pybench,Milliseconds (Average),4953,40
+1699,1853,Intel Core i5 460M,4.0,pybench,Milliseconds (Average),6931,302
+1700,1854,Intel Atom x5-Z8350,13.0,pybench,Milliseconds (Average),7000,700
+1701,1861,2 x AMD EPYC 9755 128-Core,10.0,specfem3d,Seconds (Average),8,8
+1702,1862,2 x Intel Xeon 6980P,10.0,specfem3d,Seconds (Average),9,1
+1703,1864,2 x INTEL XEON PLATINUM 8592+,7.0,specfem3d,Seconds (Average),14,14
+1704,1865,AMD EPYC 9655P 96-Core,16.0,specfem3d,Seconds (Average),15,15
+1705,1866,2 x Intel Xeon Platinum 8490H,3.0,specfem3d,Seconds (Average),17,17
+1706,1867,2 x Intel Xeon Platinum 8468,4.0,specfem3d,Seconds (Average),18,18
+1707,1868,2 x Intel Xeon Max 9480,6.0,specfem3d,Seconds (Average),18,18
+1708,1869,INTEL XEON PLATINUM 8592+,12.0,specfem3d,Seconds (Average),23,23
+1709,1870,AMD Ryzen Threadripper 7980X 64-Cores,8.0,specfem3d,Seconds (Average),24,2
+1710,1871,Intel Xeon Platinum 8490H,8.0,specfem3d,Seconds (Average),29,29
+1711,1872,2 x Intel Xeon Gold 6444Y,4.0,specfem3d,Seconds (Average),34,34
+1712,1874,2 x AMD EPYC 7303 16-Core,4.0,specfem3d,Seconds (Average),50,1
+1713,1875,Intel Xeon Gold 6414U,3.0,specfem3d,Seconds (Average),50,50
+1714,1876,AMD Ryzen Threadripper PRO 5965WX 24-Cores,4.0,specfem3d,Seconds (Average),53,1
+1715,1877,AMD Ryzen Threadripper 3970X 32-Core,4.0,specfem3d,Seconds (Average),53,53
+1716,1878,Intel Core Ultra 9 285K,22.0,specfem3d,Seconds (Average),57,4
+1717,1880,AMD Ryzen 9 9950X3D 16-Core,13.0,specfem3d,Seconds (Average),61,61
+1718,1881,AMD Ryzen 9 9900X3D 12-Core,7.0,specfem3d,Seconds (Average),71,1
+1719,1882,AMD Ryzen 9 9950X 16-Core,30.0,specfem3d,Seconds (Average),71,2
+1720,1883,AMD Ryzen 9 7950X3D 16-Core,7.0,specfem3d,Seconds (Average),74,4
+1721,1884,AMD Ryzen 9 7950X 16-Core,9.0,specfem3d,Seconds (Average),79,5
+1722,1885,AMD EPYC 4584PX 16-Core,11.0,specfem3d,Seconds (Average),79,79
+1723,1886,Intel Core Ultra 5 245K,9.0,specfem3d,Seconds (Average),81,3
+1724,1887,AMD Ryzen 9 9900X 12-Core,12.0,specfem3d,Seconds (Average),81,4
+1725,1888,Intel Core i9-14900K,13.0,specfem3d,Seconds (Average),83,3
+1726,1889,AMD EPYC 4564P 16-Core,28.0,specfem3d,Seconds (Average),86,1
+1727,1890,Intel Core i9-13900K,3.0,specfem3d,Seconds (Average),88,88
+1728,1891,AMD Ryzen 9 7900X3D 12-Core,6.0,specfem3d,Seconds (Average),88,88
+1729,1892,AMD Ryzen 9 7900X 12-Core,6.0,specfem3d,Seconds (Average),89,89
+1730,1894,AMD Ryzen 7 9800X3D 8-Core,9.0,specfem3d,Seconds (Average),90,1
+1731,1895,AMD EPYC 7551 32-Core,3.0,specfem3d,Seconds (Average),96,1
+1732,1896,AMD Ryzen 9 7900 12-Core,9.0,specfem3d,Seconds (Average),98,1
+1733,1897,AMD EPYC 4464P 12-Core,18.0,specfem3d,Seconds (Average),104,2
+1734,1898,AMD Ryzen 7 9700X 8-Core,15.0,specfem3d,Seconds (Average),112,3
+1735,1899,AMD Ryzen 7 7800X3D 8-Core,6.0,specfem3d,Seconds (Average),114,1
+1736,1900,Intel Core i9-10980XE,4.0,specfem3d,Seconds (Average),115,1
+1737,1901,AMD Ryzen 7 7700X 8-Core,4.0,specfem3d,Seconds (Average),121,121
+1738,1902,AMD Ryzen 7 7700 8-Core,4.0,specfem3d,Seconds (Average),126,126
+1739,1903,AMD EPYC 4364P 8-Core,14.0,specfem3d,Seconds (Average),129,1
+1740,1904,AMD EPYC 4344P 8-Core,10.0,specfem3d,Seconds (Average),130,130
+1741,1905,Intel Core i5-14600K,5.0,specfem3d,Seconds (Average),130,130
+1742,1906,AMD Ryzen 5 9600X 6-Core,12.0,specfem3d,Seconds (Average),131,5
+1743,1907,Intel Core i5-13600K,3.0,specfem3d,Seconds (Average),132,132
+1744,1908,AMD Ryzen 7 8700G,5.0,specfem3d,Seconds (Average),134,134
+1745,1909,Intel Xeon E E-2488,13.0,specfem3d,Seconds (Average),140,4
+1746,1910,Intel Xeon Silver 4216,4.0,specfem3d,Seconds (Average),144,144
+1747,1911,AMD Ryzen 7 8845HS,4.0,specfem3d,Seconds (Average),145,1
+1748,1912,AMD Ryzen 5 7600X 6-Core,4.0,specfem3d,Seconds (Average),146,146
+1749,1913,AMD Ryzen 5 7600 6-Core,7.0,specfem3d,Seconds (Average),156,6
+1750,1915,AMD EPYC 4244P 6-Core,18.0,specfem3d,Seconds (Average),157,1
+1751,1916,AMD Ryzen 7 5800X3D 8-Core,5.0,specfem3d,Seconds (Average),157,157
+1752,1917,AMD Ryzen 5 8400F 6-Core,11.0,specfem3d,Seconds (Average),162,1
+1753,1918,Intel Core i5-14500,5.0,specfem3d,Seconds (Average),166,16
+1754,1919,AMD Ryzen 9 5900X 12-Core,6.0,specfem3d,Seconds (Average),168,168
+1755,1920,AMD Ryzen 5 8600G,5.0,specfem3d,Seconds (Average),169,24
+1756,1921,AMD Ryzen 9 5950X 16-Core,5.0,specfem3d,Seconds (Average),173,173
+1757,1922,AMD EPYC 7F32 8-Core,4.0,specfem3d,Seconds (Average),173,2
+1758,1923,AMD Ryzen AI 9 HX 370,3.0,specfem3d,Seconds (Average),175,12
+1759,1924,AMD Ryzen 7 7840HS,7.0,specfem3d,Seconds (Average),192,11
+1760,1925,AMD Ryzen 7 5800X 8-Core,5.0,specfem3d,Seconds (Average),193,193
+1761,1926,Intel Core i5-14400F,8.0,specfem3d,Seconds (Average),203,9
+1762,1927,AMD EPYC 4124P 4-Core,8.0,specfem3d,Seconds (Average),215,1
+1763,1928,Intel Core i5-13400,3.0,specfem3d,Seconds (Average),215,215
+1764,1929,Intel Core Ultra 7 155H,8.0,specfem3d,Seconds (Average),220,13
+1765,1930,AMD Ryzen 5 5600X 6-Core,4.0,specfem3d,Seconds (Average),222,222
+1766,1931,Intel Core i3-14100,5.0,specfem3d,Seconds (Average),224,224
+1767,1932,AMD Ryzen 7 3800XT 8-Core,4.0,specfem3d,Seconds (Average),225,225
+1768,1933,AMD Ryzen 7 PRO 6850U,4.0,specfem3d,Seconds (Average),225,2
+1769,1934,AMD Ryzen 5 5500,5.0,specfem3d,Seconds (Average),231,231
+1770,1935,Intel Core i5-12600K,3.0,specfem3d,Seconds (Average),238,4
+1771,1936,AMD Ryzen 9 5900HX,4.0,specfem3d,Seconds (Average),249,4
+1772,1937,AMD Ryzen 7 PRO 5850U,3.0,specfem3d,Seconds (Average),289,1
+1773,1938,Intel Core i7-1280P,5.0,specfem3d,Seconds (Average),294,17
+1774,1939,AMD Ryzen 5 5500U,4.0,specfem3d,Seconds (Average),303,1
+1775,1940,Intel Core Ultra 7 165U,4.0,specfem3d,Seconds (Average),334,334
+1776,1941,AMD Ryzen 7 4700U,4.0,specfem3d,Seconds (Average),338,9
+1777,1942,Intel Core i7-1185G7,5.0,specfem3d,Seconds (Average),367,12
+1778,1943,Intel Core i7-1165G7,4.0,specfem3d,Seconds (Average),370,1
+1779,1944,Intel Core i7-8565U,4.0,specfem3d,Seconds (Average),500,3
+1780,1945,2 x AMD EPYC 9965 192-Core,5.0,stockfish,Nodes Per Second (Average),638951954,16087209
+1781,1946,2 x AMD EPYC 9755 128-Core,12.0,stockfish,Nodes Per Second (Average),554897375,11985084
+1782,1947,2 x AMD EPYC 9655 96-Core,9.0,stockfish,Nodes Per Second (Average),430874441,15399389
+1783,1948,2 x AMD EPYC 9684X 96-Core,11.0,stockfish,Nodes Per Second (Average),400788190,11635701
+1784,1949,AMD EPYC 9965 192-Core,8.0,stockfish,Nodes Per Second (Average),366712405,5063870
+1785,1950,2 x AMD EPYC 9575F 64-Core,8.0,stockfish,Nodes Per Second (Average),350712347,4470533
+1786,1951,2 x Intel Xeon 6980P,14.0,stockfish,Nodes Per Second (Average),344612296,8760451
+1787,1952,2 x AMD EPYC 9654 96-Core,10.0,stockfish,Nodes Per Second (Average),343855276,40578705
+1788,1953,2 x AMD EPYC 9754 128-Core,9.0,stockfish,Nodes Per Second (Average),329947400,34322176
+1789,1954,AMD EPYC 9755 128-Core,22.0,stockfish,Nodes Per Second (Average),317450310,11722751
+1790,1955,2 x Intel Xeon 6766E,3.0,stockfish,Nodes Per Second (Average),235445499,235445499
+1791,1956,AMD EPYC 9655 96-Core,16.0,stockfish,Nodes Per Second (Average),232069486,14925779
+1792,1957,2 x INTEL XEON PLATINUM 8592+,12.0,stockfish,Nodes Per Second (Average),217940616,4801364
+1793,1958,AMD EPYC 9684X 96-Core,9.0,stockfish,Nodes Per Second (Average),212059700,4780962
+1794,1959,Intel Xeon 6980P,9.0,stockfish,Nodes Per Second (Average),200289385,6351216
+1795,1960,AMD EPYC 9654 96-Core,10.0,stockfish,Nodes Per Second (Average),193767319,9968714
+1796,1961,AMD EPYC 9754 128-Core,8.0,stockfish,Nodes Per Second (Average),192065275,5052270
+1797,1962,2 x Intel Xeon Platinum 8490H,7.0,stockfish,Nodes Per Second (Average),190316302,3186062
+1798,1963,AMD EPYC 9575F 64-Core,7.0,stockfish,Nodes Per Second (Average),173635889,8139969
+1799,1964,AMD Ryzen Threadripper 7980X 64-Cores,6.0,stockfish,Nodes Per Second (Average),158898617,5851590
+1800,1965,2 x Intel Xeon Max 9468,4.0,stockfish,Nodes Per Second (Average),142473932,5192375
+1801,1968,Intel Xeon 6780E,5.0,stockfish,Nodes Per Second (Average),125194066,125194066
+1802,1969,Intel Xeon 6766E,5.0,stockfish,Nodes Per Second (Average),122794246,122794246
+1803,1972,INTEL XEON PLATINUM 8592+,11.0,stockfish,Nodes Per Second (Average),109375679,542027
+1804,1973,AMD EPYC 8534P 64-Core,6.0,stockfish,Nodes Per Second (Average),100770782,4951921
+1805,1974,Intel Xeon Platinum 8490H,8.0,stockfish,Nodes Per Second (Average),94344505,3509638
+1806,1976,AMD EPYC 8534PN 64-Core,3.0,stockfish,Nodes Per Second (Average),90658156,90658156
+1807,1978,Intel Xeon Max 9480,6.0,stockfish,Nodes Per Second (Average),72920847,1040102
+1808,1979,Intel Xeon Max 9468,6.0,stockfish,Nodes Per Second (Average),66510761,2336690
+1809,1981,AMD Ryzen Threadripper 3970X 32-Core,3.0,stockfish,Nodes Per Second (Average),59063851,1769644
+1810,1983,AMD Ryzen Threadripper PRO 5965WX 24-Cores,4.0,stockfish,Nodes Per Second (Average),55483956,3856588
+1811,1984,Intel Xeon Platinum 8380,3.0,stockfish,Nodes Per Second (Average),51099545,51099545
+1812,1985,AMD Ryzen 9 9950X 16-Core,23.0,stockfish,Nodes Per Second (Average),47798752,2768874
+1813,1986,2 x AMD EPYC 7303 16-Core,4.0,stockfish,Nodes Per Second (Average),46872152,966178
+1814,1987,AMD EPYC 4584PX 16-Core,4.0,stockfish,Nodes Per Second (Average),45542560,45542560
+1815,1988,AMD Ryzen 9 7950X3D 16-Core,6.0,stockfish,Nodes Per Second (Average),45438216,1651625
+1816,1989,AMD Ryzen 9 7950X 16-Core,14.0,stockfish,Nodes Per Second (Average),45080313,2062011
+1817,1990,AMD EPYC 4564P 16-Core,5.0,stockfish,Nodes Per Second (Average),43974936,661702
+1818,1992,Intel Core Ultra 9 285K,9.0,stockfish,Nodes Per Second (Average),38888041,879812
+1819,1993,Intel Core i9-14900K,10.0,stockfish,Nodes Per Second (Average),38584707,605496
+1820,1994,AMD Ryzen 9 9900X 12-Core,8.0,stockfish,Nodes Per Second (Average),38097300,2870877
+1821,1995,Intel Core i9-13900K,4.0,stockfish,Nodes Per Second (Average),35541418,2536292
+1822,1996,AMD Ryzen 9 7900X 12-Core,5.0,stockfish,Nodes Per Second (Average),35502698,35502698
+1823,1998,AMD Ryzen 9 7900X3D 12-Core,5.0,stockfish,Nodes Per Second (Average),33924137,33924137
+1824,1999,AMD EPYC 4484PX 12-Core,4.0,stockfish,Nodes Per Second (Average),33453729,33453729
+1825,2000,AMD EPYC 4464P 12-Core,3.0,stockfish,Nodes Per Second (Average),29772183,29772183
+1826,2001,AMD Ryzen 9 7900 12-Core,9.0,stockfish,Nodes Per Second (Average),29125130,1383107
+1827,2002,AMD Ryzen 7 9800X3D 8-Core,6.0,stockfish,Nodes Per Second (Average),28009863,201725
+1828,2003,AMD Ryzen 9 5900X 12-Core,7.0,stockfish,Nodes Per Second (Average),25257301,1791384
+1829,2004,Intel Xeon Gold 5416S,4.0,stockfish,Nodes Per Second (Average),24698222,1021904
+1830,2005,Intel Core i9-10980XE,3.0,stockfish,Nodes Per Second (Average),24307311,577289
+1831,2006,Intel Core Ultra 5 245K,5.0,stockfish,Nodes Per Second (Average),24223968,259955
+1832,2007,Intel Core i5-14600K,5.0,stockfish,Nodes Per Second (Average),24194616,24194616
+1833,2008,AMD Ryzen 7 7700X 8-Core,5.0,stockfish,Nodes Per Second (Average),23730452,800625
+1834,2009,AMD Ryzen 7 7800X3D 8-Core,5.0,stockfish,Nodes Per Second (Average),23138694,23138694
+1835,2010,AMD EPYC 4364P 8-Core,4.0,stockfish,Nodes Per Second (Average),23015665,256386
+1836,2011,AMD Ryzen 7 9700X 8-Core,10.0,stockfish,Nodes Per Second (Average),22830103,1507969
+1837,2012,Intel Core i5-13600K,5.0,stockfish,Nodes Per Second (Average),22770461,844763
+1838,2013,AMD EPYC 4344P 8-Core,3.0,stockfish,Nodes Per Second (Average),21844343,21844343
+1839,2014,AMD Ryzen 7 7700 8-Core,5.0,stockfish,Nodes Per Second (Average),21823261,858049
+1840,2016,AMD Ryzen 7 8845HS,5.0,stockfish,Nodes Per Second (Average),19325806,1763604
+1841,2018,AMD Ryzen 5 9600X 6-Core,10.0,stockfish,Nodes Per Second (Average),18615958,911675
+1842,2019,AMD Ryzen 7 8700G,5.0,stockfish,Nodes Per Second (Average),18351903,18351903
+1843,2020,AMD EPYC 7551 32-Core,3.0,stockfish,Nodes Per Second (Average),17561774,1550313
+1844,2021,AMD Ryzen 7 5800X 8-Core,6.0,stockfish,Nodes Per Second (Average),17555106,125814
+1845,2022,Intel Xeon E E-2488,8.0,stockfish,Nodes Per Second (Average),17086129,330318
+1846,2023,AMD EPYC 4244P 6-Core,3.0,stockfish,Nodes Per Second (Average),16614517,16614517
+1847,2024,AMD Ryzen 7 5800X3D 8-Core,5.0,stockfish,Nodes Per Second (Average),16502192,16502192
+1848,2025,AMD Ryzen 5 7600 6-Core,10.0,stockfish,Nodes Per Second (Average),16377929,497126
+1849,2026,AMD EPYC 7F32 8-Core,3.0,stockfish,Nodes Per Second (Average),15350934,401834
+1850,2027,AMD Ryzen 7 7840HS,16.0,stockfish,Nodes Per Second (Average),15300575,2106698
+1851,2028,AMD Ryzen 5 8600G,5.0,stockfish,Nodes Per Second (Average),15151817,597556
+1852,2029,AMD Ryzen 5 8400F 6-Core,7.0,stockfish,Nodes Per Second (Average),15015134,22540
+1853,2030,AMD Ryzen 7 3800XT 8-Core,4.0,stockfish,Nodes Per Second (Average),14914327,790869
+1854,2032,AMD Ryzen 7 5700G,8.0,stockfish,Nodes Per Second (Average),13833022,673905
+1855,2033,2 x Intel Xeon E5-2687W 0,6.0,stockfish,Nodes Per Second (Average),13684159,172669
+1856,2034,Intel Xeon Silver 4216,4.0,stockfish,Nodes Per Second (Average),13489044,567847
+1857,2035,AMD Ryzen AI 9 HX 370,13.0,stockfish,Nodes Per Second (Average),13477021,703057
+1858,2036,Intel Core i5-13400,3.0,stockfish,Nodes Per Second (Average),13298589,13298589
+1859,2037,AMD Ryzen AI 9 365,8.0,stockfish,Nodes Per Second (Average),12942566,1541765
+1860,2038,AMD Ryzen 5 5600X 6-Core,6.0,stockfish,Nodes Per Second (Average),11942108,930647
+1861,2039,AMD Ryzen 9 5900HX,6.0,stockfish,Nodes Per Second (Average),11802686,917310
+1862,2040,AMD EPYC 4124P 4-Core,3.0,stockfish,Nodes Per Second (Average),10622485,10622485
+1863,2041,2 x Intel Xeon E5-2650 0,4.0,stockfish,Nodes Per Second (Average),10195110,328849
+1864,2042,AMD Ryzen 5 5500,5.0,stockfish,Nodes Per Second (Average),9405304,9405304
+1865,2043,AMD Ryzen 7 PRO 6850U,5.0,stockfish,Nodes Per Second (Average),8728940,1056739
+1866,2044,Intel Core i7-5960X,4.0,stockfish,Nodes Per Second (Average),8354213,218544
+1867,2045,Intel Core i3-14100,5.0,stockfish,Nodes Per Second (Average),8054472,8054472
+1868,2046,AMD Ryzen 7 PRO 5850U,5.0,stockfish,Nodes Per Second (Average),7479147,197590
+1869,2047,Intel Core Ultra 7 165U,4.0,stockfish,Nodes Per Second (Average),7284809,7284809
+1870,2048,AMD Ryzen 5 5500U,6.0,stockfish,Nodes Per Second (Average),6006333,86146
+1871,2049,AMD Ryzen 7 4700U,6.0,stockfish,Nodes Per Second (Average),5696487,118023
+1872,2050,Intel Core i7-1185G7,6.0,stockfish,Nodes Per Second (Average),5229658,55786
+1873,2051,Intel Core i7-1165G7,4.0,stockfish,Nodes Per Second (Average),5005468,113950
+1874,2052,Intel Xeon E3-1280 v5,5.0,stockfish,Nodes Per Second (Average),4734500,138359
+1875,2053,Intel Core i7-8565U,4.0,stockfish,Nodes Per Second (Average),3321246,158712
+1876,2054,Intel Core i7-1065G7,4.0,stockfish,Nodes Per Second (Average),2853788,105359
+1877,2056,AMD Ryzen 7 9800X3D 8-Core,3.0,tensorflow,Microseconds (Average),737,2
+1878,2057,AMD Ryzen 9 9900X3D 12-Core,4.0,tensorflow,Microseconds (Average),969,11
+1879,2058,AMD Ryzen 9 9950X3D 16-Core,5.0,tensorflow,Microseconds (Average),992,40
+1880,2059,AMD Ryzen 7 7700X 8-Core,10.0,tensorflow,Microseconds (Average),1017,8
+1881,2060,AMD Ryzen 9 7950X 16-Core,10.0,tensorflow,Microseconds (Average),1076,49
+1882,2061,AMD Ryzen 9 7900X 12-Core,9.0,tensorflow,Microseconds (Average),1113,12
+1883,2062,AMD Ryzen 9 7950X3D 16-Core,6.0,tensorflow,Microseconds (Average),1139,76
+1884,2063,Intel Xeon Gold 6342,4.0,tensorflow,Microseconds (Average),1297,2
+1885,2064,AMD Ryzen 5 7600X 6-Core,7.0,tensorflow,Microseconds (Average),1334,6
+1886,2065,Intel Core i5-13600K,9.0,tensorflow,Microseconds (Average),1406,30
+1887,2066,Intel Xeon Platinum 8380,4.0,tensorflow,Microseconds (Average),1411,2
+1888,2067,Intel Core i9-11900K,7.0,tensorflow,Microseconds (Average),1434,13
+1889,2068,Intel Xeon Gold 6226R,3.0,tensorflow,Microseconds (Average),1518,6
+1890,2069,Intel Xeon Gold 6346,3.0,tensorflow,Microseconds (Average),1527,5
+1891,2070,AMD Ryzen 9 5950X 16-Core,13.0,tensorflow,Microseconds (Average),1605,2
+1892,2071,Intel Core i7-12700KF,3.0,tensorflow,Microseconds (Average),1606,113
+1893,2072,AMD Ryzen 5 8600G,4.0,tensorflow,Microseconds (Average),1619,1619
+1894,2073,Intel Core i5-12600K,10.0,tensorflow,Microseconds (Average),1706,70
+1895,2074,AMD Ryzen 9 5900X 12-Core,7.0,tensorflow,Microseconds (Average),1718,14
+1896,2075,Intel Core i5-13400,4.0,tensorflow,Microseconds (Average),1796,6
+1897,2076,AMD Ryzen 7 5800X3D 8-Core,13.0,tensorflow,Microseconds (Average),1806,24
+1898,2077,AMD Ryzen 7 5800X 8-Core,8.0,tensorflow,Microseconds (Average),1814,134
+1899,2078,2 x Intel Xeon Gold 6346,4.0,tensorflow,Microseconds (Average),1818,10
+1900,2079,AMD Ryzen Threadripper 3960X 24-Core,4.0,tensorflow,Microseconds (Average),1888,7
+1901,2080,AMD Ryzen Threadripper 3970X 32-Core,4.0,tensorflow,Microseconds (Average),1891,8
+1902,2081,Intel Core i9-10900K,3.0,tensorflow,Microseconds (Average),1901,39
+1903,2083,2 x Intel Xeon Gold 6144,73.0,tensorflow,Microseconds (Average),2072,22
+1904,2084,2 x Intel Xeon Gold 6342,4.0,tensorflow,Microseconds (Average),2084,3
+1905,2085,2 x Intel Xeon Gold 5220R,4.0,tensorflow,Microseconds (Average),2091,6
+1906,2086,Intel Core i5-14500,3.0,tensorflow,Microseconds (Average),2165,2165
+1907,2087,Intel Core i5-12400,9.0,tensorflow,Microseconds (Average),2171,81
+1908,2088,Intel Xeon Silver 4216,4.0,tensorflow,Microseconds (Average),2216,18
+1909,2089,Intel Core i9-9900K,3.0,tensorflow,Microseconds (Average),2339,38
+1910,2090,AMD Ryzen 7 5700G,6.0,tensorflow,Microseconds (Average),2345,7
+1911,2091,AMD Ryzen 9 5900HX,12.0,tensorflow,Microseconds (Average),2396,38
+1912,2092,AMD Ryzen 9 3900X 12-Core,7.0,tensorflow,Microseconds (Average),2455,18
+1913,2093,AMD Ryzen 9 3950X 16-Core,6.0,tensorflow,Microseconds (Average),2480,40
+1914,2094,AMD Ryzen 5 5600X 6-Core,4.0,tensorflow,Microseconds (Average),2482,108
+1915,2095,Intel Core i5-11600K,3.0,tensorflow,Microseconds (Average),2542,10
+1916,2096,Intel Core i5-10600K,4.0,tensorflow,Microseconds (Average),2655,12
+1917,2097,2 x Intel Xeon Platinum 8362,4.0,tensorflow,Microseconds (Average),2667,50
+1918,2098,Intel Core i7-5960X,3.0,tensorflow,Microseconds (Average),2692,53
+1919,2099,AMD Ryzen 5 5600G,6.0,tensorflow,Microseconds (Average),2759,23
+1920,2100,Intel Core i3-14100,3.0,tensorflow,Microseconds (Average),2766,2766
+1921,2101,Intel Core i7-8700K,3.0,tensorflow,Microseconds (Average),2788,12
+1922,2102,AMD Ryzen 7 3800X 8-Core,22.0,tensorflow,Microseconds (Average),2814,136
+1923,2104,AMD Ryzen 7 3800XT 8-Core,5.0,tensorflow,Microseconds (Average),2972,278
+1924,2105,AMD Ryzen 7 3700X 8-Core,5.0,tensorflow,Microseconds (Average),3033,59
+1925,2106,AMD EPYC 7F32 8-Core,4.0,tensorflow,Microseconds (Average),3156,77
+1926,2107,AMD Ryzen 7 PRO 5850U,7.0,tensorflow,Microseconds (Average),3246,65
+1927,2108,2 x Intel Xeon Platinum 8280,3.0,tensorflow,Microseconds (Average),3392,17
+1928,2109,2 x Intel Xeon Platinum 8380,15.0,tensorflow,Microseconds (Average),3428,303
+1929,2110,Intel Core Ultra 7 155H,6.0,tensorflow,Microseconds (Average),3445,258
+1930,2111,AMD Ryzen 7 PRO 6850U,16.0,tensorflow,Microseconds (Average),3526,522
+1931,2112,AMD Ryzen Threadripper 2970WX 24-Core,4.0,tensorflow,Microseconds (Average),3666,37
+1932,2113,AMD Ryzen Threadripper PRO 7995WX 96-Cores,5.0,tensorflow,Microseconds (Average),3778,138
+1933,2114,Intel Core i7-1185G7E,65.0,tensorflow,Microseconds (Average),3939,15
+1934,2115,AMD Ryzen 3 3300X 4-Core,4.0,tensorflow,Microseconds (Average),3953,15
+1935,2117,Intel Core i7-1185G7,11.0,tensorflow,Microseconds (Average),3999,166
+1936,2118,Intel Core i7-1280P,8.0,tensorflow,Microseconds (Average),4017,257
+1937,2119,Intel Core i7-1165G7,3.0,tensorflow,Microseconds (Average),4091,50
+1938,2120,Intel Core i7-10700T,3.0,tensorflow,Microseconds (Average),4110,99
+1939,2121,AMD Ryzen Threadripper 3990X 64-Core,5.0,tensorflow,Microseconds (Average),4228,64
+1940,2122,Intel Xeon E3-1275 v6,3.0,tensorflow,Microseconds (Average),4257,8
+1941,2124,Intel Core i3-12100,8.0,tensorflow,Microseconds (Average),4470,366
+1942,2125,AMD Ryzen 5 5500U,9.0,tensorflow,Microseconds (Average),4541,219
+1943,2126,Intel Core i3-10100,5.0,tensorflow,Microseconds (Average),4547,675
+1944,2127,Intel Xeon E3-1245 v5,3.0,tensorflow,Microseconds (Average),4660,5
+1945,2128,AMD Ryzen 7 4800U,3.0,tensorflow,Microseconds (Average),4909,23
+1946,2130,AMD EPYC 7551 32-Core,4.0,tensorflow,Microseconds (Average),4965,398
+1947,2131,Intel Xeon E3-1260L v5,4.0,tensorflow,Microseconds (Average),5387,53
+1948,2132,2 x AMD EPYC 75F3 32-Core,3.0,tensorflow,Microseconds (Average),5606,173
+1949,2133,Intel Core i3-8100,5.0,tensorflow,Microseconds (Average),5955,4
+1950,2134,Intel Xeon E3-1231 v3,3.0,tensorflow,Microseconds (Average),6049,99
+1951,2135,Intel Core i7-1065G7,7.0,tensorflow,Microseconds (Average),6147,270
+1952,2136,Intel Core i7-8565U,5.0,tensorflow,Microseconds (Average),6857,528
+1953,2137,AMD Ryzen 5 3400G,3.0,tensorflow,Microseconds (Average),6917,5
+1954,2138,AMD Ryzen 5 4500U,6.0,tensorflow,Microseconds (Average),6974,145
+1955,2139,Intel Xeon E5-2609 v4,4.0,tensorflow,Microseconds (Average),7159,10
+1956,2140,Intel Core i3-8100T,13.0,tensorflow,Microseconds (Average),7316,37
+1957,2141,Intel Core i3-7100,4.0,tensorflow,Microseconds (Average),8069,17
+1958,2142,2 x AMD EPYC 7601 32-Core,4.0,tensorflow,Microseconds (Average),8393,520
+1959,2143,Intel Core i3-1005G1,4.0,tensorflow,Microseconds (Average),9975,7
+1960,2144,2 x AMD EPYC 7773X 64-Core,8.0,tensorflow,Microseconds (Average),10045,535
+1961,2145,AMD Ryzen 3 3200U,3.0,tensorflow,Microseconds (Average),23400,1608
+1962,2146,Intel Core i3-3110M,3.0,tensorflow,Microseconds (Average),27422,55
+1963,2147,Intel Core i7-7700,3.0,tensorflow,Microseconds (Average),55387,2995

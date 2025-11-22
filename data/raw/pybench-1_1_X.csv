@@ -1,0 +1,304 @@
+Component	Percentile Rank	# Compatible Public Results	Milliseconds (Average)
+Intel Core Ultra 9 285K	100th	15	373 +/- 27
+Intel Core Ultra 5 245K	100th	9	383 +/- 2
+Intel Core i9-14900K	100th	34	387 +/- 16
+AMD Ryzen 9 9950X3D 16-Core	100th	19	395 +/- 17
+AMD Ryzen 9 9900X 12-Core	99th	13	398 +/- 7
+AMD Ryzen 7 9700X 8-Core	99th	13	400 +/- 15
+AMD EPYC 4585PX 16-Core	99th	6	409 +/- 1
+AMD Ryzen 9 9900X3D 12-Core	99th	10	412 +/- 3
+AMD Ryzen 9 9950X 16-Core	99th	30	413 +/- 33
+AMD Ryzen 5 9600X 6-Core	99th	17	414 +/- 19
+AMD Ryzen 7 9800X3D 8-Core	99th	13	417 +/- 2
+Intel Xeon E E-2488	98th	5	428 +/- 30
+Intel Core i5-14600K	98th	17	432 +/- 6
+Apple M4 Pro	98th	5	440 +/- 40
+Apple M4	98th	10	450 +/- 12
+Intel Core i9-13900K	98th	48	452 +/- 45
+AMD RYZEN AI MAX+ 395	97th	11	454 +/- 40
+AMD RYZEN AI MAX+ PRO 395	97th	18	454 +/- 25
+Intel Core i5-14500	97th	11	457 +/- 4
+AMD Ryzen AI 5 340	97th	9	460 +/- 5
+Intel Core i3-14100	96th	11	488 +/- 5
+Intel Core i5-12600	96th	5	495 +/- 4
+Intel Core Ultra 7 258V	96th	13	495 +/- 13
+Intel Core i5-14400F	96th	9	499 +/- 20
+AMD EPYC 9655P 96-Core	95th	5	503 +/- 27
+Intel Core i5-13600K	95th	18	504 +/- 27
+AMD EPYC 4364P 8-Core	94th	4	528 +/- 3
+AMD EPYC 4564P 16-Core	93rd	5	534 +/- 1
+Intel Core i5-12600K	93rd	28	535 +/- 8
+2 x AMD EPYC 9755 128-Core	93rd	28	539 +/- 29
+Intel Core i5-13400	93rd	7	545 +/- 40
+AMD Ryzen 7 8700G	92nd	17	550 +/- 4
+AMD EPYC 4124P 4-Core	92nd	4	551 +/- 3
+AMD Ryzen 5 7600X 6-Core	92nd	30	556 +/- 28
+AMD Ryzen 5 8600G	91st	18	561 +/- 23
+AMD Ryzen 9 7900X 12-Core	91st	36	562 +/- 30
+AMD Ryzen 7 7700X 8-Core	91st	38	564 +/- 37
+AMD Ryzen 9 7950X 16-Core	91st	74	568 +/- 51
+AMD Ryzen 7 7700 8-Core	91st	26	570 +/- 31
+AMD EPYC 4584PX 16-Core	91st	4	571
+AMD Ryzen Threadripper 7970X 32-Cores	91st	5	573 +/- 22
+Intel Core Ultra 7 155H	91st	29	576 +/- 19
+AMD Ryzen Z1 Extreme	91st	9	577 +/- 50
+AMD EPYC 9755 128-Core	90th	8	583 +/- 2
+AMD Ryzen 7 7840U	90th	24	584 +/- 35
+Intel Core i5-12400	90th	18	589 +/- 9
+2 x AMD EPYC 9965 192-Core	90th	8	589 +/- 45
+AMD Ryzen 7 7840HS	90th	15	589 +/- 21
+AMD Ryzen 9 7950X3D 16-Core	89th	34	593 +/- 56
+AMD Ryzen 5 8400F 6-Core	89th	7	594 +/- 2
+AMD Ryzen 9 7900X3D 12-Core	89th	26	594 +/- 61
+AMD Ryzen 9 7900 12-Core	89th	24	599 +/- 79
+AMD Ryzen 5 7600 6-Core	89th	14	602 +/- 29
+AMD EPYC 4484PX 12-Core	89th	4	602
+AMD Ryzen 7 PRO 7840U	88th	14	603 +/- 62
+AMD Ryzen 7 8845HS	88th	5	615 +/- 21
+Intel Xeon Platinum 8480+	88th	5	619 +/- 41
+Intel Core i5-1334U	87th	15	623 +/- 48
+AMD Ryzen 7 7800X3D 8-Core	87th	22	632 +/- 75
+2 x Intel Xeon 6980P	86th	12	659 +/- 1
+Intel Xeon 6980P	86th	6	660
+Intel Core i7-11700K	85th	13	682 +/- 21
+INTEL XEON PLATINUM 8592+	85th	4	689 +/- 5
+Intel Core i9-11900K	85th	38	689 +/- 71
+Intel Core Ultra 7 165U	85th	4	689
+2 x INTEL XEON PLATINUM 8592+	85th	4	689 +/- 7
+Intel Core i5-11600K	84th	10	697 +/- 15
+Intel Xeon Max 9480	84th	5	701 +/- 56
+AMD Ryzen 5 5600X 6-Core	84th	51	704 +/- 86
+Intel Xeon E-2388G	84th	11	705 +/- 58
+Intel Xeon E-2336	84th	9	707 +/- 3
+Intel Core i7-11700B	83rd	4	721 +/- 5
+AMD Ryzen 7 5700G	83rd	16	734 +/- 47
+AMD Ryzen 7 PRO 6850U	83rd	29	735 +/- 71
+2 x AMD EPYC 9374F 32-Core	82nd	5	736 +/- 3
+2 x Intel Xeon Max 9480	82nd	13	738 +/- 65
+AMD EPYC 9374F 32-Core	82nd	4	740 +/- 5
+AMD Ryzen 7 5800X 8-Core	81st	77	754 +/- 58
+AMD Ryzen 9 5900X 12-Core	81st	75	759 +/- 102
+2 x Intel Xeon Platinum 8490H	80th	15	765 +/- 37
+Intel Xeon Platinum 8490H	80th	7	765 +/- 5
+AMD Ryzen 9 5900HX	80th	20	766 +/- 41
+AMD Ryzen 9 5950X 16-Core	80th	123	771 +/- 112
+AMD Ryzen 7 5800X3D 8-Core	79th	32	776 +/- 90
+Intel Celeron G6900	78th	15	797 +/- 56
+AMD Ryzen 5 5500	78th	14	798 +/- 39
+AMD Ryzen 7 5800U	77th	12	817 +/- 30
+AMD Ryzen 5 PRO 6650U	77th	4	830 +/- 41
+Intel Core i9-10850K	77th	10	833 +/- 105
+Apple M2	76th	11	840 +/- 3
+2 x AMD EPYC 9554 64-Core	76th	9	845 +/- 1
+AMD Ryzen 7 3800XT 8-Core	76th	4	847 +/- 38
+Mid-Tier	75th		> 848
+AMD EPYC 9554 64-Core	75th	9	849
+AMD EPYC 9654 96-Core	75th	11	852 +/- 17
+2 x AMD EPYC 9654 96-Core	75th	36	852 +/- 72
+AMD EPYC 75F3 32-Core	75th	10	855 +/- 21
+2 x AMD EPYC 73F3 16-Core	75th	6	857 +/- 19
+AMD EPYC 73F3 16-Core	75th	6	859 +/- 18
+Intel Core i5-10600K	74th	18	865 +/- 99
+AMD EPYC 72F3 8-Core	74th	10	870 +/- 84
+2 x AMD EPYC 75F3 32-Core	74th	27	872 +/- 39
+AMD Ryzen 7 PRO 5850U	74th	74	884 +/- 125
+AMD Ryzen 9 3900XT 12-Core	73rd	9	897 +/- 27
+Intel Core i7-8086K	72nd	30	899 +/- 112
+Intel Core i9-9900K	72nd	51	899 +/- 134
+AMD Ryzen 5 PRO 4650G	70th	8	927 +/- 7
+Intel Core i7-7900X	70th	5	929 +/- 26
+Intel Core i7-1065G7	70th	37	929 +/- 110
+AMD Ryzen 7 3800X 8-Core	70th	10	930 +/- 103
+AMD Ryzen 3 3300X 4-Core	70th	7	932 +/- 27
+Intel N150	70th	5	936 +/- 73
+2 x AMD EPYC 7713 64-Core	69th	14	940 +/- 25
+Intel Core i3-10100	69th	14	940 +/- 37
+2 x AMD EPYC 7513 32-Core	69th	5	940 +/- 19
+Intel Xeon E-2288G	69th	9	940 +/- 122
+AMD EPYC 7713 64-Core	68th	13	958 +/- 38
+Intel Core i7-7700K	67th	24	959 +/- 132
+2 x Intel Xeon Gold 6346	67th	6	961 +/- 11
+Intel Xeon Gold 6346	67th	5	962 +/- 11
+2 x Intel Xeon Platinum 8362	66th	8	972 +/- 13
+AMD Ryzen 9 3900X 12-Core	66th	92	973 +/- 124
+AMD Ryzen 7 4700U	66th	16	975 +/- 100
+AMD Ryzen 5 3600X 6-Core	66th	21	976 +/- 61
+AMD Ryzen 9 3950X 16-Core	66th	35	977 +/- 132
+AMD Ryzen 5 3500X 6-Core	65th	10	985 +/- 11
+Intel Xeon Gold 6342	64th	6	990 +/- 14
+2 x Intel Xeon Gold 6342	64th	6	990 +/- 13
+Intel Pentium Gold G6400	64th	7	991 +/- 34
+Intel Xeon E3-1275 v6	64th	6	991 +/- 28
+AMD EPYC 7763 64-Core	64th	21	998 +/- 22
+AMD Ryzen Threadripper 3990X 64-Core	63rd	45	1000 +/- 128
+AMD Ryzen Threadripper PRO 3975WX 32-Cores	63rd	5	1005 +/- 99
+AMD EPYC 7773X 64-Core	63rd	6	1008 +/- 9
+2 x AMD EPYC 7F52 16-Core	63rd	9	1009 +/- 11
+AMD Ryzen 5 3600 6-Core	63rd	27	1010 +/- 86
+2 x AMD EPYC 7763 64-Core	62nd	29	1013 +/- 58
+2 x AMD EPYC 7313 16-Core	62nd	7	1014 +/- 119
+AMD EPYC 7F32 8-Core	62nd	14	1014 +/- 13
+Intel Core i5-7600K	62nd	9	1014 +/- 83
+Intel Xeon W-2295	62nd	10	1014 +/- 67
+Intel Core i9-7960X	62nd	64	1017 +/- 115
+Intel Xeon Platinum 8380	61st	9	1019 +/- 22
+Intel Core i7-8700K	61st	57	1021 +/- 141
+Intel Xeon E3-1260L v5	61st	18	1023 +/- 4
+Intel Core i7-4790K	60th	7	1028 +/- 148
+AMD Ryzen 3 3100 4-Core	60th	10	1036 +/- 35
+Intel Core i5-9400F	60th	6	1037 +/- 59
+Intel Xeon E3-1245 v5	60th	24	1039 +/- 28
+AMD Ryzen Threadripper 1900X 8-Core	59th	8	1053 +/- 123
+2 x AMD EPYC 7F72 24-Core	59th	7	1055 +/- 12
+AMD Ryzen Threadripper 3960X 24-Core	59th	8	1056 +/- 153
+AMD Ryzen 7 PRO 3700U	59th	6	1060 +/- 7
+2 x Intel Xeon Platinum 8380	58th	77	1065 +/- 82
+AMD EPYC 7F72 24-Core	58th	13	1070 +/- 13
+Intel Core i7-8700	58th	5	1070 +/- 159
+Intel Xeon Gold 6258R	56th	4	1094 +/- 12
+Intel Core i5-1035G1	56th	5	1097 +/- 116
+Intel Core i5-8300H	56th	4	1097 +/- 97
+2 x Intel Xeon Platinum 8280	55th	62	1100 +/- 103
+Intel Xeon Gold 5218	55th	10	1100 +/- 58
+2 x Intel Xeon Gold 5220R	55th	11	1111 +/- 24
+AMD Ryzen 5 2600X Six-Core	55th	5	1114 +/- 120
+Intel Core i7-9750H	54th	14	1120 +/- 117
+Intel Xeon Gold 5220R	54th	5	1123 +/- 9
+Intel Xeon Gold 6226R	53rd	6	1134 +/- 24
+2 x Intel Xeon Gold 6254	53rd	28	1139 +/- 2
+AMD Custom APU 0405	52nd	13	1146 +/- 74
+Intel Celeron G5900	52nd	6	1154 +/- 23
+AMD EPYC 7262 8-Core	51st	5	1163 +/- 26
+Intel Core i5-6500	51st	30	1164 +/- 99
+Intel Core i3-7100	51st	9	1166 +/- 146
+Median	50th		1170
+Intel Xeon Gold 5217	50th	5	1179 +/- 13
+AMD EPYC 7702 64-Core	50th	23	1179 +/- 11
+AMD EPYC 7502P 32-Core	50th	12	1179 +/- 14
+AMD EPYC 7452 32-Core	49th	7	1181 +/- 18
+AMD EPYC 7742 64-Core	49th	12	1182 +/- 21
+Intel Core i7-7700	49th	14	1190 +/- 170
+AMD EPYC 7552 48-Core	48th	10	1194 +/- 15
+AMD EPYC 7532 32-Core	48th	10	1197 +/- 16
+2 x Intel Xeon Gold 6248R	48th	10	1198 +/- 47
+AMD EPYC 7662 64-Core	48th	10	1199 +/- 13
+AMD Ryzen Threadripper 2920X 12-Core	48th	5	1199 +/- 101
+Intel Core i5-8600K	47th	19	1206 +/- 2
+AMD EPYC 7502 32-Core	47th	8	1208 +/- 14
+2 x AMD EPYC 7402 24-Core	47th	4	1211
+AMD EPYC 7302 16-Core	46th	6	1216 +/- 12
+AMD EPYC 7272 12-Core	46th	8	1225 +/- 20
+AMD EPYC 7642 48-Core	46th	21	1225 +/- 35
+Intel Pentium G4400	45th	17	1229 +/- 28
+AMD EPYC 7282 16-Core	45th	11	1231 +/- 15
+Intel Core i7-8700B	45th	20	1235 +/- 142
+AMD EPYC 7232P 8-Core	45th	10	1236 +/- 21
+AMD Ryzen 5 2600 Six-Core	45th	13	1239 +/- 135
+Intel Core i7-4790	45th	5	1241 +/- 141
+2 x AMD EPYC 7502 32-Core	45th	6	1244 +/- 73
+2 x AMD EPYC 7742 64-Core	44th	37	1247 +/- 153
+AmpereOne 192-Core	44th	9	1247 +/- 66
+2 x Intel Xeon Platinum 8259L	44th	5	1252 +/- 1
+Intel Core i7-4770K	44th	7	1257 +/- 84
+AMD EPYC 7352 24-Core	43rd	6	1261 +/- 5
+AMD Ryzen 7 1800X Eight-Core	42nd	12	1282 +/- 186
+Intel Xeon E5-2687W v3	42nd	5	1299 +/- 42
+Intel Core i7-8559U	41st	5	1306 +/- 191
+AMD Ryzen 7 2700 Eight-Core	41st	9	1307 +/- 188
+Intel Xeon E5-1680 v3	41st	8	1310 +/- 174
+Ampere Altra ARMv8 Neoverse-N1 160-Core	41st	10	1315 +/- 44
+Intel Core i7-9850H	41st	8	1317 +/- 13
+Intel Core i3-8100	41st	16	1322 +/- 125
+Intel Xeon Silver 4216	41st	8	1322 +/- 72
+Intel Core i3-4130	40th	9	1328 +/- 43
+Intel Xeon E3-1235L v5	40th	21	1330 +/- 7
+Intel Xeon Silver 4108	39th	29	1348 +/- 33
+Intel Core i7-5775C	39th	7	1354 +/- 179
+AMD Ryzen 5 3500U	39th	13	1367 +/- 84
+Intel Core i5-3550	38th	5	1381 +/- 3
+Intel Core i7-6700K	37th	20	1404 +/- 36
+Intel Core i5-3570K	37th	10	1411 +/- 189
+Intel Core i5-8250U	37th	20	1423 +/- 132
+Intel Core i5-6500T	36th	4	1431 +/- 71
+AMD Athlon 3000G	36th	17	1440 +/- 174
+Intel Core i7-5820K	36th	10	1442 +/- 186
+Intel Core i7-3770K	36th	9	1449 +/- 144
+Intel Core i5-4300M	35th	5	1461 +/- 166
+Intel Core i5-4430	35th	18	1471 +/- 4
+2 x Intel Xeon Gold 6130	34th	7	1476 +/- 102
+Intel Core i5-7200U	34th	13	1477 +/- 167
+2 x Intel Xeon Gold 6142	34th	5	1494 +/- 16
+Intel Xeon W-2123	34th	4	1494 +/- 3
+Intel Core i5-2500S	33rd	4	1501 +/- 22
+Intel Core i5-6260U	33rd	7	1503 +/- 58
+Intel Core i5-6200U	33rd	6	1520 +/- 120
+Intel Core i3-8100T	32nd	9	1529 +/- 77
+AMD Ryzen 7 1700 Eight-Core	32nd	35	1535 +/- 178
+Intel Core i7-4600U	32nd	8	1544 +/- 194
+AMD Ryzen Threadripper 1950X 16-Core	31st	30	1565 +/- 172
+2 x AMD EPYC 7601 32-Core	31st	47	1589 +/- 214
+Intel Core i7-4558U	30th	6	1613 +/- 187
+AMD EPYC 7251 8-Core	30th	5	1622 +/- 58
+Intel Core i7-5960X	29th	20	1634 +/- 200
+ARMv8 Cortex-A76 4-Core	29th	11	1657 +/- 191
+Intel Core i7-2700K	29th	24	1658 +/- 179
+Intel Core i7-5600U	28th	14	1665 +/- 196
+Intel Core m3-7Y30	27th	7	1715 +/- 173
+Intel Core i3-2120	27th	5	1719 +/- 30
+Intel Core i7-3770	27th	4	1729 +/- 204
+Intel Core i5-5300U	27th	6	1729 +/- 214
+Intel Core i5-5200U	26th	5	1743 +/- 124
+Intel Core i7-2600	26th	5	1773 +/- 167
+Intel Core i5-3427U	26th	5	1774 +/- 70
+Rockchip ARMv8 Cortex-A76 6-Core	26th	7	1774 +/- 17
+Low-Tier	25th		> 1779
+AMD A10-7850K APU	25th	6	1813 +/- 78
+AMD FX-6300 Six-Core	24th	5	1830 +/- 78
+Rockchip ARMv8 Cortex-A76 4-Core	24th	12	1844 +/- 132
+Intel Core i5-4210U	24th	5	1861 +/- 215
+Intel Core i5-4278U	24th	4	1886 +/- 196
+AMD A12-9720P RADEON R7 12 COMPUTE CORES 4C+8G	24th	5	1895 +/- 38
+Intel Core i5	23rd	8	1909 +/- 145
+AMD FX-8150 Eight-Core	23rd	4	1935 +/- 9
+2 x Intel Xeon Silver 4214	23rd	4	1959 +/- 199
+Intel Core i7 990X	21st	13	2054 +/- 244
+Intel Core i5-2410M	21st	5	2058 +/- 142
+Intel Core 2 Duo E8500	21st	5	2129 +/- 11
+Intel Core i5-2520M	20th	7	2141 +/- 283
+Intel Core i7-3630QM	20th	4	2149 +/- 4
+Intel Core i7 920	20th	12	2211 +/- 5
+AMD FX-8350 Eight-Core	19th	8	2293 +/- 236
+Intel Core m3-6Y30	18th	5	2402 +/- 183
+Intel Xeon E5-2609 v4	17th	21	2600 +/- 63
+Intel Core 2 Duo T7700	17th	5	2605 +/- 214
+Intel Xeon E3-12xx v2	17th	7	2620 +/- 5
+Intel Core i3-3110M	17th	10	2620 +/- 335
+Loongson-3A5000LL	16th	8	2834 +/- 26
+ZHAOXIN KaiXian KX-6640MA	14th	5	3377 +/- 64
+Intel Celeron N3350	13th	6	3497 +/- 426
+Intel Core 2 Duo T7100	13th	9	3534 +/- 11
+Intel Pentium N4200	13th	4	3789 +/- 369
+Intel Celeron J3455	12th	14	3918 +/- 355
+Intel Core 2 Duo P7350	12th	19	3995 +/- 483
+ARMv8 Cortex-A73 8-Core	12th	5	4143 +/- 427
+ARMv8 Cortex-A72 16-Core	11th	8	4348 +/- 461
+ARMv8 Cortex-A57 6-Core	10th	5	4566 +/- 30
+Intel Celeron N2830	10th	5	4798 +/- 140
+ARMv7 Cortex-A72 4-Core	10th	92	4808 +/- 638
+POWER9 altivec supported 64-Core	10th	11	4859 +/- 6
+ARMv8 rev 3 6-Core	10th	7	4859 +/- 515
+AMD A6-3410MX APU	9th	4	4953 +/- 40
+ARMv7 rev 3 4-Core	9th	38	5088 +/- 416
+ARMv8 Cortex-A72 6-Core	9th	16	5107 +/- 293
+ARMVv8 Cortex-A73 6-Core	9th	6	5185 +/- 262
+ARMv7 4-Core	6th	6	6614 +/- 747
+rv64imafdcvsu	6th	9	6748 +/- 285
+ARMv8 Cortex-A57 4-Core	6th	8	6749 +/- 158
+ARMv8 rev 1 4-Core	6th	20	6862 +/- 301
+Intel Core i5 460M	6th	4	6931 +/- 302
+Intel Atom x5-Z8350	6th	13	7000 +/- 700
+Ky X1	5th	5	8406 +/- 31
+ARMv7 rev 1 4-Core	4th	31	9157 +/- 1325
+Rockchip ARMv8 Cortex-A53 4-Core	3rd	5	14791 +/- 1370
+ARMv7 rev 4 4-Core	2nd	59	20726 +/- 2999
+ARMv7 Cortex-A7 4-Core	1st	6	21459 +/- 2343

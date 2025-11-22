@@ -1,0 +1,71 @@
+Component	Percentile Rank	# Compatible Public Results	Seconds (Average)
+AMD EPYC 9755 128-Core	99th	4	16
+AMD Ryzen Threadripper PRO 9995WX 96-Cores	98th	9	16
+AMD Ryzen Threadripper 9980X 64-Cores	96th	13	17
+AMD EPYC 9965 192-Core	95th	7	19
+AMD EPYC 9655P 96-Core	93rd	8	20
+2 x AMD EPYC 9965 192-Core	92nd	8	20
+AMD Ryzen Threadripper 7980X 64-Cores	88th	18	22 +/- 1
+AMD Ryzen Threadripper 9970X 32-Cores	87th	8	22 +/- 1
+2 x Intel Xeon 6980P	86th	5	22 +/- 1
+Intel Xeon 6980P	86th	11	23 +/- 2
+AMD EPYC 9754 128-Core	84th	4	24
+AMD Ryzen Threadripper 7970X 32-Cores	81st	12	27
+2 x Intel Xeon Max 9468	79th	8	31 +/- 1
+2 x AMD EPYC 7773X 64-Core	77th	13	33 +/- 1
+Mid-Tier	75th		> 38
+AMD Ryzen Threadripper PRO 5965WX 24-Cores	75th	6	39 +/- 1
+AMD Ryzen 9 9950X3D 16-Core	73rd	18	40
+Intel Core Ultra 9 285K	71st	12	41 +/- 1
+AMD EPYC 4585PX 16-Core	67th	29	43
+AMD Ryzen 9 9950X 16-Core	63rd	11	45
+AMD Ryzen Threadripper 3990X 64-Core	62nd	5	46 +/- 2
+AMD RYZEN AI MAX+ 395	61st	8	46 +/- 1
+AMD Ryzen 9 9900X3D 12-Core	61st	12	47
+AMD EPYC 4584PX 16-Core	59th	10	48
+AMD EPYC 4565P 16-Core	55th	22	49 +/- 1
+AMD Ryzen 9 9900X 12-Core	53rd	8	50
+AMD EPYC 4564P 16-Core	51st	10	51
+Median	50th		52
+AMD EPYC 4545P 16-Core	49th	9	53
+Intel Core Ultra 5 245K	48th	6	55
+AMD RYZEN AI MAX+ PRO 395	47th	17	55 +/- 3
+AMD Ryzen AI MAX+ PRO 395	46th	3	55
+AMD EPYC 4484PX 12-Core	45th	6	57
+4 x EPYC 9V64H	44th	3	58 +/- 2
+AMD EPYC 4465P 12-Core	44th	4	58
+AMD Ryzen 7 9800X3D 8-Core	43rd	9	59
+Intel Core i9-14900K	41st	6	62 +/- 2
+AMD EPYC 7601 32-Core	41st	9	62 +/- 1
+AMD RYZEN AI MAX PRO 390	37th	9	63 +/- 3
+AMD EPYC 4464P 12-Core	37th	7	63
+AMD Ryzen 7 9700X 8-Core	35th	6	69
+AMD EPYC 4345P 8-Core	34th	14	71
+Intel Core i9-10980XE	31st	3	79
+AMD EPYC 4364P 8-Core	30th	6	80 +/- 1
+AMD EPYC 4344P 8-Core	29th	5	81
+Intel Xeon 6369P	28th	22	82 +/- 6
+AMD EPYC 4245P 6-Core	27th	4	86
+AMD Ryzen 5 9600X 6-Core	26th	5	87
+Low-Tier	25th		> 94
+AMD Ryzen 7 5800X3D 8-Core	25th	8	95 +/- 1
+AMD EPYC 4244P 6-Core	23rd	6	99
+AMD Ryzen AI 9 365	21st	10	109 +/- 6
+AMD Ryzen AI 9 HX 370	21st	8	109 +/- 6
+Intel Xeon Silver 4216	21st	4	110
+AMD Ryzen 7 7840HS	20th	5	111 +/- 6
+AMD EPYC 7F32 8-Core	19th	8	113 +/- 2
+Intel Core Ultra 7 256V	17th	8	119 +/- 7
+Intel Core Ultra 7 258V	15th	9	130 +/- 3
+AMD Ryzen 7 7840U	13th	7	138 +/- 18
+AMD EPYC 4124P 4-Core	12th	10	140 +/- 1
+AMD Ryzen AI 5 340	11th	13	151 +/- 15
+AMD Ryzen AI 7 PRO 360	10th	8	157 +/- 18
+AMD Ryzen 7 PRO 6850U	9th	3	161
+Intel Core Ultra 7 155H	8th	6	165 +/- 6
+AMD Ryzen 9 5900HX	8th	5	166 +/- 12
+Intel Core i7-5960X	6th	4	176 +/- 3
+AMD Ryzen 7 4700U	5th	5	208 +/- 8
+Intel Core i7-1185G7	4th	7	247 +/- 2
+Intel Core i7-1165G7	3rd	5	258 +/- 3
+Intel Core i5-1334U	1st	4	354 +/- 19
