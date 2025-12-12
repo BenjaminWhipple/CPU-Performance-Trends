@@ -17,5 +17,3 @@ Run them in order:
 3. N3-Modeling.rmd
 
 The surface plots ("images/surface_plots.png") created in the rmd file require manually saving from within Rstudio.
-
-I do not recommend rerunning the notebook contained in the data folder titled "N0-Web_Scraping.ipynb".
