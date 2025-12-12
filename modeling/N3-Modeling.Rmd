@@ -1,0 +1,960 @@
+---
+title: "N3-Modeling"
+output: html_document
+date: "2025-11-30"
+---
+
+
+```{r setup, include=FALSE}
+
+library(tidyverse)
+
+# Setup brms
+library(brms)
+if (requireNamespace("cmdstanr", quietly = TRUE)) {
+  library(cmdstanr)
+  if (!is.null(cmdstan_path())) {
+    options(brms.backend = "cmdstanr")
+    message("Backend set to: cmdstanr")
+  } else {
+    message("cmdstanr installed, but CmdStan not yet installed (run cmdstanr::install_cmdstan()).")
+  }
+} else {
+  message("cmdstanr not installed; using default backend.")
+}
+
+if (!requireNamespace("miceRanger", quietly = TRUE)) {
+  stop("Package 'miceRanger' is not installed. Try: install.packages('miceRanger')")
+}
+library(miceRanger)
+library(scales)
+library(bayesplot)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+# Load data
+data <- read.csv("../data/Regression_Data.csv")
+head(data)
+```
+```{r}
+summary(data)
+```
+
+BRMS Setup
+
+```{r}
+options(mc.cores = 4)
+rstan::rstan_options(auto_write = TRUE)
+
+data <- data %>% 
+  filter(market != "Mobile") %>%
+  rename(
+    generalized_perf = `Generalized.Performance`,
+    cores           = `X._of_cores`
+  )
+
+# Quick look at remaining missingness
+sapply(data, function(x) sum(is.na(x)))
+```
+
+Summarizing the data:
+
+```{r}
+temp <-data
+temp$Brand <- as.factor(temp$Brand)
+summary(temp[c('Brand','year','launch_price')])
+```
+
+We start with a simple model to provide a baseline of performance.
+
+```{r}
+res <- lm(Performance ~ time*log(launch_price)*factor(Brand),data=data)
+summary(res)
+```
+
+```{r}
+par(mfrow = c(2, 2))
+plot(res)
+```
+
+```{r}
+data[c(128, 129, 208), ]
+```
+
+```{r}
+data[c(61, 208, 324), ]
+```
+
+We conclude from this initial modeling that a relatively simple model is capable of explaining most of the variance. However, the residuals look to have somewhat heavier tails. This motivates the possible use of student-t error model in further modeling.
+
+```{r}
+summary(data)
+data$time <- data$time - 1 # a minor adjustment for future use.
+summary(data)
+
+YEAR_MIN <- 2008 # For future plotting needs.
+```
+
+```{r}
+mice_df <- data %>%
+  select(
+    Performance,
+    FinanceBench,
+    amg,
+    numpy,
+    hpcg,
+    stockfish,
+    nqueens,
+    linux_kernel,
+    pybench,
+    Multiplier,
+    Brand,
+    process_size,
+    frequency,
+    tdp,
+    memory_bandwidth,
+    cores,
+    time,
+    launch_price,
+    market
+  ) %>%
+  mutate(
+    Brand  = factor(Brand),
+    market = factor(market)
+  )
+
+str(mice_df)
+
+## Multiple imputation with miceRanger
+## We only want to impute: frequency, memory_bandwidth, launch_price
+## All other columns are used as predictors but not imputed.
+
+set.seed(123)
+imp_mr <- miceRanger(
+  data    = mice_df,
+  m       = 3,                          # number of imputed datasets
+  maxiter = 10,                         # iterations per dataset
+  vars    = c("frequency", "memory_bandwidth", "launch_price"),
+  valueSelector = "meanMatch",          # predictive mean matching
+  verbose = FALSE
+)
+```
+
+```{r}
+# Turn into a list of completed data frames (one per imputation)
+imp_list <- completeData(imp_mr)  # returns a list of data.frames
+
+## tdp, launch_price, cores := Multiplier * value
+imp_list <- lapply(imp_list, function(d) {
+  d %>%
+    mutate(
+      cores        = cores * Multiplier,
+      tdp          = tdp * Multiplier,
+      launch_price = launch_price * Multiplier
+    )
+})
+```
+
+```{r}
+# Use the first imputed dataset to define global means/SDs,
+# then apply the SAME scaling to all imputations.
+# This is, admittedly, imperfect.
+ref <- imp_list[[1]] %>%
+  mutate(
+    log_frequency        = log(frequency),
+    log_tdp              = log(tdp),
+    log_memory_bandwidth = log(memory_bandwidth),
+    log_cores            = log(cores),
+    log_launch_price     = log(launch_price)   # NEW
+  )
+
+scales <- list(
+  time = c(
+    mean = mean(ref$time),
+    sd   = sd(ref$time)
+  ),
+  log_frequency = c(
+    mean = mean(ref$log_frequency),
+    sd   = sd(ref$log_frequency)
+  ),
+  log_tdp = c(
+    mean = mean(ref$log_tdp),
+    sd   = sd(ref$log_tdp)
+  ),
+  log_memory_bandwidth = c(
+    mean = mean(ref$log_memory_bandwidth),
+    sd   = sd(ref$log_memory_bandwidth)
+  ),
+  log_cores = c(
+    mean = mean(ref$log_cores),
+    sd   = sd(ref$log_cores)
+  ),
+  log_launch_price = c(                       # NEW
+    mean = mean(ref$log_launch_price),
+    sd   = sd(ref$log_launch_price)
+  )
+)
+
+z <- function(x, par) (x - par["mean"]) / par["sd"]
+
+imp_list <- lapply(imp_list, function(d) {
+  d %>%
+    mutate(
+      log_frequency        = log(frequency),
+      log_tdp              = log(tdp),
+      log_memory_bandwidth = log(memory_bandwidth),
+      log_cores            = log(cores),
+      log_launch_price     = log(launch_price),                       # NEW
+      z_time               = z(time, scales$time),
+      z_log_frequency      = z(log_frequency, scales$log_frequency),
+      z_log_tdp            = z(log_tdp, scales$log_tdp),
+      z_log_memory_bw      = z(log_memory_bandwidth,
+                               scales$log_memory_bandwidth),
+      z_log_cores          = z(log_cores, scales$log_cores),
+      z_log_launch_price   = z(log_launch_price,                      # NEW
+                               scales$log_launch_price),
+      
+      perf_per_dollar  = Performance - log_launch_price
+    )
+})
+
+```
+
+### Now we fit different models.
+
+This code will take quite a while to run.
+
+#### Model search on the full data
+
+```{r}
+M_full <- bf(
+  Performance ~
+    1 +
+    z_time * z_log_launch_price +
+    (1 + z_log_launch_price * z_time | Brand)
+)
+
+
+full_priors <- c(
+  prior(normal(0, 5), class = "Intercept"),
+  prior(normal(0, 5), class = "b"),       # fixed effects for price and time
+  prior(exponential(3), class = "sd"),    # group-level sds (intercept & slopes)
+  prior(exponential(1), class = "sigma")  # residual sd
+)
+
+set.seed(123)
+
+M_full_fit <- brm(
+  M_full,
+  data    = imp_list[[1]],
+  family  = gaussian(),
+  prior   = full_priors,
+  chains  = 4,
+  iter    = 8000,
+  warmup  = 2000,
+  seed    = 123,
+  control = list(adapt_delta = 0.99, max_treedepth = 20),
+  backend = "cmdstanr",
+  refresh = 0
+)
+
+summary(M_full_fit)
+plot(M_full_fit)
+bayes_R2(M_full_fit, summary = TRUE)
+loo_R2(M_full_fit)
+```
+
+Checking divergences:
+
+```{r}
+draws <- as_draws_df(M_full_fit)
+names(draws)
+
+np <- nuts_params(M_full_fit)
+
+mcmc_pairs(
+  M_full_fit,
+  pars = c("sd_Brand__Intercept","sd_Brand__z_log_launch_price","sd_Brand__z_time","sd_Brand__z_log_launch_price:z_time"),
+  np = np,
+)
+```
+
+Now we want to do a search over several plausible submodels
+
+Model M1 is the simplest and has no interaction between slopes
+```{r}
+M1 <- bf(
+  Performance ~ (1 + z_time + z_log_launch_price)*Brand
+)
+
+M1_priors <- c(
+  prior(normal(0, 5), class = "Intercept"),
+  prior(normal(0, 5), class = "b"),       # fixed effects for price and time
+  prior(exponential(1), class = "sigma")  # residual sd
+)
+
+set.seed(123)
+
+M1_fit <- brm(
+  M1,
+  data    = imp_list[[1]],
+  family  = gaussian(),
+  prior   = M1_priors,
+  chains  = 4,
+  iter    = 8000,
+  warmup  = 2000,
+  seed    = 123,
+  control = list(adapt_delta = 0.99, max_treedepth = 20),
+  backend = "cmdstanr",
+  refresh = 0
+)
+
+summary(M1_fit)
+plot(M1_fit)
+bayes_R2(M1_fit, summary = TRUE)
+loo_R2(M1_fit)
+```
+
+M2 adds interaction between launch price and time.
+
+```{r}
+M2 <- bf(
+  Performance ~ (1 + z_time*z_log_launch_price)*Brand
+)
+
+M2_priors <- c(
+  prior(normal(0, 5), class = "Intercept"),
+  prior(normal(0, 5), class = "b"),       # fixed effects for price and time
+  prior(exponential(1), class = "sigma")  # residual sd
+)
+
+set.seed(123)
+
+M2_fit <- brm(
+  M2,
+  data    = imp_list[[1]],
+  family  = gaussian(),
+  prior   = M1_priors,
+  chains  = 4,
+  iter    = 8000,
+  warmup  = 2000,
+  seed    = 123,
+  control = list(adapt_delta = 0.99, max_treedepth = 20),
+  backend = "cmdstanr",
+  refresh = 0
+)
+
+summary(M2_fit)
+plot(M2_fit)
+bayes_R2(M2_fit, summary = TRUE)
+loo_R2(M2_fit)
+```
+
+M3 adds simple brand level random effects.
+
+```{r}
+M3 <- bf(
+  Performance ~
+    1 +
+    z_time * z_log_launch_price +
+    (1 | Brand)
+)
+
+M3_priors <- c(
+  prior(normal(0, 5), class = "Intercept"),
+  prior(normal(0, 5), class = "b"),       # fixed effects for price and time
+  prior(exponential(3), class = "sd"),    # group-level sds (intercept & slopes)
+  prior(exponential(1), class = "sigma")  # residual sd
+)
+
+M3_fit <- brm(
+  M3,
+  data    = imp_list[[1]],
+  family  = gaussian(),
+  prior   = M3_priors,
+  chains  = 4,
+  iter    = 8000,
+  warmup  = 2000,
+  seed    = 123,
+  control = list(adapt_delta = 0.99, max_treedepth = 20),
+  backend = "cmdstanr",
+  refresh = 0
+)
+
+summary(M3_fit)
+plot(M3_fit)
+bayes_R2(M3_fit, summary = TRUE)
+loo_R2(M3_fit)
+```
+
+Checking divergences:
+
+```{r}
+draws <- as_draws_df(M3_fit)
+names(draws)
+
+np <- nuts_params(M3_fit)
+
+mcmc_pairs(
+  M3_fit,
+  pars = c("sd_Brand__Intercept","Intercept"),
+  np = np,
+)
+```
+
+
+M4 adds z_time and z_launch_price random effects.
+
+```{r}
+M4 <- bf(
+  Performance ~
+    1 +
+    z_time * z_log_launch_price +
+    (1 + z_time + z_log_launch_price| Brand)
+)
+
+M4_priors <- c(
+  prior(normal(0, 5), class = "Intercept"),
+  prior(normal(0, 5), class = "b"),       # fixed effects for price and time
+  prior(exponential(3), class = "sd"),    # group-level sds (intercept & slopes)
+  prior(exponential(1), class = "sigma")  # residual sd
+)
+
+M4_fit <- brm(
+  M4,
+  data    = imp_list[[1]],
+  family  = gaussian(),
+  prior   = M4_priors,
+  chains  = 4,
+  iter    = 8000,
+  warmup  = 2000,
+  seed    = 123,
+  control = list(adapt_delta = 0.99, max_treedepth = 20),
+  backend = "cmdstanr",
+  refresh = 0
+)
+
+summary(M4_fit)
+plot(M4_fit)
+bayes_R2(M4_fit, summary = TRUE)
+loo_R2(M4_fit)
+```
+
+Checking divergences:
+
+```{r}
+draws <- as_draws_df(M4_fit)
+names(draws)
+
+np <- nuts_params(M4_fit)
+
+mcmc_pairs(
+  M4_fit,
+  pars = c("sd_Brand__Intercept",
+           "sd_Brand__z_time",
+           "sd_Brand__z_log_launch_price"),
+  np = np,
+)
+```
+
+Now we want to compare M1,M2,M3,M4, and M_full. We will use th
+
+```{r}
+fits <- list(M1_fit,M2_fit,M3_fit,M4_fit, M_full_fit)
+fit_names <- c("M1", "M2", "M3", "M4", "M_full")
+loos <- setNames(lapply(fits, loo),fit_names)
+loo_compare(loos)
+```
+
+The loo comparison indicates that the full model has the best estimated out-of-sample predictive performance, but several simpler competitors are essentially indistinguishable from it in predictive terms. 
+
+M1, M2, and M4 all have elpd_diff values around −3 with standard errors around 3.5–3.9, meaning their apparent disadvantages relative to M_full are well within one standard error and thus not strong evidence that they predict meaningfully worse. 
+
+Only M3 stands out as clearly inferior, with an elpd_diff of about −15 and a standard error of 7.5, i.e., roughly a two–standard-error drop in predictive performance. 
+
+Taken together, this pattern suggests that there is a small “family” of models (M_full, M1, M2, M4) that all predict similarly well. In particular, because the more complex M_full is not dramatically better than the simpler models, there is no strong information-theoretic argument to keep escalating model complexity.
+
+Based on the sampling pathologies we observe for M_full and M4, we consider M2 to be the best model moving forward. M2 preserves the expressive structure we expect to be theoretically necessary to describe the variability of the data.
+
+```{r}
+M2 <- bf(
+  Performance ~ (1 + z_time*z_log_launch_price)*Brand
+)
+
+M2_priors <- c(
+  prior(normal(0, 5), class = "Intercept"),
+  prior(normal(0, 5), class = "b"),       # fixed effects for price and time
+  prior(exponential(1), class = "sigma")  # residual sd
+)
+
+set.seed(123)
+
+M_simple_fit <- brm_multiple(
+  M2,
+  data    = imp_list,
+  family  = gaussian(),
+  prior   = M2_priors,
+  chains  = 4,
+  iter    = 8000,
+  warmup  = 2000,
+  seed    = 123,
+  control = list(adapt_delta = 0.99, max_treedepth = 20),
+  backend = "cmdstanr",
+  combine = TRUE,
+  refresh = 0
+)
+
+```
+
+```{r}
+## Basic posterior inspection
+
+summary(M_simple_fit)
+plot(M_simple_fit)
+bayes_R2(M_simple_fit, summary = TRUE)
+loo_R2(M_simple_fit)
+```
+
+```{r}
+## Summarize fixed effects
+fixef(M_simple_fit, probs = c(0.025, 0.975))
+```
+
+```{r}
+library(knitr)
+ps <- posterior_summary(M_simple_fit, probs = c(0.025, 0.975))
+ps_sd <- ps[grep("^sd_", rownames(ps)), ]
+ps_sd
+```
+
+```{r}
+# Basic density overlay
+pp_check(M_simple_fit, type = "dens_overlay", ndraws = 100)
+
+# Histogram overlay
+pp_check(M_simple_fit, type = "hist", ndraws = 100)
+
+# Scatter of y vs predicted y_bar (average per x)
+pp_check(M_simple_fit, type = "scatter_avg", ndraws = 100)
+```
+
+```{r}
+# Pick a representative imputed dataset
+dat_plot <- imp_list[[1]]
+
+# Fitted values (mean of the conditional expectation, no noise)
+f_fit <- fitted(M_simple_fit,
+                newdata = dat_plot,
+                summary = TRUE)
+
+head(f_fit)
+```
+
+```{r}
+dat_fit <- dat_plot %>%
+  mutate(
+    fitted_mean = f_fit[, "Estimate"],
+    fitted_low  = f_fit[, "Q2.5"],
+    fitted_high = f_fit[, "Q97.5"]
+  )
+
+p <- ggplot(dat_fit, aes(x = fitted_mean, y = Performance)) +
+  geom_point(alpha = 0.4) +
+  geom_abline(slope = 1, intercept = 0, linetype = 2) +
+  labs(
+    x = "Fitted Performance",
+    y = "Observed Performance",
+    title ="Observed vs fitted"
+  ) +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+ggsave("../images/overall_fit.pdf",
+       plot   = p,
+       width  = 7,   # inches
+       height = 4,
+       dpi    = 300)
+
+p
+```
+
+```{r}
+dat_pct <- slope_table %>% 
+  mutate(
+    imp_med   = exp(slope_median) - 1,
+    imp_mean  = exp(slope_mean)   - 1,
+    imp_lwr90 = exp(slope_lwr90)  - 1,
+    imp_upr90 = exp(slope_upr90)  - 1
+  )
+
+p <- ggplot(dat_pct,
+       aes(x = launch_price, y = imp_med, colour = Brand)) +
+  geom_ribbon(aes(ymin = imp_lwr90, ymax = imp_upr90, fill = Brand),
+              alpha = 0.15, colour = NA) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(
+    labels = percent_format(accuracy = 1),
+    name   = "Annual performance improvement"
+  ) +
+  scale_x_log10(
+    name   = "Launch price (unadjusted USD)",
+    breaks = c(200, 300, 600, 2000, 5000, 10000),  # optional
+    labels = scales::dollar_format()
+  ) +
+  #scale_x_continuous(name = "Launch price (unadjusted USD)") +
+  labs(title = "Percent improvement in performance per year by launch price") +
+  theme_classic()
+
+ggsave("../images/perf_improvement_by_price.pdf",
+       plot   = p,
+       width  = 7,   # inches
+       height = 4,
+       dpi    = 300)
+
+p
+```
+
+```{r}
+priors_test <- M2_priors
+
+test_vars <- c(
+  "FinanceBench", "amg", "numpy", "hpcg",
+  "stockfish", "nqueens", "linux_kernel", "pybench"
+)
+
+fit_test_brm <- function(test_var) {
+  bf_test <- bf(
+    as.formula(
+      paste0(
+        test_var,
+        " ~ (1 + z_time*z_log_launch_price)*Brand"
+      )
+    )
+  )
+
+  brm_multiple(
+    formula = bf_test,
+    data    = imp_list,
+    family  = gaussian(),
+    prior   = priors_test,
+    chains  = 4,
+    iter    = 8000,
+    warmup  = 2000,
+    seed    = 123,
+    control = list(adapt_delta = 0.99, max_treedepth = 20),
+    backend = "cmdstanr",
+    combine = TRUE,
+    refresh = 0
+  )
+}
+
+test_fits <- purrr::map(test_vars, fit_test_brm)
+names(test_fits) <- test_vars
+
+
+get_test_slopes_brm <- function(test_name, test_fit) {
+  # Posterior expected values on response scale, including REs
+  mu_test <- posterior_epred(
+    test_fit,
+    newdata    = newdata_slope,
+    re_formula = NULL
+  ) # draws x nrow(newdata_slope)
+
+  mu_t0 <- mu_test[, idx_t0, drop = FALSE]
+  mu_t1 <- mu_test[, idx_t1, drop = FALSE]
+
+  # Slope in z_time units, then convert to raw time
+  slope_z_test        <- (mu_t1 - mu_t0) / delta_t_z
+  slope_time_raw_test <- slope_z_test / delta_time_raw  # d(test)/d(time)
+
+  combos <- newdata_slope %>%
+    dplyr::filter(z_time == t0_z) %>%
+    dplyr::arrange(Brand, launch_price) %>%
+    dplyr::select(Brand, launch_price)
+
+  dplyr::tibble(
+    test               = test_name,
+    Brand              = combos$Brand,
+    launch_price       = combos$launch_price,
+    slope_median_test  = apply(slope_time_raw_test, 2, median)
+  )
+}
+
+test_slopes_all <- purrr::map2_dfr(
+  .x = names(test_fits),
+  .y = test_fits,
+  .f = get_test_slopes_brm
+)
+
+# Convert to annual % improvement (assuming tests are on log-scale)
+test_slopes_pct <- test_slopes_all %>%
+  dplyr::mutate(
+    imp_test = exp(slope_median_test) - 1
+  )
+
+# dat_pct already has Brand, launch_price, imp_med (median %/year for Performance)
+perf_slopes_brand <- dat_pct %>%
+  dplyr::select(Brand, launch_price, imp_perf = imp_med)
+
+brand_price_compare <- test_slopes_pct %>%
+  dplyr::inner_join(
+    perf_slopes_brand,
+    by = c("Brand", "launch_price")
+  )
+
+brand_cor <- brand_price_compare %>%
+  dplyr::group_by(Brand) %>%
+  dplyr::summarise(
+    cor_perf_tests = cor(imp_perf, imp_test),
+    .groups        = "drop"
+  )
+
+brand_cor
+```
+
+```{r}
+p_val_price <- ggplot() +
+  geom_ribbon(
+    data = dat_pct,
+    aes(x = launch_price,
+        ymin = imp_lwr90,
+        ymax = imp_upr90,
+        group = Brand,
+        fill  = Brand),
+    alpha  = 0.15,
+    colour = NA
+  ) +
+
+  geom_line(
+    data = dat_pct,
+    aes(x = launch_price, y = imp_med, group = Brand),
+    colour = "black",
+    size   = 1
+  ) +
+
+  geom_line(
+    data = test_slopes_pct,
+    aes(x = launch_price,
+        y = imp_test,
+        group = test,
+        colour = test),
+    alpha   = 0.7,
+    linetype = "dashed"
+  ) +
+
+  facet_wrap(~ Brand) +
+  scale_y_continuous(
+    labels = percent_format(accuracy = 1),
+    name   = "Annual Improvement"
+  ) +
+  scale_x_log10(
+    name   = "Launch price (unadjusted USD)",
+    breaks = c(300, 600, 2000, 10000),
+    labels = dollar_format()
+  ) +
+  labs(
+    title  = "Percent Improvement per Year by Launch Price",
+    colour = "Test",
+    fill   = "Brand"
+  ) +
+  theme_classic() +
+  theme(
+    axis.text.x   = element_text(angle = 40, hjust = 1),
+    plot.title = element_text(hjust = 0.5)
+  )
+
+ggsave(
+   "../images/perf_validation_by_brand_brms.pdf",
+   plot   = p_val_price,
+   width  = 8,
+   height = 5,
+   dpi    = 300
+)
+
+p_val_price
+```
+
+The following code takes quite a bit of time/memory to run.
+
+```{r, fig.width=6.2, fig.height=4.2}
+fit <- M_simple_fit
+dat <- imp_list[[1]]
+brands <- sort(unique(dat$Brand))
+
+fit   <- M_simple_fit
+dat   <- imp_list[[1]]          # just for ranges / x-locations
+brands <- sort(unique(dat$Brand))
+
+# Use the same scaling as in the model
+time_mean <- scales$time["mean"]
+time_sd   <- scales$time["sd"]
+
+logp_mean <- scales$log_launch_price["mean"]
+logp_sd   <- scales$log_launch_price["sd"]
+
+# Grids for time and launch_price (raw scale)
+time_range_raw <- range(dat$time, na.rm = TRUE)
+time_seq_raw   <- seq(time_range_raw[1], time_range_raw[2], length.out = 60)
+
+price_range_raw <- range(dat$launch_price, na.rm = TRUE)
+price_seq_raw   <- exp(seq(
+  log(price_range_raw[1]),
+  log(price_range_raw[2]),
+  length.out = 60
+))
+
+# Newdata grid for the surface
+newdata_surface <- expand.grid(
+  Brand        = brands,
+  time         = time_seq_raw,
+  launch_price = price_seq_raw,
+  KEEP.OUT.ATTRS   = FALSE,
+  stringsAsFactors = FALSE
+) %>%
+  dplyr::mutate(
+    log_launch_price   = log(launch_price),
+    z_time             = (time - time_mean) / time_sd,
+    z_log_launch_price = (log_launch_price - logp_mean) / logp_sd
+  )
+
+# Predicted surface (mean + intervals)
+pred_surface <- fitted(
+  fit,
+  newdata    = newdata_surface,
+  re_formula = NULL,
+  summary    = TRUE
+)
+
+
+surface_df <- cbind(newdata_surface, as.data.frame(pred_surface))
+surface_df$pred <- surface_df$Estimate   # predicted Performance
+
+z_range <- range(
+  surface_df$pred,
+  dat$Performance,
+  na.rm = TRUE
+)
+
+year0 <- 2008
+
+op <- par(no.readonly = TRUE)
+par(
+  mfrow = c(1, length(brands)),
+  mar   = c(4, 4, 1.5, 1) + 0.1
+)
+
+for (b in brands) {
+  df_surf <- surface_df %>%
+    dplyr::filter(Brand == b) %>%
+    dplyr::arrange(time, launch_price)
+
+  Z <- matrix(
+    df_surf$pred,
+    nrow = length(time_seq_raw),
+    ncol = length(price_seq_raw),
+    byrow = TRUE
+  )
+
+  x_plot    <- time_seq_raw + year0
+  y_vals_log <- log10(price_seq_raw)
+
+  persp_res <- graphics::persp(
+    x = x_plot,
+    y = y_vals_log,
+    z = Z,
+    zlim    = z_range,
+    theta   = 45,
+    phi     = 30,
+    ticktype = "detailed",
+    xlab    = "Year",
+    ylab    = "log10 launch price (USD)",
+    zlab    = "Performance",
+    main    = "",
+    col     = "gray85",
+    border  = "gray60",
+    shade   = 0.3,
+    expand  = 0.7
+  )
+
+  title(main = as.character(b), line = -4, cex.main = 1.2)
+
+  df_points <- dat %>% dplyr::filter(Brand == b)
+
+  if (nrow(df_points) > 0) {
+    pts <- grDevices::trans3d(
+      x = df_points$time + year0,
+      y = log10(df_points$launch_price),
+      z = df_points$Performance,
+      pmat = persp_res
+    )
+    points(pts, pch = 16, col = rgb(0.1, 0.4, 0.8, 0.7), cex = 0.8)
+  }
+}
+
+par(op)
+
+```
+
+```{r}
+fixed_prices <- c(200, 600, 2000, 5000, 10000)
+
+make_time_slice <- function(brand) {
+  newdata <- expand.grid(
+    Brand        = brand,
+    launch_price = fixed_prices,
+    time         = seq(min(dat$time), max(dat$time), length.out = 80)
+  )
+  newdata$log_launch_price   <- log(newdata$launch_price)
+  newdata$z_time             <- (newdata$time - time_mean) / time_sd
+  newdata$z_log_launch_price <- (newdata$log_launch_price - logp_mean) / logp_sd
+
+  pred <- fitted(
+    M_simple_fit,
+    newdata    = newdata,
+    re_formula = NULL,
+    summary    = TRUE
+  )
+
+  cbind(newdata, as.data.frame(pred))
+}
+
+intel_slices <- make_time_slice("Intel")
+amd_slices   <- make_time_slice("AMD")
+
+all_slices <- bind_rows(intel_slices, amd_slices) %>%
+  mutate(
+    Brand        = factor(Brand),
+    launch_price = factor(launch_price)
+  )
+
+p <- ggplot(all_slices,
+       aes(x = time + 2008, y = Estimate, colour = launch_price)) +
+  geom_line() +
+  facet_wrap(~ Brand, nrow = 1) +            # 1 row × 2 columns, shared axes
+  labs(
+    title  = "Predicted Performance over Time",
+    x      = "Year",
+    y      = "Performance",
+    colour = "Launch price"
+  ) +
+  theme_classic() +
+  theme(
+    plot.title      = element_text(hjust = 0.5),
+    strip.background = element_rect(fill = NA, colour = NA),  # <- no box
+    legend.position = "bottom"
+  )
+
+ggsave("../images/slice_plot.pdf",
+       plot   = p,
+       width  = 7,   # inches
+       height = 4,
+       dpi    = 300)
+
+p
+
+```
+
